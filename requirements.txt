@@ -1,0 +1,19 @@
+# Python 3.10. Every result in the paper was produced with exactly these
+# versions, and the shipped models are pickled scikit-learn and XGBoost
+# objects, so install these to load the models and reproduce the numbers.
+numpy==1.26.4
+scipy==1.14.0
+scikit-learn==1.5.0
+# The XGBoost models train on GPU.
+xgboost==3.2.0
+# torch serves the Emissah GCN baseline (evaluation/baselines/emissah_gcn.py). The
+# results used the CUDA 12.4 build; see pytorch.org for the build that matches
+# your platform.
+torch==2.5.0
+# Stage 4 flag model (per-cell quality-control / rejection).
+pandas==2.2.2
+joblib==1.4.2
+# Report figures (curator feedback-loop curves; report/make_curator_figures.py).
+matplotlib==3.9.0
+# Runtime profiling only (evaluation/profile_runtime.py); optional.
+psutil==6.1.0

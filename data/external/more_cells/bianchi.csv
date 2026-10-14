@@ -1,0 +1,367 @@
+file_name,neuron_name,archive,species,brain_region,n_nodes,has_axon_gt,has_apical_gt
+Bianchi__TA-40x.swc,TA-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,412,0,1
+Bianchi__TB-40x.swc,TB-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,492,0,1
+Bianchi__TD-40x.swc,TD-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,534,1,1
+Bianchi__TE-40x.swc,TE-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,487,1,1
+Bianchi__TF-40x.swc,TF-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,685,0,1
+Bianchi__TG-40x.swc,TG-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,437,0,1
+Bianchi__TI-40x.swc,TI-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,570,0,1
+Bianchi__UA-40x.swc,UA-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,391,1,1
+Bianchi__UC-40x.swc,UC-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,355,0,1
+Bianchi__UD-40x.swc,UD-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,232,0,1
+Bianchi__UE-40x.swc,UE-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,317,1,1
+Bianchi__UF-40x.swc,UF-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,417,0,1
+Bianchi__UG-40x.swc,UG-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,226,0,1
+Bianchi__UH-40x.swc,UH-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,346,0,1
+Bianchi__UI-40x.swc,UI-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,443,0,1
+Bianchi__VC-40x.swc,VC-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,755,0,1
+Bianchi__VG-40x.swc,VG-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,889,0,1
+Bianchi__VH-40x.swc,VH-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,610,1,1
+Bianchi__VJ-40x.swc,VJ-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,804,0,1
+Bianchi__TTA-40x.swc,TTA-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,574,0,1
+Bianchi__TTB-40x.swc,TTB-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,440,0,1
+Bianchi__TTC-40x.swc,TTC-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,296,1,1
+Bianchi__TTD-40x.swc,TTD-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,463,0,1
+Bianchi__TTF-40x.swc,TTF-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,551,0,1
+Bianchi__TTG-40x.swc,TTG-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,325,0,1
+Bianchi__TTH-40x.swc,TTH-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,343,1,1
+Bianchi__TTJ-40x.swc,TTJ-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,449,0,1
+Bianchi__AdGoJ-neuronA.swc,AdGoJ-neuronA,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,300,0,1
+Bianchi__AdGoJ-neuronB.swc,AdGoJ-neuronB,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,180,0,1
+Bianchi__AdGoJ-neuronC.swc,AdGoJ-neuronC,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,138,0,1
+Bianchi__AdGoJ-neuronD.swc,AdGoJ-neuronD,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,288,0,1
+Bianchi__AdGoJ-neuronE.swc,AdGoJ-neuronE,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,89,0,1
+Bianchi__AdGoJ-neuronF.swc,AdGoJ-neuronF,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,146,0,1
+Bianchi__AdGoJ-neuronG.swc,AdGoJ-neuronG,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,114,0,1
+Bianchi__AdGoJ-neuronH.swc,AdGoJ-neuronH,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,115,0,1
+Bianchi__AdGoJ-neuronK.swc,AdGoJ-neuronK,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,145,1,1
+Bianchi__AdGoI-neuronC.swc,AdGoI-neuronC,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,276,0,1
+Bianchi__AdGoI-neuronD.swc,AdGoI-neuronD,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,270,0,1
+Bianchi__AdGoI-neuronF.swc,AdGoI-neuronF,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,340,0,1
+Bianchi__AdGoI-neuronG.swc,AdGoI-neuronG,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,415,0,1
+Bianchi__AdGoH-neuronA.swc,AdGoH-neuronA,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,427,0,1
+Bianchi__AdGoH-neuronC.swc,AdGoH-neuronC,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,369,0,1
+Bianchi__AdGoH-neuronD.swc,AdGoH-neuronD,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,614,0,1
+Bianchi__AdGoH-neuronE.swc,AdGoH-neuronE,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,634,1,1
+Bianchi__AdGoH-neuronH.swc,AdGoH-neuronH,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,441,1,1
+Bianchi__AdGoH-neuronI.swc,AdGoH-neuronI,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,766,0,1
+Bianchi__AdGoR-neuronA.swc,AdGoR-neuronA,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,119,1,1
+Bianchi__AdGoR-neuronB.swc,AdGoR-neuronB,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,62,1,1
+Bianchi__AdGoR-neuronE.swc,AdGoR-neuronE,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,135,1,1
+Bianchi__AdGoR-neuronF.swc,AdGoR-neuronF,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,285,0,1
+Bianchi__AdGoR-neuronG.swc,AdGoR-neuronG,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,153,1,1
+Bianchi__AdGoR-neuronH.swc,AdGoR-neuronH,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,154,0,1
+Bianchi__AdGoR-neuronK.swc,AdGoR-neuronK,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,191,0,1
+Bianchi__OC-40x.swc,OC-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,410,1,1
+Bianchi__OD-40x.swc,OD-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,237,0,1
+Bianchi__OE-40x.swc,OE-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,140,0,1
+Bianchi__OF-40x.swc,OF-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,192,1,1
+Bianchi__OH-40x.swc,OH-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,301,1,1
+Bianchi__OI-40x.swc,OI-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,259,0,1
+Bianchi__OJ-40x.swc,OJ-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,177,0,1
+Bianchi__OK-40x.swc,OK-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,191,1,1
+Bianchi__MA-40x.swc,MA-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,449,0,1
+Bianchi__MB-40x.swc,MB-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,299,0,1
+Bianchi__MC-40x.swc,MC-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,376,0,1
+Bianchi__MD-40x.swc,MD-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,449,0,1
+Bianchi__MF-40x.swc,MF-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,328,1,1
+Bianchi__MH-40x.swc,MH-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,469,1,1
+Bianchi__MI-40x.swc,MI-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,171,0,1
+Bianchi__MK-40x.swc,MK-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,204,1,1
+Bianchi__Aa-40x.swc,Aa-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,1278,1,1
+Bianchi__Ab-40x.swc,Ab-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,374,1,1
+Bianchi__Ad-40x.swc,Ad-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,420,0,1
+Bianchi__Af-40x.swc,Af-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,698,1,1
+Bianchi__Ag-40x.swc,Ag-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,766,0,1
+Bianchi__Ah-40x.swc,Ah-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,391,0,1
+Bianchi__Ai-40x.swc,Ai-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,427,1,1
+Bianchi__Na-40x.swc,Na-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,291,1,1
+Bianchi__Nb-40x.swc,Nb-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,209,1,1
+Bianchi__Ne-40x.swc,Ne-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,310,0,1
+Bianchi__Ng-40x.swc,Ng-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,347,1,1
+Bianchi__Nh-40x.swc,Nh-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,771,1,1
+Bianchi__Ni-40x.swc,Ni-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,526,0,1
+Bianchi__NJ-40x.swc,NJ-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,264,1,1
+Bianchi__NK-40x.swc,NK-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,350,0,1
+Bianchi__DA-40x.swc,DA-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,527,0,1
+Bianchi__DB-40x.swc,DB-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,369,1,1
+Bianchi__DD-40x.swc,DD-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,365,0,1
+Bianchi__DF-40x.swc,DF-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,342,0,1
+Bianchi__DH-40x.swc,DH-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,621,1,1
+Bianchi__DJ-40x.swc,DJ-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,448,0,1
+Bianchi__DK-40x.swc,DK-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,310,1,1
+Bianchi__DL-40x.swc,DL-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,410,1,1
+Bianchi__EA-40x.swc,EA-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,348,0,1
+Bianchi__EC-40x.swc,EC-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,198,0,1
+Bianchi__EF-40x.swc,EF-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,492,0,1
+Bianchi__EG-40x.swc,EG-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,175,0,1
+Bianchi__EH-40x.swc,EH-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,300,1,1
+Bianchi__EI-40x.swc,EI-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,314,1,1
+Bianchi__EJ-40x.swc,EJ-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,320,0,1
+Bianchi__LA-40x.swc,LA-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,469,0,1
+Bianchi__LE-40x.swc,LE-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,470,1,1
+Bianchi__LF-40x.swc,LF-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,656,1,1
+Bianchi__LH-40x.swc,LH-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,553,1,1
+Bianchi__LI-40x.swc,LI-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,316,0,1
+Bianchi__LJ-40x.swc,LJ-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,302,0,1
+Bianchi__VVA-40x.swc,VVA-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,427,1,1
+Bianchi__VVB-40x.swc,VVB-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,268,1,1
+Bianchi__VVE-40x.swc,VVE-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,516,0,1
+Bianchi__VVF-40x.swc,VVF-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,281,1,1
+Bianchi__VVG-40x.swc,VVG-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,467,1,1
+Bianchi__VVH-40x.swc,VVH-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,309,0,1
+Bianchi__VVK-40x.swc,VVK-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,382,1,1
+Bianchi__GC-40x.swc,GC-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,151,1,1
+Bianchi__GD-40x.swc,GD-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,177,1,1
+Bianchi__GF-40x.swc,GF-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,259,1,1
+Bianchi__GG-40x.swc,GG-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,289,0,1
+Bianchi__GH-40x.swc,GH-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,294,1,1
+Bianchi__KA-40x.swc,KA-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,207,1,1
+Bianchi__KB-40x.swc,KB-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,94,1,1
+Bianchi__KC-40x.swc,KC-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,220,1,1
+Bianchi__KD-40x.swc,KD-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,243,1,1
+Bianchi__KF-40x.swc,KF-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,293,1,1
+Bianchi__KG-40x.swc,KG-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,200,1,1
+Bianchi__KH-40x.swc,KH-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,116,1,1
+Bianchi__KJ-40x.swc,KJ-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,205,1,1
+Bianchi__XXB-40x.swc,XXB-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,255,1,1
+Bianchi__XXC-40x.swc,XXC-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,263,0,1
+Bianchi__XXH-40x.swc,XXH-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,350,0,1
+Bianchi__XXJ-40x.swc,XXJ-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,500,1,1
+Bianchi__CB-40x.swc,CB-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,312,1,1
+Bianchi__CC-40x.swc,CC-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,124,1,1
+Bianchi__CD-40x.swc,CD-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,175,0,1
+Bianchi__CE-40x.swc,CE-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,116,1,1
+Bianchi__CF-40x.swc,CF-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,209,0,1
+Bianchi__CJ-40x.swc,CJ-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,256,0,1
+Bianchi__CK-40x.swc,CK-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,164,0,1
+Bianchi__OO-neuronA.swc,OO-neuronA,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,665,1,1
+Bianchi__OO-neuronB.swc,OO-neuronB,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,344,0,1
+Bianchi__OO-neuronD.swc,OO-neuronD,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,237,1,1
+Bianchi__OO-neuronE.swc,OO-neuronE,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,228,0,1
+Bianchi__OO-neuronF.swc,OO-neuronF,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,853,0,1
+Bianchi__OO-neuronH.swc,OO-neuronH,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,379,0,1
+Bianchi__OO-neuronI.swc,OO-neuronI,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,325,0,1
+Bianchi__RR-C.swc,RR-C,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,690,0,1
+Bianchi__RR-neuronB.swc,RR-neuronB,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,499,0,1
+Bianchi__RR-neuronE.swc,RR-neuronE,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,359,1,1
+Bianchi__RR-neuronG.swc,RR-neuronG,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,883,0,1
+Bianchi__RR-neuronH.swc,RR-neuronH,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,718,0,1
+Bianchi__RR-neuronI.swc,RR-neuronI,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,934,1,1
+Bianchi__RR-neuronM.swc,RR-neuronM,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,778,0,1
+Bianchi__SS-neuronB.swc,SS-neuronB,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,491,1,1
+Bianchi__SS-neuronE.swc,SS-neuronE,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,307,0,1
+Bianchi__SS-neuronF.swc,SS-neuronF,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,759,0,1
+Bianchi__SS-neuronH.swc,SS-neuronH,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,592,0,1
+Bianchi__SS-neuronM.swc,SS-neuronM,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,352,0,1
+Bianchi__SS-neuronN.swc,SS-neuronN,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,485,0,1
+Bianchi__MM-neuronA.swc,MM-neuronA,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,513,0,1
+Bianchi__MM-neuronB.swc,MM-neuronB,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,268,1,1
+Bianchi__MM-neuronD.swc,MM-neuronD,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,407,0,1
+Bianchi__MM-neuronE.swc,MM-neuronE,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,413,0,1
+Bianchi__MM-NeuronH.swc,MM-NeuronH,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,672,1,1
+Bianchi__MM-neuronK.swc,MM-neuronK,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,304,0,1
+Bianchi__LLA-40x.swc,LLA-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,267,1,1
+Bianchi__LLB-40x.swc,LLB-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,140,0,1
+Bianchi__LLC-40x.swc,LLC-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,326,1,1
+Bianchi__LLD-40x.swc,LLD-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,281,1,1
+Bianchi__LLF-40x.swc,LLF-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,650,1,1
+Bianchi__LLG-40x.swc,LLG-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,415,0,1
+Bianchi__LLI-40x.swc,LLI-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,291,0,1
+Bianchi__LLJ-40x.swc,LLJ-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 3;Brodmann area 3b;postcentral gyrus;inner surface,353,0,1
+Bianchi__QQA-40x.swc,QQA-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,286,0,1
+Bianchi__QQF-40x.swc,QQF-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,303,1,1
+Bianchi__QQG-40x.swc,QQG-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,474,1,1
+Bianchi__QQK-40x.swc,QQK-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,383,1,1
+Bianchi__QQL-40x.swc,QQL-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,512,1,1
+Bianchi__QQM-40x.swc,QQM-40x,Bianchi,chimpanzee,neocortex;frontal;layer 3;primary motor;left;precentral gyrus;hand representation,333,1,1
+Bianchi__PPA-40x.swc,PPA-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,210,0,1
+Bianchi__PPC-40x.swc,PPC-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,438,0,1
+Bianchi__PPD-40x.swc,PPD-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,494,0,1
+Bianchi__PPE-40x.swc,PPE-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,215,1,1
+Bianchi__PPF-40x.swc,PPF-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,463,0,1
+Bianchi__PPG-40x.swc,PPG-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,295,1,1
+Bianchi__PPH-40x.swc,PPH-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,431,1,1
+Bianchi__PPI-40x.swc,PPI-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 3;Brodmann area 10,425,1,1
+Bianchi__NNA-40x.swc,NNA-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,237,0,1
+Bianchi__NNC-40x.swc,NNC-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,348,1,1
+Bianchi__NND-40x.swc,NND-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,290,0,1
+Bianchi__NNE-40x.swc,NNE-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,231,1,1
+Bianchi__NNF-40x.swc,NNF-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,211,0,1
+Bianchi__NNG-40x.swc,NNG-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,321,1,1
+Bianchi__NNJ-40x.swc,NNJ-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 3;Brodmann area 18;dorsal,294,1,1
+Bianchi__16D.swc,16D,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,232,0,1
+Bianchi__16G.swc,16G,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,306,0,1
+Bianchi__16I.swc,16I,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,298,0,1
+Bianchi__16J.swc,16J,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,307,0,1
+Bianchi__16L.swc,16L,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,267,0,1
+Bianchi__16M.swc,16M,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,356,0,1
+Bianchi__32B-40x.swc,32B-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,233,0,1
+Bianchi__32E-40x.swc,32E-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,176,0,1
+Bianchi__32F-40x.swc,32F-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,267,0,1
+Bianchi__32G-40x.swc,32G-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,403,0,1
+Bianchi__32I-40x.swc,32I-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,259,0,1
+Bianchi__59C-40x.swc,59C-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,160,0,1
+Bianchi__59D-40x.swc,59D-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,305,1,1
+Bianchi__59F-40x.swc,59F-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,220,0,1
+Bianchi__59I-40x.swc,59I-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,324,0,1
+Bianchi__59J-40x.swc,59J-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,250,1,1
+Bianchi__62A-40x.swc,62A-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,517,0,1
+Bianchi__62B-40x.swc,62B-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,249,1,1
+Bianchi__62C-40x.swc,62C-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,377,0,1
+Bianchi__62E-40x.swc,62E-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,339,0,1
+Bianchi__62F-40x.swc,62F-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,334,0,1
+Bianchi__62G-40x.swc,62G-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,374,1,1
+Bianchi__62H-40x.swc,62H-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,260,0,1
+Bianchi__62I-40x.swc,62I-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,340,0,1
+Bianchi__62J-40x.swc,62J-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;left;layer 5;Brodmann area 3b,406,0,1
+Bianchi__21B-40x.swc,21B-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,365,0,1
+Bianchi__21D-40x.swc,21D-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,276,1,1
+Bianchi__21E-40x.swc,21E-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,351,0,1
+Bianchi__21F-40x.swc,21F-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,189,0,1
+Bianchi__21H-40x.swc,21H-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,229,1,1
+Bianchi__21J-40x.swc,21J-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,178,0,1
+Bianchi__21K-40x.swc,21K-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,173,0,1
+Bianchi__55A.swc,55A,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,315,0,1
+Bianchi__55D-40x.swc,55D-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,249,0,1
+Bianchi__55E-40x.swc,55E-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,351,0,1
+Bianchi__55G-40x.swc,55G-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,279,0,1
+Bianchi__55I-40x.swc,55I-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,308,0,1
+Bianchi__55J-40x.swc,55J-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,344,0,1
+Bianchi__61A-40x.swc,61A-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,131,1,1
+Bianchi__61B-40x.swc,61B-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,544,0,1
+Bianchi__61E-40x.swc,61E-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,297,0,1
+Bianchi__61F-40x.swc,61F-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,444,0,1
+Bianchi__61G-40x.swc,61G-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,435,0,1
+Bianchi__61H-40x.swc,61H-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,271,0,1
+Bianchi__8A-40x.swc,8A-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,363,0,1
+Bianchi__8C-40x.swc,8C-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,213,1,1
+Bianchi__8D-40x.swc,8D-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,93,0,1
+Bianchi__8E-40x.swc,8E-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,66,0,1
+Bianchi__8F-40x.swc,8F-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,183,0,1
+Bianchi__8G-40x.swc,8G-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,220,1,1
+Bianchi__8I-40x.swc,8I-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,221,1,1
+Bianchi__8J-40x.swc,8J-40x,Bianchi,chimpanzee,neocortex;frontal;layer 5;primary motor;left,158,0,1
+Bianchi__18B.swc,18B,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,153,0,1
+Bianchi__18C.swc,18C,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,286,1,1
+Bianchi__18F.swc,18F,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,101,0,1
+Bianchi__18G.swc,18G,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,135,1,1
+Bianchi__18I.swc,18I,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,82,0,1
+Bianchi__45A-40x.swc,45A-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,116,1,1
+Bianchi__45B-40x.swc,45B-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,152,0,1
+Bianchi__45C-40x.swc,45C-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,110,1,1
+Bianchi__45D-40x.swc,45D-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,188,1,1
+Bianchi__45E-40x.swc,45E-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,229,0,1
+Bianchi__45F-40x.swc,45F-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,164,0,1
+Bianchi__45G-40x.swc,45G-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,170,1,1
+Bianchi__45H-40x.swc,45H-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,139,0,1
+Bianchi__51A-40x.swc,51A-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,345,1,1
+Bianchi__51B-40x.swc,51B-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,317,0,1
+Bianchi__51C-40x.swc,51C-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,214,1,1
+Bianchi__51E-40x.swc,51E-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,441,1,1
+Bianchi__51G-40x.swc,51G-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,337,0,1
+Bianchi__51J-40x.swc,51J-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,386,1,1
+Bianchi__60B-40x.swc,60B-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,202,0,1
+Bianchi__60C-40x.swc,60C-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,171,0,1
+Bianchi__60D-40x.swc,60D-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,452,1,1
+Bianchi__60E-40x.swc,60E-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,272,0,1
+Bianchi__60G-40x.swc,60G-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,371,0,1
+Bianchi__60H-40x.swc,60H-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,283,1,1
+Bianchi__60J-40x.swc,60J-40x,Bianchi,chimpanzee,neocortex;prefrontal;left;layer 5;Brodmann area 10,187,1,1
+Bianchi__46A-40x.swc,46A-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,86,0,1
+Bianchi__46B-40x.swc,46B-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,100,0,1
+Bianchi__46C-40x.swc,46C-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,126,0,1
+Bianchi__46D-40x.swc,46D-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,182,0,1
+Bianchi__46E-40x.swc,46E-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,648,1,1
+Bianchi__46H-40x.swc,46H-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,234,0,1
+Bianchi__46I-40x.swc,46I-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,332,1,1
+Bianchi__4A-40x.swc,4A-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,110,0,1
+Bianchi__4B-40x.swc,4B-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,182,1,1
+Bianchi__4C-40x.swc,4C-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,127,0,1
+Bianchi__4D-40x.swc,4D-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,106,0,1
+Bianchi__4F-40x.swc,4F-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,145,1,1
+Bianchi__4G-40x.swc,4G-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,235,0,1
+Bianchi__4H-40x.swc,4H-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,126,0,1
+Bianchi__4I-40x.swc,4I-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,145,1,1
+Bianchi__53A.swc,53A,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,336,0,1
+Bianchi__53B.swc,53B,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,372,0,1
+Bianchi__53C.swc,53C,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,555,0,1
+Bianchi__53D.swc,53D,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,324,1,1
+Bianchi__53E.swc,53E,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,518,0,1
+Bianchi__53G.swc,53G,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,189,0,1
+Bianchi__53H.swc,53H,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,248,0,1
+Bianchi__53I.swc,53I,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,310,0,1
+Bianchi__53J.swc,53J,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,263,0,1
+Bianchi__58-A-40x.swc,58-A-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,224,0,1
+Bianchi__58B-40x.swc,58B-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,406,1,1
+Bianchi__58C-40x.swc,58C-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,408,0,1
+Bianchi__58D-40X.swc,58D-40X,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,507,0,1
+Bianchi__58E-40x.swc,58E-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,248,0,1
+Bianchi__58F-40x.swc,58F-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,205,1,1
+Bianchi__58G-40x.swc,58G-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,403,0,1
+Bianchi__58H-40x.swc,58H-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,328,0,1
+Bianchi__58I-40x.swc,58I-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,868,0,1
+Bianchi__58J-40x.swc,58J-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;left;layer 5;Brodmann area 18,409,0,1
+Bianchi__20A-40x.swc,20A-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,154,1,1
+Bianchi__20B-40x.swc,20B-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,222,1,1
+Bianchi__20C-40x.swc,20C-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,282,1,1
+Bianchi__20D-40x.swc,20D-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,368,0,1
+Bianchi__20E-40x.swc,20E-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,424,1,1
+Bianchi__20F-40x.swc,20F-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,402,0,1
+Bianchi__20G-40x.swc,20G-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,289,0,1
+Bianchi__20H-40x.swc,20H-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,240,0,1
+Bianchi__20I-40x.swc,20I-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,266,1,1
+Bianchi__20J-40x.swc,20J-40x,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,400,0,1
+Bianchi__Devel31-J.swc,Devel31-J,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,457,0,1
+Bianchi__Devel31-neuronF.swc,Devel31-neuronF,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,326,1,1
+Bianchi__Devel31-neuronG.swc,Devel31-neuronG,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,281,0,1
+Bianchi__Devel31-neuronI.swc,Devel31-neuronI,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,373,0,1
+Bianchi__Develop31-neuronA.swc,Develop31-neuronA,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,318,0,1
+Bianchi__Develop31-neuronB.swc,Develop31-neuronB,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,389,0,1
+Bianchi__Develop31-neuronC.swc,Develop31-neuronC,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,279,1,1
+Bianchi__Develop31-neuronD.swc,Develop31-neuronD,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,336,0,1
+Bianchi__Develop31-neuronE.swc,Develop31-neuronE,Bianchi,chimpanzee,neocortex;somatosensory;primary somatosensory;Brodmann area 3b;layer 5,396,0,1
+Bianchi__13B-40x.swc,13B-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,213,0,1
+Bianchi__13D-40x.swc,13D-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,683,0,1
+Bianchi__13E-40x.swc,13E-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,334,0,1
+Bianchi__13F-40x.swc,13F-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,243,0,1
+Bianchi__13G-40x.swc,13G-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,373,0,1
+Bianchi__13H-40x.swc,13H-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,523,1,1
+Bianchi__13J-40x.swc,13J-40x,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,189,0,1
+Bianchi__Devel47-G.swc,Devel47-G,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,303,1,1
+Bianchi__Devel47-neuronI.swc,Devel47-neuronI,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,216,0,1
+Bianchi__Devel47-neuronK.swc,Devel47-neuronK,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,315,1,1
+Bianchi__develop47-neuronA.swc,develop47-neuronA,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,509,0,1
+Bianchi__Develop47-neuronB.swc,Develop47-neuronB,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,258,0,1
+Bianchi__Develop47-neuronC.swc,Develop47-neuronC,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,492,1,1
+Bianchi__Develop47-neuronE.swc,Develop47-neuronE,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,315,0,1
+Bianchi__Develop47-neuronF.swc,Develop47-neuronF,Bianchi,chimpanzee,neocortex;frontal;primary motor;motor;layer 5,215,1,1
+Bianchi__24B-40x.swc,24B-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,83,0,1
+Bianchi__24C-40x.swc,24C-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,123,0,1
+Bianchi__24D-40x.swc,24D-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,110,0,1
+Bianchi__24E-40x.swc,24E-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,136,0,1
+Bianchi__24G-40x.swc,24G-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,128,0,1
+Bianchi__24H-40x.swc,24H-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,124,1,1
+Bianchi__24I-40x.swc,24I-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,194,0,1
+Bianchi__24J-40x.swc,24J-40x,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,115,0,1
+Bianchi__Devel15-neuronH.swc,Devel15-neuronH,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,191,0,1
+Bianchi__Devel15-neuronI.swc,Devel15-neuronI,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,354,0,1
+Bianchi__Devel15-neuronK.swc,Devel15-neuronK,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,334,0,1
+Bianchi__Devel15-neuronL.swc,Devel15-neuronL,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,385,0,1
+Bianchi__Develop15-neuronB.swc,Develop15-neuronB,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,262,0,1
+Bianchi__Develop15-NeuronD.swc,Develop15-NeuronD,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,389,0,1
+Bianchi__Develop15-neuronE.swc,Develop15-neuronE,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,550,1,1
+Bianchi__Develop15-neuronF.swc,Develop15-neuronF,Bianchi,chimpanzee,neocortex;prefrontal;Brodmann area 10;layer 5,268,0,1
+Bianchi__52B-40x.swc,52B-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,246,0,1
+Bianchi__52D-40x.swc,52D-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,264,0,1
+Bianchi__52E-40x.swc,52E-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,225,0,1
+Bianchi__52F-40x.swc,52F-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,364,1,1
+Bianchi__52G-40x.swc,52G-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,273,1,1
+Bianchi__52I-40x.swc,52I-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,278,0,1
+Bianchi__52J-40x.swc,52J-40x,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,156,0,1
+Bianchi__Develop44-neuronA.swc,Develop44-neuronA,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,256,1,1
+Bianchi__Develop44-neuronB.swc,Develop44-neuronB,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,545,0,1
+Bianchi__Develop44-neuronC.swc,Develop44-neuronC,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,243,0,1
+Bianchi__Develop44-neuronG.swc,Develop44-neuronG,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,651,0,1
+Bianchi__Develop44-neuronK.swc,Develop44-neuronK,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,564,1,1
+Bianchi__Develop44-neuronL.swc,Develop44-neuronL,Bianchi,chimpanzee,neocortex;occipital;secondary visual;Brodmann area 18;layer 5,697,0,1

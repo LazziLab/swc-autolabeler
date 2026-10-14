@@ -1,0 +1,13 @@
+Paired per-cell comparison, metric = neurite_macro_f1
+seeds 42, 123, 789; paired by file, repeats averaged before testing
+100,000 sign-flip permutations; 10,000 bootstrap resamples
+
+  baseline         ours    base     diff             95% CI          p  P10 diff   win%
+  majority       0.9491  0.4941  +0.4550  [+0.4442,+0.4661]   <1.0e-05   +0.7874  59.2%
+  rules_only     0.9491  0.6531  +0.2960  [+0.2871,+0.3047]   <1.0e-05   +0.6788  76.5%
+  neurom_rf      0.9491  0.8462  +0.1029  [+0.0984,+0.1074]   <1.0e-05   +0.2813  62.9%
+  sholl_mlp      0.9491  0.8675  +0.0816  [+0.0759,+0.0875]   <1.0e-05   +0.4076  21.2%
+  sholl_rf       0.9491  0.8891  +0.0601  [+0.0548,+0.0655]   <1.0e-05   +0.3736  16.0%
+  lmeasure_rf    0.9491  0.9053  +0.0439  [+0.0391,+0.0486]   <1.0e-05   +0.2986  12.9%
+
+n = 5739 unique files per baseline (7023 seed-file pairs before clustering for majority)

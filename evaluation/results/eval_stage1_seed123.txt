@@ -1,0 +1,13 @@
+Stage 1 cell-type evaluation (seed 123)
+model      : pipeline/models/seed123/cell_type_classifier.pkl
+test cells : 2402  (failed to parse: 0)
+accuracy   : 0.9746
+macro F1   : 0.9681
+
+class         precision   recall       f1  support
+pyramidal        0.9828   0.9822   0.9825     1745
+interneuron      0.9529   0.9543   0.9536      657
+
+confusion (rows=true, cols=pred; order: pyramidal, interneuron):
+  pyramidal     [1714, 31]
+  interneuron   [30, 627]

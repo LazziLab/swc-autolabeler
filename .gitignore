@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Regenerable caches, not results: large, and rebuilt on demand by the script
+# that needs them.
+
+# Per-seed baseline model caches (~8 GB each; rebuilt by evaluation.baselines).
+evaluation/results/baselines/seed*/
+
+# Feature cache for the tuned single-XGBoost baseline (rebuilt by evaluation.baselines.xgb_full).
+evaluation/results/baselines/_xgb_full_cache/
+
+# NPIN's per-cell features and work files (rebuilt by evaluation.baselines.npin).
+evaluation/results/baselines/_npin_work/
+
+# Models fitted while evaluating, not shipped: the leave-one-seed-out flags
+# (rebuilt by evaluation.stage4.eval_flag) and the one-laboratory retrains
+# (rebuilt by the commands of the README's last section).
+evaluation/results/flag/loso_models/
+evaluation/results/flag_ablation/*/loso_models/
+pipeline/models/lab_seed*/
+
+# Corpus cache and per-run work directories of the curator loop (rebuilt by evaluation.active_learning).
+evaluation/results/active_learning/_cache/
+evaluation/results/active_learning/_loop_work_seed*/
+
+# Threshold-sweep cache: 140-150 MB per seed, above GitHub's file limit; rebuilt by evaluation.threshold_sensitivity.
+evaluation/results/_threshold_cache/
+
+# Correction scope-ladder caches (branch features per file, pre-correction labels per seed);
+# rebuilt by evaluation.correction_scope_ladder.
+evaluation/results/_scope_ladder_cache/
+
+# Working corpora and models of the per-laboratory retrains (rebuilt by evaluation.generalization).
+evaluation/results/generalization/lab_retrain_work/
+
+# Figures for the manuscript, not part of the labeler: the script that builds
+# them ships and rebuilds them in seconds, and the manuscript carries its own
+# copies. The compiled tables under report/ DO ship, so a reader can see the
+# paper's numbers without running anything.
+report/figures/
+
+# Training scratch: the train/test split record train_pipeline writes, unused at inference.
+pipeline/models/seed*/eval_split.json
+
+# Single-source corpus views copied out of data/ (see README).
+data_lab_only/
+
+# The corpus itself: 11,862 SWC files, ~4.3 GB. Too large for a git repo, and
+# most of it is third-party data redistributed under the originating archives'
+# terms (data/LICENSE.md).
+# The provenance manifest and the data docs are small and DO ship, so the
+# corpus stays traceable from the repo alone.
+data/**/*.swc
+# data/qc_report/ IS tracked: it is the provenance record behind Table 1, and
+# every other table's results ship under evaluation/results/.
+# Sample cells downloaded by fetch_external's probe step to choose archives.
+data/external/probe*/
+
+# Curator-loop checkpoints: retrained classifiers written by
+# evaluation.active_learning.curator_loop and read only by it. The tables come
+# from curator_loop_summary.json; re-run the driver to rebuild these.
+evaluation/results/active_learning/curator_seed*/*.pkl
+evaluation/results/active_learning/curator_seed*/*.joblib
+
+# A local copy of the manuscript; the paper is not part of this repository.
+manuscript/
+

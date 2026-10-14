@@ -1,0 +1,315 @@
+{
+  "n_cells": 11862,
+  "substantial_min_nodes": 10,
+  "substantial_min_frac": 0.05,
+  "axon_in_dendrite_min": 10,
+  "apical_trunk_min": 20,
+  "prevalence": {
+    "interneuron/all": {
+      "cells": 3374,
+      "subtrees": 19713,
+      "branches": 933713,
+      "pct_subtrees_mixed_any": 0.6899000659463298,
+      "pct_subtrees_mixed_substantial": 0.4717698980368285,
+      "pct_cells_with_substantial_mixed_subtree": 2.7267338470657974,
+      "pct_branches_mixed": 0.0012851914881767737,
+      "transitions_within_branch": 12,
+      "transitions_at_branch_point": 143,
+      "pct_transitions_within_branch": 7.741935483870968,
+      "cells_axon_carrying_dendrite": 19,
+      "cells_multi_apical": 0,
+      "cells_apical_not_opposed": 0,
+      "cells_apical_truncated": 0,
+      "cells_no_axon": 1304,
+      "cells_no_apical": 0
+    },
+    "interneuron/allen": {
+      "cells": 126,
+      "subtrees": 669,
+      "branches": 41553,
+      "pct_subtrees_mixed_any": 8.968609865470851,
+      "pct_subtrees_mixed_substantial": 6.4275037369207775,
+      "pct_cells_with_substantial_mixed_subtree": 33.333333333333336,
+      "pct_branches_mixed": 0.014439390657714244,
+      "transitions_within_branch": 6,
+      "transitions_at_branch_point": 54,
+      "pct_transitions_within_branch": 10.0,
+      "cells_axon_carrying_dendrite": 4,
+      "cells_multi_apical": 0,
+      "cells_apical_not_opposed": 0,
+      "cells_apical_truncated": 0,
+      "cells_no_axon": 0,
+      "cells_no_apical": 0
+    },
+    "interneuron/neuromorpho": {
+      "cells": 3248,
+      "subtrees": 19044,
+      "branches": 892160,
+      "pct_subtrees_mixed_any": 0.39907582440663725,
+      "pct_subtrees_mixed_substantial": 0.26254988447805083,
+      "pct_cells_with_substantial_mixed_subtree": 1.5394088669950738,
+      "pct_branches_mixed": 0.0006725251076040173,
+      "transitions_within_branch": 6,
+      "transitions_at_branch_point": 89,
+      "pct_transitions_within_branch": 6.315789473684211,
+      "cells_axon_carrying_dendrite": 15,
+      "cells_multi_apical": 0,
+      "cells_apical_not_opposed": 0,
+      "cells_apical_truncated": 0,
+      "cells_no_axon": 1304,
+      "cells_no_apical": 0
+    },
+    "pyramidal/all": {
+      "cells": 8488,
+      "subtrees": 53597,
+      "branches": 1660250,
+      "pct_subtrees_mixed_any": 0.20150381551206223,
+      "pct_subtrees_mixed_substantial": 0.09142302740825047,
+      "pct_cells_with_substantial_mixed_subtree": 0.5772855796418473,
+      "pct_branches_mixed": 0.0012648697485318477,
+      "transitions_within_branch": 21,
+      "transitions_at_branch_point": 92,
+      "pct_transitions_within_branch": 18.58407079646018,
+      "cells_axon_carrying_dendrite": 3,
+      "cells_multi_apical": 120,
+      "cells_apical_not_opposed": 276,
+      "cells_apical_truncated": 113,
+      "cells_no_axon": 4844,
+      "cells_no_apical": 4346
+    },
+    "pyramidal/allen": {
+      "cells": 77,
+      "subtrees": 539,
+      "branches": 12847,
+      "pct_subtrees_mixed_any": 1.1131725417439704,
+      "pct_subtrees_mixed_substantial": 0.7421150278293135,
+      "pct_cells_with_substantial_mixed_subtree": 5.194805194805195,
+      "pct_branches_mixed": 0.015567836849069821,
+      "transitions_within_branch": 2,
+      "transitions_at_branch_point": 4,
+      "pct_transitions_within_branch": 33.333333333333336,
+      "cells_axon_carrying_dendrite": 0,
+      "cells_multi_apical": 8,
+      "cells_apical_not_opposed": 4,
+      "cells_apical_truncated": 0,
+      "cells_no_axon": 0,
+      "cells_no_apical": 0
+    },
+    "pyramidal/hpf_ca1": {
+      "cells": 1358,
+      "subtrees": 9067,
+      "branches": 975890,
+      "pct_subtrees_mixed_any": 0.6396823646189478,
+      "pct_subtrees_mixed_substantial": 0.4080732326017426,
+      "pct_cells_with_substantial_mixed_subtree": 2.72459499263623,
+      "pct_branches_mixed": 0.0017419996106118518,
+      "transitions_within_branch": 17,
+      "transitions_at_branch_point": 42,
+      "pct_transitions_within_branch": 28.8135593220339,
+      "cells_axon_carrying_dendrite": 0,
+      "cells_multi_apical": 30,
+      "cells_apical_not_opposed": 55,
+      "cells_apical_truncated": 0,
+      "cells_no_axon": 4,
+      "cells_no_apical": 362
+    },
+    "pyramidal/neuromorpho": {
+      "cells": 7053,
+      "subtrees": 43991,
+      "branches": 671513,
+      "pct_subtrees_mixed_any": 0.10002045873019481,
+      "pct_subtrees_mixed_substantial": 0.018185537950944512,
+      "pct_cells_with_substantial_mixed_subtree": 0.11342691053452432,
+      "pct_branches_mixed": 0.00029783488927243403,
+      "transitions_within_branch": 2,
+      "transitions_at_branch_point": 46,
+      "pct_transitions_within_branch": 4.166666666666667,
+      "cells_axon_carrying_dendrite": 3,
+      "cells_multi_apical": 82,
+      "cells_apical_not_opposed": 217,
+      "cells_apical_truncated": 113,
+      "cells_no_axon": 4840,
+      "cells_no_apical": 3984
+    }
+  },
+  "ceilings": {
+    "pyramidal": {
+      "subtree": {
+        "axon": 0.9998004009372633,
+        "basal/dendrite": 0.9959223724562096,
+        "apical": 0.9956033356021664,
+        "neurite_macro_f1": 0.9971087029985465,
+        "per_cell": {
+          "n": 8488,
+          "mean": 0.9980135367577757,
+          "p10": 1.0,
+          "pct_bad": 0.27097078228086713
+        }
+      },
+      "branch": {
+        "axon": 0.9999999617280908,
+        "basal/dendrite": 0.9999985159732573,
+        "apical": 0.9999980091176126,
+        "neurite_macro_f1": 0.9999988289396535,
+        "per_cell": {
+          "n": 8488,
+          "mean": 0.9999602851083882,
+          "p10": 1.0,
+          "pct_bad": 0.0
+        }
+      }
+    },
+    "interneuron": {
+      "subtree": {
+        "axon": 0.9974124766768868,
+        "basal/dendrite": 0.9926581360510317,
+        "neurite_macro_f1": 0.9950353063639592,
+        "per_cell": {
+          "n": 3374,
+          "mean": 0.9886900118553646,
+          "p10": 1.0,
+          "pct_bad": 1.066982809721399
+        }
+      },
+      "branch": {
+        "axon": 0.9999994790498968,
+        "basal/dendrite": 0.9999985346396533,
+        "neurite_macro_f1": 0.999999006844775,
+        "per_cell": {
+          "n": 3374,
+          "mean": 0.9988082691167753,
+          "p10": 1.0,
+          "pct_bad": 0.11855364552459988
+        }
+      }
+    }
+  },
+  "stratified": {
+    "pyramidal/all": {
+      "gt_cell_type": {
+        "n": 5025,
+        "mean": 0.9461743283582089,
+        "p10": 0.7921,
+        "pct_bad": 4.1393034825870645
+      },
+      "deployment": {
+        "n": 5025,
+        "mean": 0.9418811542288558,
+        "p10": 0.7681,
+        "pct_bad": 4.855721393034826
+      }
+    },
+    "pyramidal/multi_apical": {
+      "gt_cell_type": {
+        "n": 63,
+        "mean": 0.7367523809523808,
+        "p10": 0.5324,
+        "pct_bad": 22.22222222222222
+      },
+      "deployment": {
+        "n": 63,
+        "mean": 0.7276999999999999,
+        "p10": 0.50648,
+        "pct_bad": 23.809523809523807
+      }
+    },
+    "pyramidal/apical_not_opposed": {
+      "gt_cell_type": {
+        "n": 146,
+        "mean": 0.8383321917808219,
+        "p10": 0.44794999999999996,
+        "pct_bad": 14.383561643835616
+      },
+      "deployment": {
+        "n": 146,
+        "mean": 0.8342280821917808,
+        "p10": 0.43389999999999995,
+        "pct_bad": 15.753424657534246
+      }
+    },
+    "pyramidal/apical_truncated": {
+      "gt_cell_type": {
+        "n": 53,
+        "mean": 0.6554792452830187,
+        "p10": 0.2848,
+        "pct_bad": 54.71698113207547
+      },
+      "deployment": {
+        "n": 53,
+        "mean": 0.6460452830188678,
+        "p10": 0.25696,
+        "pct_bad": 54.71698113207547
+      }
+    },
+    "pyramidal/no_axon": {
+      "gt_cell_type": {
+        "n": 2842,
+        "mean": 0.963951900070373,
+        "p10": 0.93384,
+        "pct_bad": 3.2371569317382125
+      },
+      "deployment": {
+        "n": 2842,
+        "mean": 0.9593207952146375,
+        "p10": 0.9194,
+        "pct_bad": 4.081632653061225
+      }
+    },
+    "pyramidal/no_apical": {
+      "gt_cell_type": {
+        "n": 2554,
+        "mean": 0.9698030540328896,
+        "p10": 0.92898,
+        "pct_bad": 2.192638997650744
+      },
+      "deployment": {
+        "n": 2554,
+        "mean": 0.9711132341425217,
+        "p10": 0.9445399999999999,
+        "pct_bad": 2.0360219263899766
+      }
+    },
+    "interneuron/all": {
+      "gt_cell_type": {
+        "n": 1998,
+        "mean": 0.9602998498498498,
+        "p10": 1.0,
+        "pct_bad": 5.355355355355355
+      },
+      "deployment": {
+        "n": 1998,
+        "mean": 0.9554170670670671,
+        "p10": 0.9640600000000001,
+        "pct_bad": 5.8558558558558556
+      }
+    },
+    "interneuron/axon_carrying_dendrite": {
+      "gt_cell_type": {
+        "n": 14,
+        "mean": 0.5067642857142857,
+        "p10": 0.3386,
+        "pct_bad": 85.71428571428571
+      },
+      "deployment": {
+        "n": 14,
+        "mean": 0.4962214285714285,
+        "p10": 0.33544999999999997,
+        "pct_bad": 85.71428571428571
+      }
+    },
+    "interneuron/no_axon": {
+      "gt_cell_type": {
+        "n": 806,
+        "mean": 0.9837892059553349,
+        "p10": 1.0,
+        "pct_bad": 1.8610421836228286
+      },
+      "deployment": {
+        "n": 806,
+        "mean": 0.9740508684863524,
+        "p10": 1.0,
+        "pct_bad": 2.729528535980149
+      }
+    }
+  }
+}

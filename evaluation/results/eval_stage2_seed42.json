@@ -1,0 +1,95 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "model": "pipeline/models/seed42/branch_classifier.pkl",
+  "per_cell_type": {
+    "pyramidal": {
+      "n_subtrees": 10357,
+      "n_failed": 0,
+      "failed": [],
+      "subtree_accuracy": 0.9626339673650671,
+      "node_weighted_accuracy": 0.9895571055347867,
+      "n_nodes": 14256105,
+      "per_class": {
+        "axon": {
+          "precision": 0.9887640449438202,
+          "recall": 0.7222982216142271,
+          "f1": 0.8347826086956521,
+          "support": 731
+        },
+        "basal/dendrite": {
+          "precision": 0.9684151785714286,
+          "recall": 0.9899600684540787,
+          "f1": 0.9790691114245416,
+          "support": 8765
+        },
+        "apical": {
+          "precision": 0.8864426419466975,
+          "recall": 0.8885017421602788,
+          "f1": 0.8874709976798144,
+          "support": 861
+        }
+      },
+      "confusion_matrix": [
+        [
+          528,
+          190,
+          13
+        ],
+        [
+          3,
+          8677,
+          85
+        ],
+        [
+          3,
+          93,
+          765
+        ]
+      ],
+      "confusion_labels": [
+        "axon",
+        "basal/dendrite",
+        "apical"
+      ],
+      "predictions_md5": "a06900ec4d7a70266391715b470546ed"
+    },
+    "interneuron": {
+      "n_subtrees": 3917,
+      "n_failed": 0,
+      "failed": [],
+      "subtree_accuracy": 0.9928516721981108,
+      "node_weighted_accuracy": 0.9823788775339789,
+      "n_nodes": 4999795,
+      "per_class": {
+        "axon": {
+          "precision": 0.973753280839895,
+          "recall": 0.9537275064267352,
+          "f1": 0.9636363636363636,
+          "support": 389
+        },
+        "basal/dendrite": {
+          "precision": 0.9949095022624435,
+          "recall": 0.9971655328798186,
+          "f1": 0.9960362400906002,
+          "support": 3528
+        }
+      },
+      "confusion_matrix": [
+        [
+          371,
+          18
+        ],
+        [
+          10,
+          3518
+        ]
+      ],
+      "confusion_labels": [
+        "axon",
+        "basal/dendrite"
+      ],
+      "predictions_md5": "12b9904a193ab8f6531c3be70ff87bb5"
+    }
+  }
+}

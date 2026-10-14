@@ -1,0 +1,32 @@
+MIXED-LABEL STRUCTURE -- ground truth over the corpus
+
+group                         cells  subtrees  %mixed  %subst %cellsSub %brMixed %trans in-branch
+interneuron/all                3374     19713    0.69    0.47      2.73     0.00              7.7
+interneuron/allen               126       669    8.97    6.43     33.33     0.01             10.0
+interneuron/neuromorpho        3248     19044    0.40    0.26      1.54     0.00              6.3
+pyramidal/all                  8488     53597    0.20    0.09      0.58     0.00             18.6
+pyramidal/allen                  77       539    1.11    0.74      5.19     0.02             33.3
+pyramidal/hpf_ca1              1358      9067    0.64    0.41      2.72     0.00             28.8
+pyramidal/neuromorpho          7053     43991    0.10    0.02      0.11     0.00              4.2
+
+Category counts (cells):
+  interneuron/all    axon_carrying_dendrite 19  multi_apical 0  apical_not_opposed 0  apical_truncated 0  no_axon 1304  no_apical 0
+  pyramidal/all      axon_carrying_dendrite 3  multi_apical 120  apical_not_opposed 276  apical_truncated 113  no_axon 4844  no_apical 4346
+
+Oracle ceilings (majority ground-truth label per unit):
+  pyramidal    per subtree  macro-F1 0.9971  axon 0.9998  basal/dendrite 0.9959  apical 0.9956  per-cell mean 0.9980 P10 1.0000
+  pyramidal    per branch   macro-F1 1.0000  axon 1.0000  basal/dendrite 1.0000  apical 1.0000  per-cell mean 1.0000 P10 1.0000
+  interneuron  per subtree  macro-F1 0.9950  axon 0.9974  basal/dendrite 0.9927  per-cell mean 0.9887 P10 1.0000
+  interneuron  per branch   macro-F1 1.0000  axon 1.0000  basal/dendrite 1.0000  per-cell mean 0.9988 P10 1.0000
+
+Held-out per-cell F1 by category (seed-file pairs over seeds 42, 123, 789):
+  group                                   n  GT mean  GT P10 GT %bad | dep mean dep P10 dep %bad
+  pyramidal/all                        5025   0.9462  0.7921    4.14 |   0.9419  0.7681     4.86
+  pyramidal/multi_apical                 63   0.7368  0.5324   22.22 |   0.7277  0.5065    23.81
+  pyramidal/apical_not_opposed          146   0.8383  0.4479   14.38 |   0.8342  0.4339    15.75
+  pyramidal/apical_truncated             53   0.6555  0.2848   54.72 |   0.6460  0.2570    54.72
+  pyramidal/no_axon                    2842   0.9640  0.9338    3.24 |   0.9593  0.9194     4.08
+  pyramidal/no_apical                  2554   0.9698  0.9290    2.19 |   0.9711  0.9445     2.04
+  interneuron/all                      1998   0.9603  1.0000    5.36 |   0.9554  0.9641     5.86
+  interneuron/axon_carrying_dendrite     14   0.5068  0.3386   85.71 |   0.4962  0.3354    85.71
+  interneuron/no_axon                   806   0.9838  1.0000    1.86 |   0.9741  1.0000     2.73

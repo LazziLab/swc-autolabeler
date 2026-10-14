@@ -1,0 +1,94 @@
+{
+  "seed": 123,
+  "tolerance": 0.1,
+  "n_cells": 2402,
+  "human_disagreement": 0.123,
+  "methods": {
+    "ours": {
+      "apical_bias": {
+        "total_length": -0.03721130161491663,
+        "surface_area": -0.03768253609810168,
+        "max_path_dist": -0.04596239135117005
+      },
+      "usable_fraction": 0.8201498751040799,
+      "n_usable": 1970
+    },
+    "lmeasure_rf": {
+      "apical_bias": {
+        "total_length": -0.07855405818335301,
+        "surface_area": -0.09795878160546369,
+        "max_path_dist": -0.1469891553402917
+      },
+      "usable_fraction": 0.7964196502914238,
+      "n_usable": 1913
+    },
+    "neurom_rf": {
+      "apical_bias": {
+        "total_length": -0.16224496361277316,
+        "surface_area": -0.18208754489310344,
+        "max_path_dist": 0.1286922361515296
+      },
+      "usable_fraction": 0.406744379683597,
+      "n_usable": 977
+    },
+    "sholl_mlp": {
+      "apical_bias": {
+        "total_length": -0.10197481025467153,
+        "surface_area": -0.1123388833091864,
+        "max_path_dist": -0.15434246017952555
+      },
+      "usable_fraction": 0.7356369691923397,
+      "n_usable": 1767
+    },
+    "sholl_rf": {
+      "apical_bias": {
+        "total_length": -0.10661387977120104,
+        "surface_area": -0.11732332236975784,
+        "max_path_dist": -0.16506026802989504
+      },
+      "usable_fraction": 0.7743547044129891,
+      "n_usable": 1860
+    }
+  },
+  "bias": {
+    "axon_total_length": -0.0022076341983236496,
+    "axon_surface_area": -0.0008844673892397306,
+    "axon_max_path_dist": -0.004241604510601033,
+    "basal_total_length": -0.017988894887110748,
+    "basal_surface_area": -0.024776349964675617,
+    "basal_max_path_dist": 0.00018949022901460245,
+    "apical_total_length": -0.03721130161491663,
+    "apical_surface_area": -0.03768253609810168,
+    "apical_max_path_dist": -0.04596239135117005
+  },
+  "n_measured": {
+    "axon_total_length": 1128,
+    "axon_surface_area": 1128,
+    "axon_max_path_dist": 1128,
+    "basal_total_length": 2341,
+    "basal_surface_area": 2341,
+    "basal_max_path_dist": 2341,
+    "apical_total_length": 867,
+    "apical_surface_area": 867,
+    "apical_max_path_dist": 867
+  },
+  "tail_share_range": [
+    0.888203632731489,
+    1.0000000000000002
+  ],
+  "apical_length_within_1um": {
+    "share": 0.7681660899653979,
+    "n_cells": 867,
+    "n_within": 666
+  },
+  "triage": {
+    "0.00": 0.7891117478510029,
+    "n_scored": 1745,
+    "n_pyramidal": 1745,
+    "0.05": 0.8172496984318456,
+    "0.10": 0.8516868236791852,
+    "0.12": 0.865234375,
+    "0.15": 0.8813216453135536,
+    "0.20": 0.91189111747851
+  }
+}

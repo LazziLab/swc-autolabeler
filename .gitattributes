@@ -1,0 +1,10 @@
+# Normalize line endings so the repo is not full of CRLF/LF churn.
+* text=auto eol=lf
+
+# Binary model artifacts: never touch, never diff.
+*.pkl binary
+*.pt binary
+*.joblib binary
+*.png binary
+*.svg -text
+*.swc text eol=lf

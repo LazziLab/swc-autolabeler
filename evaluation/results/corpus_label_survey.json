@@ -1,0 +1,25 @@
+{
+  "n_pyramidal": 8488,
+  "labels": {
+    "apical": 0.48798303487276157,
+    "axon": 0.4293119698397738,
+    "both": 0.2995994344957587,
+    "neither": 0.3823044297832234
+  },
+  "archives": {
+    "n": 84,
+    "n_cells": 7053,
+    "n_cells_outside": 1435,
+    "n_under_5_cells": 11,
+    "apical_no_axon": 25,
+    "axon_no_apical": 5,
+    "both": 34,
+    "neither": 20
+  },
+  "soma_per_archive": {
+    "three_point": 75,
+    "contour": 7,
+    "other": 2
+  },
+  "skipped_lines": 0
+}

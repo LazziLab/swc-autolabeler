@@ -1,0 +1,17 @@
+Flag under curator feedback (pyramidal, 1260 never-reviewed test cells)
+==============================================================================
+
+Labeler fixed (full factory pipeline); only the flag is retrained.
+kept-P10 = worst-decile per-cell F1 of the cells kept after a 10% rejection.
+Review is counted in FILES: one SWC contributes a row per model seed and is reviewed or held out whole.
+
+files rev |     flag   random  factory |  flag AP
+      200 |   0.8235   0.8235   0.8235 |   0.1092
+      350 |   0.8567   0.8308   0.8235 |   0.1773
+      500 |   0.8580   0.8432   0.8235 |   0.3793
+      650 |   0.8613   0.8559   0.8235 |   0.4727
+      800 |   0.8627   0.8700   0.8235 |   0.4575
+      950 |   0.8732   0.8627   0.8235 |   0.4757
+     1100 |   0.8763   0.8613   0.8235 |   0.4585
+     1250 |   0.8866   0.8627   0.8235 |   0.4601
+     1400 |   0.8909   0.8731   0.8235 |   0.4316

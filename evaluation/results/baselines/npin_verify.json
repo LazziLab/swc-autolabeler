@@ -1,0 +1,4208 @@
+{
+  "npin_commit": "8d632fe",
+  "n_cells": 300,
+  "max_abs_diff": 0.0,
+  "structural_mismatches": 0,
+  "cells": [
+    {
+      "file": "neuromorpho__traced-WT-male-cortex-147-5.swc",
+      "n_nodes": 48,
+      "fast_s": 0.09,
+      "original_s": 0.14,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.16,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__CONTROL-5-N1.swc",
+      "n_nodes": 1356,
+      "fast_s": 0.16,
+      "original_s": 0.55,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__g0445-7_cellA.swc",
+      "n_nodes": 837,
+      "fast_s": 0.45,
+      "original_s": 1.37,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex158-2.swc",
+      "n_nodes": 85,
+      "fast_s": 0.12,
+      "original_s": 0.26,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.16,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__1117-1-Sec10-BSL2.swc",
+      "n_nodes": 1493,
+      "fast_s": 0.36,
+      "original_s": 1.07,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__092903a.swc",
+      "n_nodes": 5871,
+      "fast_s": 0.83,
+      "original_s": 5.45,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20180607-L1R2-2-2-472-55-109-47-40.swc",
+      "n_nodes": 565,
+      "fast_s": 0.12,
+      "original_s": 0.31,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.16,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__PDE1c_vGluT2-ctrl_IN23.swc",
+      "n_nodes": 747,
+      "fast_s": 0.27,
+      "original_s": 0.59,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__21b.swc",
+      "n_nodes": 1750,
+      "fast_s": 0.16,
+      "original_s": 0.48,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo401-6.swc",
+      "n_nodes": 53,
+      "fast_s": 0.18,
+      "original_s": 0.31,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.16,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Phall-Tau-Map2005-3.swc",
+      "n_nodes": 1159,
+      "fast_s": 0.14,
+      "original_s": 0.58,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo-102-3.swc",
+      "n_nodes": 159,
+      "fast_s": 0.27,
+      "original_s": 0.52,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20180705_sample_1.swc",
+      "n_nodes": 4422,
+      "fast_s": 1.19,
+      "original_s": 6.89,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-3-16LS.swc",
+      "n_nodes": 403,
+      "fast_s": 0.2,
+      "original_s": 0.49,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0464.swc",
+      "n_nodes": 2184,
+      "fast_s": 0.92,
+      "original_s": 3.92,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0543.swc",
+      "n_nodes": 1496,
+      "fast_s": 0.82,
+      "original_s": 4.45,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__180702_morpho-6_hippo_tau488_trfp_map2647_Hippo-1-4_crop-1.swc",
+      "n_nodes": 1818,
+      "fast_s": 0.32,
+      "original_s": 1.33,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__243-3-4VN.swc",
+      "n_nodes": 462,
+      "fast_s": 0.26,
+      "original_s": 0.61,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__dlc-1367-nrn-ns-110116-combined-transl-invX-scaled-straightened.swc",
+      "n_nodes": 128,
+      "fast_s": 0.12,
+      "original_s": 0.22,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.16,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__HIP_CA1_KO_22.swc",
+      "n_nodes": 223,
+      "fast_s": 0.28,
+      "original_s": 0.59,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__180702_morpho-6_hippo_tau488_trfp_map2647_Fresh-2_crop-3.swc",
+      "n_nodes": 3237,
+      "fast_s": 0.16,
+      "original_s": 1.51,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.22,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell37.swc",
+      "n_nodes": 5378,
+      "fast_s": 1.03,
+      "original_s": 7.31,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18868_2225_x15897_y10006-auto_r.swc",
+      "n_nodes": 2637,
+      "fast_s": 1.17,
+      "original_s": 5.93,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__39_7.swc",
+      "n_nodes": 1788,
+      "fast_s": 0.43,
+      "original_s": 1.66,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B4_slide2_neuron2.swc",
+      "n_nodes": 295,
+      "fast_s": 0.24,
+      "original_s": 0.49,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__06050180003.swc",
+      "n_nodes": 619,
+      "fast_s": 0.22,
+      "original_s": 0.49,
+      "fast_peak_gb": 0.16,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__gR002P1.swc",
+      "n_nodes": 1955,
+      "fast_s": 0.59,
+      "original_s": 2.32,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__BMCell3_20m.swc",
+      "n_nodes": 1565,
+      "fast_s": 0.39,
+      "original_s": 1.45,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M1_36.swc",
+      "n_nodes": 2539,
+      "fast_s": 0.27,
+      "original_s": 0.9,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__PRL_41.swc",
+      "n_nodes": 507,
+      "fast_s": 0.14,
+      "original_s": 0.3,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__sigma-8.swc",
+      "n_nodes": 141,
+      "fast_s": 0.12,
+      "original_s": 0.2,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__37_9.swc",
+      "n_nodes": 3549,
+      "fast_s": 0.63,
+      "original_s": 4.24,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-12-3_2.swc",
+      "n_nodes": 235,
+      "fast_s": 0.28,
+      "original_s": 0.7,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex-557-7.swc",
+      "n_nodes": 56,
+      "fast_s": 0.1,
+      "original_s": 0.15,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18455_00031-semi_r.swc",
+      "n_nodes": 1388,
+      "fast_s": 0.34,
+      "original_s": 1.64,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__081217_cell5_L23.swc",
+      "n_nodes": 1733,
+      "fast_s": 0.59,
+      "original_s": 4.19,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__19-02-19B-01-cell1.swc",
+      "n_nodes": 3040,
+      "fast_s": 0.39,
+      "original_s": 1.32,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__3PO3_1.swc",
+      "n_nodes": 1709,
+      "fast_s": 0.25,
+      "original_s": 0.8,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__CONTROL-2-N6.swc",
+      "n_nodes": 1103,
+      "fast_s": 0.14,
+      "original_s": 0.5,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-13_4.swc",
+      "n_nodes": 359,
+      "fast_s": 0.26,
+      "original_s": 0.97,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18455_00008-semi_r.swc",
+      "n_nodes": 2172,
+      "fast_s": 0.84,
+      "original_s": 4.08,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20180425_sample_8.swc",
+      "n_nodes": 4047,
+      "fast_s": 0.26,
+      "original_s": 1.33,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Green_6Weeks_Neuron9.swc",
+      "n_nodes": 33,
+      "fast_s": 0.08,
+      "original_s": 0.13,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2_slide2_16.swc",
+      "n_nodes": 492,
+      "fast_s": 0.33,
+      "original_s": 0.78,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__gR004P1.swc",
+      "n_nodes": 1096,
+      "fast_s": 0.53,
+      "original_s": 1.48,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "hpf_ca1__202249_049_edited.swc",
+      "n_nodes": 2641,
+      "fast_s": 0.31,
+      "original_s": 1.46,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__105A_1_l_WT_2.swc",
+      "n_nodes": 659,
+      "fast_s": 0.31,
+      "original_s": 0.76,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell57.swc",
+      "n_nodes": 10240,
+      "fast_s": 1.49,
+      "original_s": 23.3,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.26,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-5-2_7.swc",
+      "n_nodes": 238,
+      "fast_s": 0.41,
+      "original_s": 1.07,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B3_slide2_14.swc",
+      "n_nodes": 322,
+      "fast_s": 0.21,
+      "original_s": 0.44,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0719.swc",
+      "n_nodes": 3428,
+      "fast_s": 1.42,
+      "original_s": 11.89,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex157-3.swc",
+      "n_nodes": 92,
+      "fast_s": 0.13,
+      "original_s": 0.22,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__traced-WT-Female-cortex-122-2b.swc",
+      "n_nodes": 78,
+      "fast_s": 0.13,
+      "original_s": 0.21,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__WT_7.swc",
+      "n_nodes": 2666,
+      "fast_s": 0.53,
+      "original_s": 2.76,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina4_petal1_n9.swc",
+      "n_nodes": 10341,
+      "fast_s": 1.43,
+      "original_s": 58.46,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.5,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Nov4IR1b.swc",
+      "n_nodes": 4054,
+      "fast_s": 0.41,
+      "original_s": 1.64,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__d3s2-cell-4.swc",
+      "n_nodes": 250,
+      "fast_s": 0.13,
+      "original_s": 0.23,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__180702_morpho-6_hippo_tau488_trfp_map2647_Hippo-1-6_crop-7.swc",
+      "n_nodes": 1852,
+      "fast_s": 0.28,
+      "original_s": 1.59,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D7-Sholl-Tau-RFP-MAP2012_crop-3.swc",
+      "n_nodes": 3413,
+      "fast_s": 0.27,
+      "original_s": 2.2,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-2a-9-AW.swc",
+      "n_nodes": 396,
+      "fast_s": 0.26,
+      "original_s": 0.58,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__241-2-2VN.swc",
+      "n_nodes": 392,
+      "fast_s": 0.2,
+      "original_s": 0.54,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.17,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0827.swc",
+      "n_nodes": 2865,
+      "fast_s": 1.13,
+      "original_s": 14.86,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina5_petal4_n17.swc",
+      "n_nodes": 8079,
+      "fast_s": 0.95,
+      "original_s": 34.62,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.41,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__12N7-8162019-b_fcfc1a.swc",
+      "n_nodes": 3259,
+      "fast_s": 0.33,
+      "original_s": 1.76,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-12-4_1.swc",
+      "n_nodes": 269,
+      "fast_s": 0.37,
+      "original_s": 1.22,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina1_petal2_n1.swc",
+      "n_nodes": 8453,
+      "fast_s": 1.18,
+      "original_s": 40.14,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.37,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2_slide3_14.swc",
+      "n_nodes": 636,
+      "fast_s": 0.34,
+      "original_s": 1.07,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__X043_S5_Z2_C05_20x.swc",
+      "n_nodes": 942,
+      "fast_s": 0.32,
+      "original_s": 0.93,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__SW150113-01RabiesPHALPFC_x772_y876_z296_2.swc",
+      "n_nodes": 2041,
+      "fast_s": 0.79,
+      "original_s": 3.34,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Phall-Tau-Map2004-14.swc",
+      "n_nodes": 1971,
+      "fast_s": 0.31,
+      "original_s": 2.36,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "allen__Pvalb-IRES-Cre_Ai14-176848.03.01.01_333604946.swc",
+      "n_nodes": 6772,
+      "fast_s": 1.05,
+      "original_s": 8.44,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0873.swc",
+      "n_nodes": 3447,
+      "fast_s": 1.26,
+      "original_s": 10.42,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__WT_9.swc",
+      "n_nodes": 1482,
+      "fast_s": 0.45,
+      "original_s": 1.53,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2-N5-1_final.swc",
+      "n_nodes": 905,
+      "fast_s": 0.23,
+      "original_s": 0.57,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20180820_sample_4.swc",
+      "n_nodes": 3189,
+      "fast_s": 1.44,
+      "original_s": 8.92,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__group1_cell23.swc",
+      "n_nodes": 2174,
+      "fast_s": 0.24,
+      "original_s": 0.95,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__30_12.swc",
+      "n_nodes": 1694,
+      "fast_s": 0.57,
+      "original_s": 2.26,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M2_8.swc",
+      "n_nodes": 1156,
+      "fast_s": 0.18,
+      "original_s": 0.48,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__05b_pyramidal8aFI.swc",
+      "n_nodes": 1239,
+      "fast_s": 0.17,
+      "original_s": 0.47,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__12N7-8162019-b_fcfc6a.swc",
+      "n_nodes": 3295,
+      "fast_s": 0.37,
+      "original_s": 1.73,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__L1R4_06_-615.swc",
+      "n_nodes": 155,
+      "fast_s": 0.13,
+      "original_s": 0.23,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__HIP_CA1_KO_5.swc",
+      "n_nodes": 892,
+      "fast_s": 0.51,
+      "original_s": 1.76,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__mPFC_w1_L5_07.swc",
+      "n_nodes": 1302,
+      "fast_s": 0.69,
+      "original_s": 2.56,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__35_12.swc",
+      "n_nodes": 2883,
+      "fast_s": 0.88,
+      "original_s": 3.73,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-2a-34-AW.swc",
+      "n_nodes": 338,
+      "fast_s": 0.24,
+      "original_s": 0.49,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__5_J1a.swc",
+      "n_nodes": 2581,
+      "fast_s": 0.65,
+      "original_s": 2.52,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__241-3-57-AW.swc",
+      "n_nodes": 740,
+      "fast_s": 0.27,
+      "original_s": 0.74,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "allen__Chat-IRES-Cre-neo_Ai14-287662.04.02.01_562003142.swc",
+      "n_nodes": 3841,
+      "fast_s": 0.77,
+      "original_s": 3.94,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Layer-2-3-Ethanol-24.swc",
+      "n_nodes": 317,
+      "fast_s": 0.45,
+      "original_s": 0.77,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina5_petal3_n1.swc",
+      "n_nodes": 8467,
+      "fast_s": 1.32,
+      "original_s": 49.25,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.5,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__242-1-8VN.swc",
+      "n_nodes": 373,
+      "fast_s": 0.4,
+      "original_s": 0.66,
+      "fast_peak_gb": 0.17,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__243-2-26VN.swc",
+      "n_nodes": 310,
+      "fast_s": 0.27,
+      "original_s": 0.62,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0468.swc",
+      "n_nodes": 302,
+      "fast_s": 0.24,
+      "original_s": 0.56,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__StrokeDec7IR2-2d.swc",
+      "n_nodes": 1778,
+      "fast_s": 0.63,
+      "original_s": 1.71,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0373.swc",
+      "n_nodes": 4865,
+      "fast_s": 1.9,
+      "original_s": 14.59,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__n183.swc",
+      "n_nodes": 5385,
+      "fast_s": 1.13,
+      "original_s": 7.32,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B_RFP_0011_final.swc",
+      "n_nodes": 872,
+      "fast_s": 0.31,
+      "original_s": 0.99,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2_slide2_5.swc",
+      "n_nodes": 504,
+      "fast_s": 0.25,
+      "original_s": 0.65,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-3-69LS.swc",
+      "n_nodes": 478,
+      "fast_s": 0.17,
+      "original_s": 0.48,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__3PO3_3.swc",
+      "n_nodes": 1937,
+      "fast_s": 0.46,
+      "original_s": 1.73,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__10month-wt-H364-2_1.swc",
+      "n_nodes": 736,
+      "fast_s": 0.36,
+      "original_s": 0.95,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M2_14.swc",
+      "n_nodes": 743,
+      "fast_s": 0.39,
+      "original_s": 0.56,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M1KO_29.swc",
+      "n_nodes": 1950,
+      "fast_s": 0.31,
+      "original_s": 0.99,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__CONTROL-2-N1_1.swc",
+      "n_nodes": 1091,
+      "fast_s": 0.19,
+      "original_s": 0.5,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__12D2neuron2.swc",
+      "n_nodes": 1831,
+      "fast_s": 0.19,
+      "original_s": 0.62,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Kole_MDKL31012019_3_63x.swc",
+      "n_nodes": 9756,
+      "fast_s": 1.08,
+      "original_s": 17.37,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.33,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D7-Sholl-Tau-RFP-MAP2014_crop-4.swc",
+      "n_nodes": 1977,
+      "fast_s": 0.55,
+      "original_s": 1.53,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__108A_2_l_WT_5.swc",
+      "n_nodes": 414,
+      "fast_s": 0.28,
+      "original_s": 0.81,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__dIN-1438-nrn-ns-100826-transl-invX-scaled-straightened.swc",
+      "n_nodes": 96,
+      "fast_s": 0.14,
+      "original_s": 0.22,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina4_petal4_n12.swc",
+      "n_nodes": 9604,
+      "fast_s": 1.37,
+      "original_s": 51.16,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.63,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__veh02.swc",
+      "n_nodes": 53,
+      "fast_s": 0.1,
+      "original_s": 0.17,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0892.swc",
+      "n_nodes": 1702,
+      "fast_s": 0.81,
+      "original_s": 4.62,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__32315V1-4Slice6Cell2.swc",
+      "n_nodes": 1300,
+      "fast_s": 0.41,
+      "original_s": 1.1,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__115-04-25-L1.swc",
+      "n_nodes": 236,
+      "fast_s": 0.2,
+      "original_s": 0.42,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "hpf_ca1__202803_016_edited.swc",
+      "n_nodes": 7705,
+      "fast_s": 1.02,
+      "original_s": 12.45,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.27,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__WT2-N1-2_final.swc",
+      "n_nodes": 1539,
+      "fast_s": 0.41,
+      "original_s": 1.07,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M1KO_2.swc",
+      "n_nodes": 840,
+      "fast_s": 0.2,
+      "original_s": 0.55,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__111B_1_r_CA1_1_Ngr2KO_3.swc",
+      "n_nodes": 1106,
+      "fast_s": 0.52,
+      "original_s": 1.52,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Zs201222-04_ventral_20x_onlydendrites.swc",
+      "n_nodes": 789,
+      "fast_s": 0.17,
+      "original_s": 0.41,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__T77_NeuronA_Tile_Trace_MK.swc",
+      "n_nodes": 2171,
+      "fast_s": 0.52,
+      "original_s": 2.13,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__6N1-5072019_TileScan-3_Merged_wt6a.swc",
+      "n_nodes": 1649,
+      "fast_s": 0.23,
+      "original_s": 0.85,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20181127_sample_5.swc",
+      "n_nodes": 3259,
+      "fast_s": 0.9,
+      "original_s": 4.84,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__ms89_slice1_px.swc",
+      "n_nodes": 4325,
+      "fast_s": 0.54,
+      "original_s": 5.32,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__CONTROL-6-N2.swc",
+      "n_nodes": 1652,
+      "fast_s": 0.21,
+      "original_s": 0.62,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex-1159-4.swc",
+      "n_nodes": 117,
+      "fast_s": 0.21,
+      "original_s": 0.42,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex361-2.swc",
+      "n_nodes": 47,
+      "fast_s": 0.12,
+      "original_s": 0.17,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Vipr2-IRES2-Cre_Slc32a1-T2A-FlpO_Ai65-315067-05-01-01_640104110_m.swc",
+      "n_nodes": 11013,
+      "fast_s": 2.31,
+      "original_s": 27.73,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.23,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__8may2015c1.swc",
+      "n_nodes": 3626,
+      "fast_s": 1.5,
+      "original_s": 9.02,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Sholl-Exp-3003-11.swc",
+      "n_nodes": 1451,
+      "fast_s": 0.21,
+      "original_s": 0.73,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Layer-6-Ethanol-5.swc",
+      "n_nodes": 351,
+      "fast_s": 0.18,
+      "original_s": 0.34,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0938.swc",
+      "n_nodes": 3332,
+      "fast_s": 2.45,
+      "original_s": 16.67,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__X046_S5_Z6_C02.swc",
+      "n_nodes": 566,
+      "fast_s": 0.26,
+      "original_s": 0.51,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__S3117_20140612-x1-25.swc",
+      "n_nodes": 8936,
+      "fast_s": 1.31,
+      "original_s": 11.55,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Mouse_CA2_Ma_Cell.swc",
+      "n_nodes": 3718,
+      "fast_s": 0.64,
+      "original_s": 4.45,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Canopy_171116_2.swc",
+      "n_nodes": 10614,
+      "fast_s": 2.03,
+      "original_s": 27.96,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.25,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__PRLKO_32.swc",
+      "n_nodes": 413,
+      "fast_s": 0.16,
+      "original_s": 0.3,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0661.swc",
+      "n_nodes": 4130,
+      "fast_s": 1.32,
+      "original_s": 6.83,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell48.swc",
+      "n_nodes": 10712,
+      "fast_s": 1.76,
+      "original_s": 21.19,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.25,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__KO1-Neuron11.swc",
+      "n_nodes": 31,
+      "fast_s": 0.11,
+      "original_s": 0.13,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-1-24LS.swc",
+      "n_nodes": 505,
+      "fast_s": 0.31,
+      "original_s": 0.77,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0634.swc",
+      "n_nodes": 1353,
+      "fast_s": 0.83,
+      "original_s": 3.72,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-5-2_9.swc",
+      "n_nodes": 168,
+      "fast_s": 0.39,
+      "original_s": 0.88,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__10month-Arctic-C5aR1-KO-5-2_1.swc",
+      "n_nodes": 416,
+      "fast_s": 0.33,
+      "original_s": 0.9,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20190628_sample_4.swc",
+      "n_nodes": 3279,
+      "fast_s": 0.89,
+      "original_s": 3.58,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__340_1a.swc",
+      "n_nodes": 1158,
+      "fast_s": 0.6,
+      "original_s": 1.78,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A4_slide3_13.swc",
+      "n_nodes": 459,
+      "fast_s": 0.28,
+      "original_s": 0.72,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina6_petal1_n11.swc",
+      "n_nodes": 6028,
+      "fast_s": 1.02,
+      "original_s": 15.23,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.28,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__17545_00052-semi_r.swc",
+      "n_nodes": 3269,
+      "fast_s": 1.01,
+      "original_s": 6.15,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-18_03.swc",
+      "n_nodes": 179,
+      "fast_s": 0.39,
+      "original_s": 0.88,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M1_33.swc",
+      "n_nodes": 2077,
+      "fast_s": 0.33,
+      "original_s": 0.94,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fig3i_Rat_81.swc",
+      "n_nodes": 9173,
+      "fast_s": 2.78,
+      "original_s": 25.15,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.23,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hdIN-951-nrn-ns-111215-transl-invX-scaled-straightened.swc",
+      "n_nodes": 45,
+      "fast_s": 0.14,
+      "original_s": 0.19,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0483.swc",
+      "n_nodes": 1697,
+      "fast_s": 1.0,
+      "original_s": 6.48,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__180608_morpho4_d4_hippo_D4-Hippo-Fresh-2_crop-6.swc",
+      "n_nodes": 1217,
+      "fast_s": 0.2,
+      "original_s": 0.82,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__m1s2s2b-l-deep.swc",
+      "n_nodes": 253,
+      "fast_s": 0.37,
+      "original_s": 0.71,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__60R5_02_-615.swc",
+      "n_nodes": 318,
+      "fast_s": 0.18,
+      "original_s": 0.31,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B1_slide2_neuron1_II_III.swc",
+      "n_nodes": 1099,
+      "fast_s": 0.43,
+      "original_s": 1.17,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Green_6Weeks_Neuron3.swc",
+      "n_nodes": 38,
+      "fast_s": 0.11,
+      "original_s": 0.16,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__august5s2-cell-2.swc",
+      "n_nodes": 794,
+      "fast_s": 0.19,
+      "original_s": 0.43,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__ms88_slice3_cell2.swc",
+      "n_nodes": 4259,
+      "fast_s": 0.62,
+      "original_s": 4.72,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B_RFP_0021_final.swc",
+      "n_nodes": 1176,
+      "fast_s": 0.76,
+      "original_s": 1.91,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__1-wild-type-veichle-neuron3_2.swc",
+      "n_nodes": 854,
+      "fast_s": 0.3,
+      "original_s": 0.85,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__omega-13.swc",
+      "n_nodes": 208,
+      "fast_s": 0.17,
+      "original_s": 0.35,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__g0685P1.swc",
+      "n_nodes": 799,
+      "fast_s": 0.44,
+      "original_s": 1.57,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20180109C01.swc",
+      "n_nodes": 2754,
+      "fast_s": 0.35,
+      "original_s": 2.09,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B4_slide3_16.swc",
+      "n_nodes": 412,
+      "fast_s": 0.31,
+      "original_s": 0.8,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__V1KO_2.swc",
+      "n_nodes": 689,
+      "fast_s": 0.2,
+      "original_s": 0.39,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__P120121-02-BC.swc",
+      "n_nodes": 2336,
+      "fast_s": 0.36,
+      "original_s": 1.49,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-3-41LS.swc",
+      "n_nodes": 568,
+      "fast_s": 0.36,
+      "original_s": 0.95,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo-229-1.swc",
+      "n_nodes": 47,
+      "fast_s": 0.14,
+      "original_s": 0.2,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0632.swc",
+      "n_nodes": 10188,
+      "fast_s": 3.63,
+      "original_s": 36.53,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.22,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__V2_17.swc",
+      "n_nodes": 641,
+      "fast_s": 0.22,
+      "original_s": 0.46,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__8N22DAT8-50717GFPwta-fcfc-5a.swc",
+      "n_nodes": 3420,
+      "fast_s": 0.39,
+      "original_s": 2.82,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20190211_sample_9.swc",
+      "n_nodes": 9048,
+      "fast_s": 2.75,
+      "original_s": 33.48,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.26,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__1d.swc",
+      "n_nodes": 987,
+      "fast_s": 0.19,
+      "original_s": 0.53,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-16_2.swc",
+      "n_nodes": 95,
+      "fast_s": 0.29,
+      "original_s": 0.55,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__IF1_210301.swc",
+      "n_nodes": 6325,
+      "fast_s": 1.14,
+      "original_s": 8.38,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__391-04.swc",
+      "n_nodes": 1233,
+      "fast_s": 0.4,
+      "original_s": 0.7,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__17545_00048-semi_r.swc",
+      "n_nodes": 4272,
+      "fast_s": 1.86,
+      "original_s": 11.23,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A_RFP_0007_final.swc",
+      "n_nodes": 1001,
+      "fast_s": 0.42,
+      "original_s": 1.25,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Phall-Tau-Map2002-4.swc",
+      "n_nodes": 682,
+      "fast_s": 0.17,
+      "original_s": 0.5,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Layer-5-Sucrose-5.swc",
+      "n_nodes": 416,
+      "fast_s": 0.25,
+      "original_s": 0.66,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__3d_2.swc",
+      "n_nodes": 3779,
+      "fast_s": 0.59,
+      "original_s": 2.19,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__V1KO_14.swc",
+      "n_nodes": 1321,
+      "fast_s": 0.2,
+      "original_s": 0.52,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Phall-Tau-Map2-5.swc",
+      "n_nodes": 866,
+      "fast_s": 0.18,
+      "original_s": 0.5,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-2-5_1.swc",
+      "n_nodes": 144,
+      "fast_s": 0.28,
+      "original_s": 0.65,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-17.swc",
+      "n_nodes": 482,
+      "fast_s": 0.16,
+      "original_s": 0.28,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__11509-25-R1.swc",
+      "n_nodes": 277,
+      "fast_s": 0.24,
+      "original_s": 0.53,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo-116-6.swc",
+      "n_nodes": 158,
+      "fast_s": 0.22,
+      "original_s": 0.44,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18869_4089_x6848_y5110-semi_r.swc",
+      "n_nodes": 3537,
+      "fast_s": 2.06,
+      "original_s": 9.06,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20190827_sample_7.swc",
+      "n_nodes": 6327,
+      "fast_s": 1.71,
+      "original_s": 10.75,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Green_4weeks_Neuron1.swc",
+      "n_nodes": 137,
+      "fast_s": 0.15,
+      "original_s": 0.25,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__12N5-8162019-b_tile3-fcfc5a.swc",
+      "n_nodes": 1411,
+      "fast_s": 0.21,
+      "original_s": 0.51,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__traced-WT-Female-cortex-122-4.swc",
+      "n_nodes": 95,
+      "fast_s": 0.15,
+      "original_s": 0.25,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__17545_00073-semi_r.swc",
+      "n_nodes": 993,
+      "fast_s": 0.75,
+      "original_s": 3.53,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__het_4-4.swc",
+      "n_nodes": 457,
+      "fast_s": 0.17,
+      "original_s": 0.33,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__X046_S1_Z2_C03.swc",
+      "n_nodes": 523,
+      "fast_s": 0.18,
+      "original_s": 0.37,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__C-30-04-15-DIV14-CS1-Cell3.swc",
+      "n_nodes": 5026,
+      "fast_s": 0.68,
+      "original_s": 5.51,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.24,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell32.swc",
+      "n_nodes": 5524,
+      "fast_s": 1.55,
+      "original_s": 12.41,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__S2_16.swc",
+      "n_nodes": 1431,
+      "fast_s": 0.22,
+      "original_s": 0.57,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__1-ENU2-veichle-neuron3.swc",
+      "n_nodes": 210,
+      "fast_s": 0.16,
+      "original_s": 0.33,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__CONTROL-2-N1.swc",
+      "n_nodes": 1287,
+      "fast_s": 0.2,
+      "original_s": 0.52,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A1_slide3_neuron6.swc",
+      "n_nodes": 1062,
+      "fast_s": 0.48,
+      "original_s": 1.06,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__V1_19.swc",
+      "n_nodes": 1824,
+      "fast_s": 0.33,
+      "original_s": 0.8,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cell5_b2ko_traces.swc",
+      "n_nodes": 6191,
+      "fast_s": 1.08,
+      "original_s": 7.67,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex401-6.swc",
+      "n_nodes": 87,
+      "fast_s": 0.16,
+      "original_s": 0.26,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo-1148-5new.swc",
+      "n_nodes": 109,
+      "fast_s": 0.2,
+      "original_s": 0.42,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Neuron-3-2.swc",
+      "n_nodes": 2386,
+      "fast_s": 0.38,
+      "original_s": 1.26,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex225-4.swc",
+      "n_nodes": 54,
+      "fast_s": 0.13,
+      "original_s": 0.21,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Sholl-Exp-3002-2.swc",
+      "n_nodes": 967,
+      "fast_s": 0.25,
+      "original_s": 0.77,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__TDI21301013_cell6.swc",
+      "n_nodes": 6946,
+      "fast_s": 2.54,
+      "original_s": 20.45,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-4-3_4.swc",
+      "n_nodes": 191,
+      "fast_s": 0.58,
+      "original_s": 1.03,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__1a_3.swc",
+      "n_nodes": 3020,
+      "fast_s": 0.47,
+      "original_s": 1.98,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Phall-Tau-Map2004-9.swc",
+      "n_nodes": 1688,
+      "fast_s": 0.35,
+      "original_s": 1.5,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Miro1KO230716S3C120X.swc",
+      "n_nodes": 5450,
+      "fast_s": 5.19,
+      "original_s": 26.6,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex225-1.swc",
+      "n_nodes": 101,
+      "fast_s": 0.18,
+      "original_s": 0.33,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__PRLKO_44.swc",
+      "n_nodes": 515,
+      "fast_s": 0.25,
+      "original_s": 0.55,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__2b.swc",
+      "n_nodes": 770,
+      "fast_s": 0.19,
+      "original_s": 0.45,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__243-2-4-AW.swc",
+      "n_nodes": 589,
+      "fast_s": 0.35,
+      "original_s": 0.99,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__1077-2-Sec2-BSL2.swc",
+      "n_nodes": 2989,
+      "fast_s": 0.36,
+      "original_s": 1.39,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex-456-1.swc",
+      "n_nodes": 27,
+      "fast_s": 0.11,
+      "original_s": 0.18,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__traced-WT-Female-cortex-181-2.swc",
+      "n_nodes": 131,
+      "fast_s": 0.15,
+      "original_s": 0.35,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__8N22DAT8-50717GFPwta-fcfc-7a.swc",
+      "n_nodes": 2074,
+      "fast_s": 0.42,
+      "original_s": 1.72,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__g0758_b.swc",
+      "n_nodes": 1190,
+      "fast_s": 0.74,
+      "original_s": 1.57,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0377.swc",
+      "n_nodes": 7405,
+      "fast_s": 1.74,
+      "original_s": 40.72,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.43,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__14-1-15-A-A6.swc",
+      "n_nodes": 8860,
+      "fast_s": 1.11,
+      "original_s": 20.7,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.44,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__PFC-20130815B_Analysis.swc",
+      "n_nodes": 10629,
+      "fast_s": 1.48,
+      "original_s": 21.01,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.27,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__retina5_petal3_n7.swc",
+      "n_nodes": 11725,
+      "fast_s": 2.57,
+      "original_s": 45.97,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.41,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hdINE-186-1-2-nrn-ns-111216-transl-invX-scaled-straightened.swc",
+      "n_nodes": 39,
+      "fast_s": 0.12,
+      "original_s": 0.19,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-7-2_3.swc",
+      "n_nodes": 254,
+      "fast_s": 0.4,
+      "original_s": 1.26,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__241-2-19VN.swc",
+      "n_nodes": 691,
+      "fast_s": 0.34,
+      "original_s": 0.83,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__7month-C5aR1-KO-10_1.swc",
+      "n_nodes": 151,
+      "fast_s": 0.15,
+      "original_s": 0.27,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Ndnf-IRES2-dgCre_Ai14-280611-04-02-02_582654012_m.swc",
+      "n_nodes": 1786,
+      "fast_s": 0.3,
+      "original_s": 1.0,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D4-Sholl-Exp-3004-6.swc",
+      "n_nodes": 494,
+      "fast_s": 0.17,
+      "original_s": 0.3,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20180607-L1R2-7-3-460-05-238-79-43.swc",
+      "n_nodes": 313,
+      "fast_s": 0.16,
+      "original_s": 0.3,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Kole_MDKL01042019_2_streptavidinA488.swc",
+      "n_nodes": 2452,
+      "fast_s": 0.73,
+      "original_s": 2.52,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Fresh-D7-Sholl-Tau-RFP-MAP2012_crop-1.swc",
+      "n_nodes": 2369,
+      "fast_s": 0.21,
+      "original_s": 1.58,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__V1KO_4.swc",
+      "n_nodes": 726,
+      "fast_s": 0.2,
+      "original_s": 0.46,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20190219_sample_7.swc",
+      "n_nodes": 973,
+      "fast_s": 0.42,
+      "original_s": 1.36,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__SST2A-GFP-SST-VGLUT2-cell-2.swc",
+      "n_nodes": 96,
+      "fast_s": 0.15,
+      "original_s": 0.22,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__32315V1-4Slice6Cell1.swc",
+      "n_nodes": 1716,
+      "fast_s": 0.59,
+      "original_s": 1.65,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__23-04-18C-10-cell-5.swc",
+      "n_nodes": 1670,
+      "fast_s": 0.31,
+      "original_s": 1.03,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A4_slide1_neuron2.swc",
+      "n_nodes": 484,
+      "fast_s": 0.34,
+      "original_s": 0.88,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2-N3-1_final.swc",
+      "n_nodes": 1014,
+      "fast_s": 0.25,
+      "original_s": 0.54,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0706.swc",
+      "n_nodes": 1029,
+      "fast_s": 0.65,
+      "original_s": 2.2,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Layer-5-Ethanol-17.swc",
+      "n_nodes": 614,
+      "fast_s": 0.28,
+      "original_s": 0.6,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Layer-2-3-Ethanol-5.swc",
+      "n_nodes": 590,
+      "fast_s": 0.44,
+      "original_s": 1.09,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0812.swc",
+      "n_nodes": 1532,
+      "fast_s": 0.83,
+      "original_s": 7.76,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__C1_4.swc",
+      "n_nodes": 801,
+      "fast_s": 0.25,
+      "original_s": 0.88,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__17545_00063-semi_r.swc",
+      "n_nodes": 2395,
+      "fast_s": 1.09,
+      "original_s": 5.67,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__M2_63.swc",
+      "n_nodes": 777,
+      "fast_s": 0.21,
+      "original_s": 0.51,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18869_4001_x4383_y7249-semi_r.swc",
+      "n_nodes": 4212,
+      "fast_s": 3.71,
+      "original_s": 13.31,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__12A6neuron3Layers.swc",
+      "n_nodes": 2412,
+      "fast_s": 0.44,
+      "original_s": 1.81,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__7month-Arctic-C5aR1-KO-24_2.swc",
+      "n_nodes": 568,
+      "fast_s": 0.47,
+      "original_s": 1.04,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell24.swc",
+      "n_nodes": 9642,
+      "fast_s": 1.6,
+      "original_s": 16.01,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.22,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A_RFP_0007_2final.swc",
+      "n_nodes": 588,
+      "fast_s": 0.52,
+      "original_s": 0.96,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B716_NeuronB_40x_Tile_Trace_RK.swc",
+      "n_nodes": 563,
+      "fast_s": 0.25,
+      "original_s": 0.58,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__N055.swc",
+      "n_nodes": 4788,
+      "fast_s": 0.62,
+      "original_s": 6.85,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.31,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__N107.swc",
+      "n_nodes": 2735,
+      "fast_s": 0.56,
+      "original_s": 4.02,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.21,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A_RFP_0004_final.swc",
+      "n_nodes": 711,
+      "fast_s": 0.67,
+      "original_s": 1.31,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18869_6732_x9649_y3919-semi_r.swc",
+      "n_nodes": 4503,
+      "fast_s": 4.59,
+      "original_s": 15.49,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-2_12.swc",
+      "n_nodes": 117,
+      "fast_s": 0.32,
+      "original_s": 0.71,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__18868_2924_x10668_y9719-auto_r.swc",
+      "n_nodes": 3385,
+      "fast_s": 1.8,
+      "original_s": 9.14,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__7month-C5aR1-KO-10_3.swc",
+      "n_nodes": 369,
+      "fast_s": 0.52,
+      "original_s": 0.78,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2_slide2_10.swc",
+      "n_nodes": 1688,
+      "fast_s": 0.43,
+      "original_s": 1.4,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__107B_3_r_Ngr2KO_1.swc",
+      "n_nodes": 1272,
+      "fast_s": 0.55,
+      "original_s": 1.89,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__171115-8.swc",
+      "n_nodes": 808,
+      "fast_s": 0.54,
+      "original_s": 1.85,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20190424_sample_7.swc",
+      "n_nodes": 6686,
+      "fast_s": 1.19,
+      "original_s": 9.96,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.22,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0820.swc",
+      "n_nodes": 1858,
+      "fast_s": 1.1,
+      "original_s": 5.46,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "hpf_ca1__202413_096_edited.swc",
+      "n_nodes": 1993,
+      "fast_s": 0.49,
+      "original_s": 1.51,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "hpf_ca1__202418_009_edited.swc",
+      "n_nodes": 9483,
+      "fast_s": 1.77,
+      "original_s": 15.39,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.24,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-12_5.swc",
+      "n_nodes": 144,
+      "fast_s": 0.35,
+      "original_s": 0.95,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__08-10-15-C.swc",
+      "n_nodes": 606,
+      "fast_s": 0.18,
+      "original_s": 0.36,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A3_slide2_neuron4_II_III.swc",
+      "n_nodes": 861,
+      "fast_s": 0.34,
+      "original_s": 0.95,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__25-11-14-A-A1.swc",
+      "n_nodes": 8223,
+      "fast_s": 0.96,
+      "original_s": 18.48,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.59,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__sigma-13.swc",
+      "n_nodes": 160,
+      "fast_s": 0.16,
+      "original_s": 0.25,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__n20fts.swc",
+      "n_nodes": 2455,
+      "fast_s": 1.13,
+      "original_s": 3.83,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__10-PKCd-3d-trace.swc",
+      "n_nodes": 1219,
+      "fast_s": 0.2,
+      "original_s": 0.57,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__180702_morpho-6_hippo_tau488_trfp_map2647_Hippo-1-6_crop-9.swc",
+      "n_nodes": 722,
+      "fast_s": 0.2,
+      "original_s": 0.37,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__236-3-61LS.swc",
+      "n_nodes": 307,
+      "fast_s": 0.38,
+      "original_s": 0.87,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__AA0310.swc",
+      "n_nodes": 2234,
+      "fast_s": 1.68,
+      "original_s": 8.46,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B3_slide2_10.swc",
+      "n_nodes": 621,
+      "fast_s": 0.38,
+      "original_s": 0.59,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Cell-3-3_5.swc",
+      "n_nodes": 363,
+      "fast_s": 0.42,
+      "original_s": 1.14,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__106E_1_l_WT_1.swc",
+      "n_nodes": 1052,
+      "fast_s": 0.7,
+      "original_s": 1.46,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__MAM02_Neuron2_CA1_PN_D_Slide3_R2_C1.swc",
+      "n_nodes": 447,
+      "fast_s": 0.39,
+      "original_s": 0.77,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__204B-2-R3.swc",
+      "n_nodes": 1568,
+      "fast_s": 0.53,
+      "original_s": 1.24,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__C10-23.swc",
+      "n_nodes": 310,
+      "fast_s": 0.26,
+      "original_s": 0.53,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__Layer-6-Ethanol-20.swc",
+      "n_nodes": 223,
+      "fast_s": 0.29,
+      "original_s": 0.51,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A2_slide3_neuron3_II_III.swc",
+      "n_nodes": 813,
+      "fast_s": 0.3,
+      "original_s": 0.97,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo-1159-3new.swc",
+      "n_nodes": 105,
+      "fast_s": 0.15,
+      "original_s": 0.28,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__cortex-229-6.swc",
+      "n_nodes": 33,
+      "fast_s": 0.11,
+      "original_s": 0.17,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__P120117-02-AAC.swc",
+      "n_nodes": 549,
+      "fast_s": 0.31,
+      "original_s": 0.72,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__hippo-157-5.swc",
+      "n_nodes": 25,
+      "fast_s": 0.09,
+      "original_s": 0.15,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__20190128_sample_6.swc",
+      "n_nodes": 1178,
+      "fast_s": 0.59,
+      "original_s": 1.25,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__S1_3.swc",
+      "n_nodes": 348,
+      "fast_s": 0.16,
+      "original_s": 0.32,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__B_RFP_0005_2final.swc",
+      "n_nodes": 1032,
+      "fast_s": 0.72,
+      "original_s": 1.54,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.19,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__A1_slide2_4.swc",
+      "n_nodes": 446,
+      "fast_s": 0.58,
+      "original_s": 0.87,
+      "fast_peak_gb": 0.2,
+      "original_peak_gb": 0.2,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "allen__H17.03.009.11.11.01_596887423.swc",
+      "n_nodes": 8499,
+      "fast_s": 1.36,
+      "original_s": 9.29,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.23,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "neuromorpho__6N5DAT6-50717GFPwtb_013-GFPwt12a.swc",
+      "n_nodes": 91,
+      "fast_s": 0.16,
+      "original_s": 0.23,
+      "fast_peak_gb": 0.18,
+      "original_peak_gb": 0.18,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "allen__H16.06.008.01.20.04_528038990.swc",
+      "n_nodes": 11828,
+      "fast_s": 1.26,
+      "original_s": 8.15,
+      "fast_peak_gb": 0.19,
+      "original_peak_gb": 0.3,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    }
+  ]
+}

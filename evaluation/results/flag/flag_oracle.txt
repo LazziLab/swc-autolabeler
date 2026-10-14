@@ -1,0 +1,8 @@
+FLAG VS ORACLE -- leave-one-seed-out, pyramidal, mean over held-out seeds 42, 123, 789
+no flag: kept-P10 0.7745
+
+  reject   flag P10   oracle P10   gap    share of oracle gain
+     5%    0.8501     0.8917    0.042     64%
+    10%    0.9218     0.9722    0.050     74%
+    12%    0.9378     0.9863    0.048     77%
+    15%    0.9678     0.9961    0.028     87%

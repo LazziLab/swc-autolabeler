@@ -1,0 +1,27 @@
+Stage 2 subtree-owner evaluation (seed 789)
+model : pipeline/models/seed789/branch_classifier.pkl
+
+[pyramidal]  10329 subtrees / 12926556 nodes
+  subtree accuracy       : 0.9656
+  node-weighted accuracy : 0.9889
+  predictions md5        : bfad9c9c3451bbb31c9e9a0944089362
+  class          precision   recall       f1  support
+  axon              0.9797   0.7396   0.8429      718
+  basal/dendrite    0.9725   0.9897   0.9810     8805
+  apical            0.8815   0.9045   0.8928      806
+  confusion (rows=true, cols=pred; ['axon', 'basal/dendrite', 'apical']):
+    axon           [531, 173, 14]
+    basal/dendrite [7, 8714, 84]
+    apical         [4, 73, 729]
+
+[interneuron]  3823 subtrees / 5446264 nodes
+  subtree accuracy       : 0.9901
+  node-weighted accuracy : 0.9792
+  predictions md5        : 97b67597a2caeed8ba4ee51e00aa8796
+  class          precision   recall       f1  support
+  axon              0.9767   0.9286   0.9520      406
+  basal/dendrite    0.9916   0.9974   0.9945     3417
+  confusion (rows=true, cols=pred; ['axon', 'basal/dendrite']):
+    axon           [377, 29]
+    basal/dendrite [9, 3408]
+

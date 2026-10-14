@@ -1,0 +1,24 @@
+STAGE 3 RULE ABLATION -- mean over seeds 42, 123, 789, 600 held-out cells each
+
+Each row removes one rule and keeps the rest. A negative delta means the
+rule helps. The three counts are totals over the seeds; the deltas are
+per-seed means (SD). 'touched' counts cells whose labels change without it,
+within
+the cell type the rule applies to.
+
+  rule                          scope             dP10            dMean  touched  helped  harmed
+  single_axon               pyramidal   -0.0096 (0.0145)   -0.0001 (0.0007)        3       2       1
+  apical_owner              pyramidal   -0.0006 (0.0011)   -0.0001 (0.0001)        5       4       1
+  subtree_voting            pyramidal   +0.0000 (0.0000)   +0.0000 (0.0000)        0       0       0
+  apical_principal_axis     pyramidal   +0.0000 (0.0000)   +0.0002 (0.0003)        5       2       3
+  soft_majority           interneuron   +0.0000 (0.0000)   +0.0000 (0.0000)        0       0       0
+  axon_bias               interneuron   +0.0013 (0.0032)   -0.0001 (0.0007)        2       1       1
+  ------------------------------------------------------------------------------------------
+  no_stage3                      both   -0.0150 (0.0138)   -0.0009 (0.0006)       21      14       7
+
+Stage 3 as a whole
+
+  with Stage 3       acc 0.9836 (0.0033)   pcF1 mean 0.9545 (0.0063)   P10 0.8702 (0.0409)
+  without Stage 3    acc 0.9830 (0.0045)   pcF1 mean 0.9536 (0.0060)   P10 0.8552 (0.0513)
+
+  Dormant on this corpus (no cell changed): subtree_voting, soft_majority

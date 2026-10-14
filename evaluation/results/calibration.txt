@@ -1,0 +1,25 @@
+CALIBRATION OF THE PIPELINE'S POSTERIORS -- ECE over 10 equal-width bins, multi-class Brier
+
+stage1                 in_distribution  unweighted     units      7023  acc 0.9745  conf 0.9554  ECE 0.0191  Brier 0.0391
+stage1                 external         unweighted     units      1967  acc 0.8383  conf 0.8900  ECE 0.0581  Brier 0.2392
+
+stage2                 in_distribution  unweighted     units     43025  acc 0.9701  conf 0.8953  ECE 0.0752  Brier 0.0546
+stage2                 in_distribution  node_weighted  units     43025  acc 0.9865  conf 0.9086  ECE 0.0785  Brier 0.0321
+stage2                 external         unweighted     units     13406  acc 0.9006  conf 0.8660  ECE 0.0428  Brier 0.1630
+stage2                 external         node_weighted  units     13406  acc 0.9330  conf 0.8589  ECE 0.0745  Brier 0.1152
+
+correction             in_distribution  unweighted     units    252095  acc 0.9610  conf 0.9575  ECE 0.0039  Brier 0.0604
+correction             in_distribution  node_weighted  units    252095  acc 0.9611  conf 0.9562  ECE 0.0057  Brier 0.0600
+correction             external         unweighted     units    136882  acc 0.8258  conf 0.9040  ECE 0.0781  Brier 0.2760
+correction             external         node_weighted  units    136882  acc 0.8827  conf 0.9000  ECE 0.0177  Brier 0.1779
+
+correction_above_tau   in_distribution  unweighted     units    245135  acc 0.9718  conf 0.9686  ECE 0.0037  Brier 0.0479
+correction_above_tau   in_distribution  node_weighted  units    245135  acc 0.9729  conf 0.9681  ECE 0.0056  Brier 0.0463
+correction_above_tau   external         unweighted     units    125990  acc 0.8533  conf 0.9333  ECE 0.0800  Brier 0.2520
+correction_above_tau   external         node_weighted  units    125990  acc 0.9164  conf 0.9322  ECE 0.0161  Brier 0.1434
+
+Reliability, in distribution (unweighted): confidence bin -> share, mean confidence, accuracy
+  stage1: 0.5-0.6 2.0% 0.548/0.603; 0.6-0.7 2.1% 0.654/0.685; 0.7-0.8 2.8% 0.754/0.804; 0.8-0.9 5.5% 0.856/0.948; 0.9-1.0 87.6% 0.985/0.997
+  stage2: 0.3-0.4 0.0% 0.367/0.500; 0.4-0.5 0.5% 0.477/0.435; 0.5-0.6 1.5% 0.549/0.553; 0.6-0.7 1.6% 0.651/0.679; 0.7-0.8 2.5% 0.756/0.811; 0.8-0.9 17.3% 0.876/0.955; 0.9-1.0 76.6% 0.919/0.996
+  correction: 0.3-0.4 0.0% 0.379/0.306; 0.4-0.5 0.2% 0.471/0.492; 0.5-0.6 1.6% 0.550/0.558; 0.6-0.7 1.9% 0.651/0.663; 0.7-0.8 2.7% 0.753/0.753; 0.8-0.9 5.4% 0.858/0.853; 0.9-1.0 88.1% 0.985/0.989
+  correction_above_tau: 0.6-0.7 1.0% 0.676/0.685; 0.7-0.8 2.8% 0.753/0.753; 0.8-0.9 5.5% 0.858/0.853; 0.9-1.0 90.7% 0.985/0.989

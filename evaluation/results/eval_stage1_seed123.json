@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.9746044962531224,
+  "macro_f1": 0.9680643238336237,
+  "per_class": {
+    "pyramidal": {
+      "precision": 0.9827981651376146,
+      "recall": 0.9822349570200573,
+      "f1": 0.9825164803668673,
+      "support": 1745
+    },
+    "interneuron": {
+      "precision": 0.952887537993921,
+      "recall": 0.954337899543379,
+      "f1": 0.9536121673003802,
+      "support": 657
+    }
+  },
+  "confusion_matrix": [
+    [
+      1714,
+      31
+    ],
+    [
+      30,
+      627
+    ]
+  ],
+  "seed": 123,
+  "test_size": 0.2,
+  "model": "pipeline/models/seed123/cell_type_classifier.pkl",
+  "model_dir": "pipeline/models/seed123",
+  "n_test": 2402,
+  "n_failed": 0,
+  "failed_files": [],
+  "elapsed_min": 0.45
+}

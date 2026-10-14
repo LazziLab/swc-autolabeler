@@ -1,0 +1,11 @@
+NPIN (retrained) vs the pipeline, axon vs dendrite, non-soma nodes; mean (SD) over seeds 42, 123, 789
+
+pyramidal
+  npin  accuracy 0.9761 (0.0016)  axon_f1 0.9853 (0.0012)  dendrite_f1 0.9346 (0.0014)  macro_f1 0.9600 (0.0010)  pcf1_mean 0.8885 (0.0048)  pcf1_p10 0.4932 (0.0016)
+  ours  accuracy 0.9962 (0.0011)  axon_f1 0.9977 (0.0007)  dendrite_f1 0.9896 (0.0031)  macro_f1 0.9936 (0.0019)  pcf1_mean 0.9712 (0.0029)  pcf1_p10 0.9919 (0.0022)
+interneuron
+  npin  accuracy 0.9049 (0.0041)  axon_f1 0.9347 (0.0033)  dendrite_f1 0.8249 (0.0058)  macro_f1 0.8798 (0.0042)  pcf1_mean 0.8577 (0.0241)  pcf1_p10 0.5063 (0.0677)
+  ours  accuracy 0.9767 (0.0032)  axon_f1 0.9841 (0.0021)  dendrite_f1 0.9564 (0.0060)  macro_f1 0.9703 (0.0041)  pcf1_mean 0.9616 (0.0055)  pcf1_p10 1.0000 (0.0000)
+all
+  npin  accuracy 0.9562 (0.0026)  axon_f1 0.9723 (0.0019)  dendrite_f1 0.8944 (0.0031)  macro_f1 0.9334 (0.0023)  pcf1_mean 0.8796 (0.0095)  pcf1_p10 0.4927 (0.0023)
+  ours  accuracy 0.9907 (0.0003)  axon_f1 0.9941 (0.0003)  dendrite_f1 0.9776 (0.0003)  macro_f1 0.9859 (0.0002)  pcf1_mean 0.9685 (0.0026)  pcf1_p10 0.9954 (0.0023)

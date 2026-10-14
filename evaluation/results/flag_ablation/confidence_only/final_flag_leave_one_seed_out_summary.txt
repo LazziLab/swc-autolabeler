@@ -1,0 +1,20 @@
+Flag model leave-one-seed-out summary
+========================================================================
+Target bad label: per-cell neurite F1 < 0.60
+
+interneuron ours_oof-confidence_only fixed_reject_rate   0.05 | P 0.399+/-0.062 R 0.342+/-0.037 flag 33.3 fp 20.0 fn 25.7 keptP10 1.0000
+interneuron ours_oof-confidence_only fixed_reject_rate   0.10 | P 0.328+/-0.049 R 0.567+/-0.083 flag 67.0 fp 45.0 fn 17.0 keptP10 1.0000
+interneuron ours_oof-confidence_only fixed_reject_rate   0.12 | P 0.296+/-0.044 R 0.609+/-0.075 flag 80.0 fp 56.3 fn 15.3 keptP10 1.0000
+interneuron ours_oof-confidence_only fixed_reject_rate   0.15 | P 0.250+/-0.050 R 0.640+/-0.081 flag 100.0 fp 75.0 fn 14.0 keptP10 1.0000
+interneuron ours_oof-confidence_only validation_recall   0.50 | P 0.331+/-0.040 R 0.567+/-0.083 flag 66.3 fp 44.3 fn 17.0 keptP10 1.0000
+interneuron ours_oof-confidence_only validation_recall   0.70 | P 0.258+/-0.059 R 0.691+/-0.135 flag 106.0 fp 79.3 fn 12.3 keptP10 1.0000
+interneuron ours_oof-confidence_only validation_recall   0.80 | P 0.188+/-0.034 R 0.747+/-0.150 flag 159.7 fp 130.7 fn 10.0 keptP10 1.0000
+interneuron ours_oof-confidence_only validation_recall   0.90 | P 0.085+/-0.039 R 0.980+/-0.035 flag 523.3 fp 485.0 fn 0.7 keptP10 1.0000
+pyramidal   ours_oof-confidence_only fixed_reject_rate   0.05 | P 0.315+/-0.043 R 0.337+/-0.101 flag 83.7 fp 57.3 fn 55.0 keptP10 0.8319
+pyramidal   ours_oof-confidence_only fixed_reject_rate   0.10 | P 0.235+/-0.016 R 0.494+/-0.075 flag 167.3 fp 128.0 fn 42.0 keptP10 0.8780
+pyramidal   ours_oof-confidence_only fixed_reject_rate   0.12 | P 0.209+/-0.020 R 0.525+/-0.062 flag 200.7 fp 158.7 fn 39.3 keptP10 0.8992
+pyramidal   ours_oof-confidence_only fixed_reject_rate   0.15 | P 0.196+/-0.010 R 0.621+/-0.094 flag 251.3 fp 202.0 fn 32.0 keptP10 0.9332
+pyramidal   ours_oof-confidence_only validation_recall   0.50 | P 0.228+/-0.102 R 0.603+/-0.273 flag 243.0 fp 197.0 fn 35.3 keptP10 0.9217
+pyramidal   ours_oof-confidence_only validation_recall   0.70 | P 0.177+/-0.076 R 0.680+/-0.214 flag 344.3 fp 291.3 fn 28.3 keptP10 0.9445
+pyramidal   ours_oof-confidence_only validation_recall   0.80 | P 0.126+/-0.042 R 0.808+/-0.160 flag 541.0 fp 476.7 fn 17.0 keptP10 0.9907
+pyramidal   ours_oof-confidence_only validation_recall   0.90 | P 0.094+/-0.031 R 0.898+/-0.068 flag 804.7 fp 732.0 fn 8.7 keptP10 1.0000

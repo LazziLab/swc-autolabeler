@@ -1,0 +1,17 @@
+Failure-mode breakdown (pyramidal, 5025 cell-seed rows)
+bad = bottom decile of per-cell neurite F1 (F1 <= 0.7681): 503 rows
+flag operating point: reject 10%, leave-one-seed-out scores
+enrichment ceiling 10x; a cell may match several modes
+
+  category                      bad   enrich  recall  false
+  Apical missed                 122    9.99x   0.549      0
+  Stage 1 propagation            62    9.99x   0.919      0
+  Apical over-predicted          24    9.99x   0.458      0
+  Apical under-predicted        167    9.87x   0.539      0
+  Basal lost                     74    9.86x   0.595      1
+  Whole-cell mislabel            11    7.33x   0.909      4
+  Axon/dendrite confusion       224    6.36x   0.420     17
+  Truncated apical               29    5.47x   0.414      6
+  Apical not opposed to basal    41    2.81x   0.463     19
+
+89 of 503 bad rows matched no category.

@@ -1,0 +1,29 @@
+Full-pipeline evaluation (seed 123, GT cell type, correction=intrinsic)
+model : pipeline/models/seed123
+test  : 2402 cells, 19829302 nodes  (9.3 min)
+
+[corpus]
+  accuracy 0.9832   macro-F1 0.9644   neurite-macro-F1 0.9525
+  pcF1 mean 0.9432   pcF1 P10 0.7607
+  class             prec     rec      f1   support
+  soma            1.0000  1.0000  1.0000      2402
+  axon            0.9928  0.9955  0.9942  15660882
+  basal           0.9635  0.9406  0.9519   3165922
+  apical          0.8964  0.9268  0.9114   1000096
+
+[pyramidal] n_nodes=14195243
+  accuracy 0.9855   macro-F1 0.9654   neurite-macro-F1 0.9539
+  pcF1 mean 0.9378   pcF1 P10 0.7329
+  class             prec     rec      f1   support
+  soma            1.0000  1.0000  1.0000      1745
+  axon            0.9984  0.9953  0.9969  11572642
+  basal           0.9501  0.9422  0.9461   1636728
+  apical          0.8964  0.9418  0.9186    984128
+
+[interneuron] n_nodes=5634059
+  accuracy 0.9776   macro-F1 0.9816   neurite-macro-F1 0.9724
+  pcF1 mean 0.9574   pcF1 P10 1.0000
+  class             prec     rec      f1   support
+  soma            1.0000  1.0000  1.0000       657
+  axon            0.9773  0.9959  0.9865   4088240
+  basal           0.9784  0.9388  0.9582   1529194

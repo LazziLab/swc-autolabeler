@@ -1,0 +1,127 @@
+{
+  "labels": "evaluation/results/flag/final_flag_multiseed_labels.csv",
+  "features": "evaluation/results/flag/final_flag_multiseed_features.csv",
+  "feature_mode": "ours_oof-mean_confidence",
+  "target_threshold": 0.6,
+  "seeds": [
+    123,
+    42,
+    789
+  ],
+  "scopes": [
+    "pyramidal",
+    "interneuron"
+  ],
+  "recall_targets": [
+    0.5,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "reject_rates": [
+    0.05,
+    0.1,
+    0.12,
+    0.15
+  ],
+  "precision_targets": [
+    0.7,
+    0.8,
+    0.9
+  ],
+  "n_rows_loaded": 7023,
+  "base_seed": 2026,
+  "saved_models": [],
+  "leak_checks": [
+    {
+      "test_seed": 123,
+      "train": 1949,
+      "val": 657,
+      "test": 1745,
+      "train_val_dropped_for_test_file_overlap": 674,
+      "train_test_file_overlap": 0,
+      "val_test_file_overlap": 0,
+      "train_val_file_overlap": 0,
+      "scope": "pyramidal",
+      "feature_mode": "ours_oof-mean_confidence",
+      "split_seed": 2026,
+      "model_seed": 2149
+    },
+    {
+      "test_seed": 42,
+      "train": 2050,
+      "val": 679,
+      "test": 1662,
+      "train_val_dropped_for_test_file_overlap": 634,
+      "train_test_file_overlap": 0,
+      "val_test_file_overlap": 0,
+      "train_val_file_overlap": 0,
+      "scope": "pyramidal",
+      "feature_mode": "ours_oof-mean_confidence",
+      "split_seed": 2026,
+      "model_seed": 2068
+    },
+    {
+      "test_seed": 789,
+      "train": 2059,
+      "val": 694,
+      "test": 1618,
+      "train_val_dropped_for_test_file_overlap": 654,
+      "train_test_file_overlap": 0,
+      "val_test_file_overlap": 0,
+      "train_val_file_overlap": 0,
+      "scope": "pyramidal",
+      "feature_mode": "ours_oof-mean_confidence",
+      "split_seed": 2026,
+      "model_seed": 2815
+    },
+    {
+      "test_seed": 123,
+      "train": 818,
+      "val": 264,
+      "test": 657,
+      "train_val_dropped_for_test_file_overlap": 259,
+      "train_test_file_overlap": 0,
+      "val_test_file_overlap": 0,
+      "train_val_file_overlap": 0,
+      "scope": "interneuron",
+      "feature_mode": "ours_oof-mean_confidence",
+      "split_seed": 2026,
+      "model_seed": 2149
+    },
+    {
+      "test_seed": 42,
+      "train": 794,
+      "val": 265,
+      "test": 666,
+      "train_val_dropped_for_test_file_overlap": 273,
+      "train_test_file_overlap": 0,
+      "val_test_file_overlap": 0,
+      "train_val_file_overlap": 0,
+      "scope": "interneuron",
+      "feature_mode": "ours_oof-mean_confidence",
+      "split_seed": 2026,
+      "model_seed": 2068
+    },
+    {
+      "test_seed": 789,
+      "train": 797,
+      "val": 264,
+      "test": 675,
+      "train_val_dropped_for_test_file_overlap": 262,
+      "train_test_file_overlap": 0,
+      "val_test_file_overlap": 0,
+      "train_val_file_overlap": 0,
+      "scope": "interneuron",
+      "feature_mode": "ours_oof-mean_confidence",
+      "split_seed": 2026,
+      "model_seed": 2815
+    }
+  ],
+  "outputs": {
+    "csv": "evaluation/results/flag_ablation/mean_confidence/final_flag_leave_one_seed_out.csv",
+    "summary": "evaluation/results/flag_ablation/mean_confidence/final_flag_leave_one_seed_out_summary.csv",
+    "summary_txt": "evaluation/results/flag_ablation/mean_confidence/final_flag_leave_one_seed_out_summary.txt",
+    "before_after": "evaluation/results/flag_ablation/mean_confidence/final_flag_before_after.csv"
+  }
+}

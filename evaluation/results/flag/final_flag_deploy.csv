@@ -1,0 +1,3 @@
+scope,feature_mode,model_path,n_rows,n_bad,model,n_numeric_features,n_categorical_features,test_ap_rank,test_auc_rank
+pyramidal,ours_oof,pipeline/models/flag_model/flag_model_pyramidal_ours_oof_regf1.joblib,5025,244,xgb,113,1,0.505629867294657,0.9028234175025941
+interneuron,ours_oof,pipeline/models/flag_model/flag_model_interneuron_ours_oof_regf1.joblib,1998,117,xgb,113,1,0.48650248389531126,0.8982337662337663

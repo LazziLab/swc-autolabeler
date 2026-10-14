@@ -1,0 +1,15 @@
+THRESHOLD SELECTION AND SENSITIVITY (leave-one-seed-out)
+
+seed 42: LOSO selects tau 0.80 | macro-F1 selected 0.9545 vs shipped 0.9545 (delta +0.0000) | P10 0.7858 vs 0.8188
+seed 123: LOSO selects tau 0.75 | macro-F1 selected 0.9519 vs shipped 0.9517 (delta +0.0002) | P10 0.7269 vs 0.7505
+seed 789: LOSO selects tau 0.75 | macro-F1 selected 0.9626 vs shipped 0.9623 (delta +0.0002) | P10 0.8233 vs 0.8398
+
+Deployment sensitivity to tau, 3-seed mean:
+  tau        0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85    0.90
+  macroF1  0.9549  0.9554  0.9559  0.9562  0.9563  0.9564  0.9563  0.9561  0.9558
+  P10      0.7982  0.8000  0.8012  0.8030  0.7937  0.7820  0.7608  0.7321  0.6884
+
+GT-cell-type sensitivity to tau, 3-seed mean:
+  tau        0.50    0.55    0.60    0.65    0.70    0.75    0.80    0.85    0.90
+  macroF1  0.9584  0.9590  0.9594  0.9597  0.9598  0.9598  0.9597  0.9595  0.9592
+  P10      0.8177  0.8195  0.8201  0.8192  0.8120  0.8057  0.7891  0.7595  0.7255

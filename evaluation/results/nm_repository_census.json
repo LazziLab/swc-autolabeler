@@ -1,0 +1,39 @@
+{
+ "total": 298339,
+ "physical_integrity": {
+  "Dendrites Moderate": 58569,
+  "Dendrites Complete": 41781,
+  "Dendrites & Axon Moderate": 2795,
+  "Dendrites & Axon Complete": 7246,
+  "Neurites Moderate": 20764,
+  "Axon Complete": 28202,
+  "Dendrites Complete, Axon Incomplete": 3444,
+  "Dendrites Incomplete": 3907,
+  "Dendrites Moderate, Axon Incomplete": 7948,
+  "Axon Moderate": 1463,
+  "Axon Incomplete": 2190,
+  "Dendrites Complete, Axon Moderate": 2780,
+  "ERROR! Physical integrity not processed from DB": 229,
+  "Neurites Complete": 24320,
+  "Process Moderate": 39375,
+  "Dendrites Incomplete, Axon Moderate": 29,
+  "Process Complete": 52071,
+  "Neurites Incomplete": 8,
+  "Dendrites & Axon Incomplete": 3,
+  "Dendrites Moderate, Axon Complete": 1134,
+  "Process Incomplete": 80,
+  "MISSING": 1
+ },
+ "domain": {
+  "Dendrites, Soma, No Axon": 83255,
+  "Dendrites, Soma, Axon": 22491,
+  "Neurites, No Soma": 18531,
+  "No Dendrites, Soma, Axon": 1500,
+  "Dendrites, No Soma, No Axon": 19887,
+  "No Dendrites, No Soma, Axon": 30368,
+  "Dendrites, No Soma, Axon": 656,
+  "Neurites, Soma": 28752,
+  "Processes, Soma": 78735,
+  "Processes, No Soma": 14164
+ }
+}

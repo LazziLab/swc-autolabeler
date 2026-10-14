@@ -1,0 +1,51 @@
+Baseline summary (macro F1 over GT-present classes, soma excluded; seed=42 hash split, source-prefix hpf_ca1__)
+{
+  "neurom_rf": {
+    "accuracy": 0.9576,
+    "neurite_macro_f1": 0.7817,
+    "apical_f1": 0.6234,
+    "per_cell_F1_mean": 0.8236,
+    "per_cell_F1_p10": 0.6945,
+    "per_cell_F1_p25": 0.775
+  },
+  "lmeasure_rf": {
+    "accuracy": 0.9919,
+    "neurite_macro_f1": 0.9511,
+    "apical_f1": 0.9289,
+    "per_cell_F1_mean": 0.956,
+    "per_cell_F1_p10": 0.8399,
+    "per_cell_F1_p25": 1.0
+  },
+  "sholl_rf": {
+    "accuracy": 0.9917,
+    "neurite_macro_f1": 0.9498,
+    "apical_f1": 0.9261,
+    "per_cell_F1_mean": 0.9597,
+    "per_cell_F1_p10": 0.8644,
+    "per_cell_F1_p25": 1.0
+  },
+  "sholl_mlp": {
+    "accuracy": 0.9908,
+    "neurite_macro_f1": 0.9445,
+    "apical_f1": 0.9186,
+    "per_cell_F1_mean": 0.9485,
+    "per_cell_F1_p10": 0.7616,
+    "per_cell_F1_p25": 1.0
+  },
+  "majority": {
+    "accuracy": 0.0409,
+    "neurite_macro_f1": 0.0262,
+    "apical_f1": 0.0,
+    "per_cell_F1_mean": 0.0393,
+    "per_cell_F1_p10": 0.0124,
+    "per_cell_F1_p25": 0.018
+  },
+  "rules_only": {
+    "accuracy": 0.5333,
+    "neurite_macro_f1": 0.4789,
+    "apical_f1": 0.0768,
+    "per_cell_F1_mean": 0.5711,
+    "per_cell_F1_p10": 0.1347,
+    "per_cell_F1_p25": 0.1653
+  }
+}

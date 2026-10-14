@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Autolabeler: automatic axon, basal and apical labeling of SWC neuron reconstructions"
+abstract: >-
+  A staged pipeline that labels every node of an SWC reconstruction as soma,
+  axon, basal dendrite or apical dendrite, and flags the cells most likely to
+  need expert review. Ships trained models for three seeds, an all-in-one
+  variant over the same features, and the drivers that regenerate every number
+  in the accompanying paper.
+type: software
+license: MIT
+authors:
+  - given-names: Xinran
+    family-names: Shi
+    email: shixinra@usc.edu
+    affiliation: "Institute for Technology and Medical Systems (ITEMS), and Ming Hsieh Department of Electrical and Computer Engineering, University of Southern California"
+  - given-names: Jean-Marie C.
+    family-names: Bouteiller
+    affiliation: "Institute for Technology and Medical Systems (ITEMS), University of Southern California"
+  - given-names: Michael
+    family-names: Bienkowski
+    affiliation: "Department of Physiology and Neuroscience, Keck School of Medicine, University of Southern California"
+  - given-names: Gianluca
+    family-names: Lazzi
+    affiliation: "Institute for Technology and Medical Systems (ITEMS), University of Southern California"
+keywords:
+  - neuroinformatics
+  - neuronal morphology
+  - SWC
+  - compartment labeling
+  - quality control
+repository-code: "https://github.com/LazziLab/swc-autolabeler"
+version: 1.0.0
+date-released: "2026-09-22"
+preferred-citation:
+  type: article
+  title: "A staged classifier–topology pipeline for automatic axon, basal, and apical labeling of neuronal morphology reconstructions"
+  authors:
+    - given-names: Xinran
+      family-names: Shi
+    - given-names: Jean-Marie C.
+      family-names: Bouteiller
+    - given-names: Michael
+      family-names: Bienkowski
+    - given-names: Gianluca
+      family-names: Lazzi
+  journal: Neuroinformatics
+  year: 2026
+  status: submitted

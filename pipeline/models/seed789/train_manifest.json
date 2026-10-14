@@ -1,0 +1,30 @@
+{
+  "seed": 789,
+  "seed_was_random": false,
+  "test_size": 0.2,
+  "data_dir": "data",
+  "counts": {
+    "pyramidal": {
+      "train": 6870,
+      "test": 1618
+    },
+    "interneuron": {
+      "train": 2699,
+      "test": 675
+    }
+  },
+  "skipped": [],
+  "timings_min": {
+    "stage1": 1.31,
+    "stage2": 8.51,
+    "correction": 18.47,
+    "flag": 10.59
+  },
+  "artifacts": {
+    "cell_type_classifier.pkl": true,
+    "branch_classifier.pkl": true,
+    "branch_correction.joblib": true,
+    "flag_model.joblib": true
+  },
+  "notes": "Stage 0 (QC) and Stage 3 (topology refinement) are rule-based, no training. Stage 4 is the single-seed quality flag (skip with --skip flag); the paper's stronger multi-seed flag is separate."
+}

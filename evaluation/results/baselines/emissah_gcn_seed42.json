@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "n_test_cells": 1662,
+  "test_size": 0.2,
+  "val_file_exact": 0.41642228739002934,
+  "best_epoch": 12,
+  "epochs": 50,
+  "protocol": "GT cell type, GT axon/soma supplied, one-apical prior enforced (both from the released prediction rules)",
+  "corpus": {
+    "accuracy": 0.9066,
+    "neurite_macro_f1": 0.7873,
+    "per_class": {
+      "soma": 1.0,
+      "axon": 0.9623,
+      "basal/dendrite": 0.8147,
+      "apical": 0.5849
+    },
+    "pcf1_mean": 0.8267445848375452,
+    "pcf1_p10": 0.5
+  }
+}

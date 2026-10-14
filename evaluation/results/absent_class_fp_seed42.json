@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "model_dir": "pipeline/models/seed42",
+  "axon_absent": {
+    "n_cells": 1210,
+    "n_qualified": 1210,
+    "n_without_neurite": 0,
+    "files_without_neurite": [],
+    "mean_pred_share": 0.006944810016217887,
+    "max_pred_share": 0.9946996466431095,
+    "frac_under_1pct": 0.9570247933884297,
+    "inverted_threshold": 0.5,
+    "n_inverted": 7,
+    "inverted_files": [
+      "neuromorpho__081103a.swc",
+      "neuromorpho__150504_2.swc",
+      "neuromorpho__170313_2.swc",
+      "neuromorpho__170321_1.swc",
+      "neuromorpho__AAS3.swc",
+      "neuromorpho__J31a.swc",
+      "neuromorpho__n422.swc"
+    ]
+  },
+  "apical_absent": {
+    "n_cells": 833,
+    "n_qualified": 833,
+    "n_without_neurite": 0,
+    "files_without_neurite": [],
+    "mean_pred_share": 0.0359074248648322,
+    "max_pred_share": 1.0,
+    "frac_under_1pct": 0.8883553421368547,
+    "inverted_threshold": 0.5,
+    "n_inverted": 23,
+    "inverted_files": [
+      "neuromorpho__1103-1-Sec6-LTL2.swc",
+      "neuromorpho__11224c3.swc",
+      "neuromorpho__1A4.swc",
+      "neuromorpho__241-1-6VN.swc",
+      "neuromorpho__241-2-35VN.swc",
+      "neuromorpho__389-01-01.swc",
+      "neuromorpho__554-1-R4.swc",
+      "neuromorpho__C912-WT-basal-2.swc",
+      "neuromorpho__Cell-12_8.swc",
+      "neuromorpho__Cell-3-2_10.swc",
+      "neuromorpho__Cell-3_14.swc",
+      "neuromorpho__Cell-9-2_5.swc",
+      "neuromorpho__Exp_V1B-L5_cell1.swc",
+      "neuromorpho__Green_19weeks_Neuron6.swc",
+      "neuromorpho__Green_6weeks_Neuron2_addl.swc",
+      "neuromorpho__Green_7-5weeks_Neuron7.swc",
+      "neuromorpho__Gunnersen_A15b4slice4LHS.swc",
+      "neuromorpho__Gunnersen_B15b4slice1RHS.swc",
+      "neuromorpho__HIP_CA1_KO_19.swc",
+      "neuromorpho__Red_4weeks_Neuron12_addl.swc",
+      "neuromorpho__SW150113-01RabiesPHALPFC_x772_y876_z296_4.swc",
+      "neuromorpho__WT3-neuron2.swc",
+      "neuromorpho__het_1_51.swc"
+    ]
+  }
+}

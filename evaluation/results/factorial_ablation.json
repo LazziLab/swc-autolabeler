@@ -1,0 +1,1153 @@
+{
+  "seeds": [
+    42,
+    123,
+    789
+  ],
+  "configs": [
+    "neither",
+    "rules_only",
+    "correction_only",
+    "both"
+  ],
+  "metrics": [
+    "accuracy",
+    "neurite_macro_f1",
+    "axon_f1",
+    "basal_f1",
+    "apical_f1",
+    "pcf1_mean",
+    "pcf1_p10"
+  ],
+  "per_seed": {
+    "42": {
+      "n_cells": 2328,
+      "neither": {
+        "all": {
+          "accuracy": 0.9852,
+          "neurite_macro_f1": 0.9587,
+          "axon_f1": 0.9943,
+          "basal_f1": 0.9566,
+          "apical_f1": 0.9251,
+          "pcf1_mean": 0.9313379725085912,
+          "pcf1_p10": 0.65857
+        },
+        "pyramidal": {
+          "accuracy": 0.9889,
+          "neurite_macro_f1": 0.962,
+          "axon_f1": 0.9977,
+          "basal_f1": 0.9566,
+          "apical_f1": 0.9317,
+          "pcf1_mean": 0.9167783393501805,
+          "pcf1_p10": 0.6515099999999999
+        }
+      },
+      "rules_only": {
+        "all": {
+          "accuracy": 0.9853,
+          "neurite_macro_f1": 0.9595,
+          "axon_f1": 0.9944,
+          "basal_f1": 0.9561,
+          "apical_f1": 0.9281,
+          "pcf1_mean": 0.9324769329896908,
+          "pcf1_p10": 0.6592
+        },
+        "pyramidal": {
+          "accuracy": 0.9891,
+          "neurite_macro_f1": 0.9627,
+          "axon_f1": 0.9979,
+          "basal_f1": 0.9556,
+          "apical_f1": 0.9347,
+          "pcf1_mean": 0.9180605896510228,
+          "pcf1_p10": 0.65242
+        }
+      },
+      "correction_only": {
+        "all": {
+          "accuracy": 0.9855,
+          "neurite_macro_f1": 0.9601,
+          "axon_f1": 0.9943,
+          "basal_f1": 0.9578,
+          "apical_f1": 0.9282,
+          "pcf1_mean": 0.9529256872852234,
+          "pcf1_p10": 0.8312900000000001
+        },
+        "pyramidal": {
+          "accuracy": 0.9894,
+          "neurite_macro_f1": 0.9638,
+          "axon_f1": 0.9978,
+          "basal_f1": 0.9587,
+          "apical_f1": 0.9348,
+          "pcf1_mean": 0.9470167268351384,
+          "pcf1_p10": 0.79081
+        }
+      },
+      "both": {
+        "all": {
+          "accuracy": 0.9856,
+          "neurite_macro_f1": 0.9607,
+          "axon_f1": 0.9944,
+          "basal_f1": 0.9569,
+          "apical_f1": 0.9307,
+          "pcf1_mean": 0.9538038230240552,
+          "pcf1_p10": 0.84634
+        },
+        "pyramidal": {
+          "accuracy": 0.9895,
+          "neurite_macro_f1": 0.9641,
+          "axon_f1": 0.9979,
+          "basal_f1": 0.9571,
+          "apical_f1": 0.9373,
+          "pcf1_mean": 0.9479336341756921,
+          "pcf1_p10": 0.79605
+        }
+      }
+    },
+    "123": {
+      "n_cells": 2402,
+      "neither": {
+        "all": {
+          "accuracy": 0.9836,
+          "neurite_macro_f1": 0.9514,
+          "axon_f1": 0.9948,
+          "basal_f1": 0.9526,
+          "apical_f1": 0.9067,
+          "pcf1_mean": 0.9205706494587844,
+          "pcf1_p10": 0.6518200000000001
+        },
+        "pyramidal": {
+          "accuracy": 0.986,
+          "neurite_macro_f1": 0.953,
+          "axon_f1": 0.9976,
+          "basal_f1": 0.9475,
+          "apical_f1": 0.9138,
+          "pcf1_mean": 0.9067944985673353,
+          "pcf1_p10": 0.64192
+        }
+      },
+      "rules_only": {
+        "all": {
+          "accuracy": 0.9826,
+          "neurite_macro_f1": 0.9499,
+          "axon_f1": 0.994,
+          "basal_f1": 0.9499,
+          "apical_f1": 0.9058,
+          "pcf1_mean": 0.9205336386344712,
+          "pcf1_p10": 0.6518200000000001
+        },
+        "pyramidal": {
+          "accuracy": 0.9845,
+          "neurite_macro_f1": 0.9507,
+          "axon_f1": 0.9967,
+          "basal_f1": 0.9424,
+          "apical_f1": 0.913,
+          "pcf1_mean": 0.9066536962750716,
+          "pcf1_p10": 0.6409
+        }
+      },
+      "correction_only": {
+        "all": {
+          "accuracy": 0.9843,
+          "neurite_macro_f1": 0.9539,
+          "axon_f1": 0.9949,
+          "basal_f1": 0.9547,
+          "apical_f1": 0.912,
+          "pcf1_mean": 0.943182889258951,
+          "pcf1_p10": 0.7617700000000001
+        },
+        "pyramidal": {
+          "accuracy": 0.9869,
+          "neurite_macro_f1": 0.9561,
+          "axon_f1": 0.9978,
+          "basal_f1": 0.9515,
+          "apical_f1": 0.9191,
+          "pcf1_mean": 0.9379203438395416,
+          "pcf1_p10": 0.73498
+        }
+      },
+      "both": {
+        "all": {
+          "accuracy": 0.9832,
+          "neurite_macro_f1": 0.9525,
+          "axon_f1": 0.9942,
+          "basal_f1": 0.9519,
+          "apical_f1": 0.9114,
+          "pcf1_mean": 0.9431776436303082,
+          "pcf1_p10": 0.7607100000000001
+        },
+        "pyramidal": {
+          "accuracy": 0.9855,
+          "neurite_macro_f1": 0.9539,
+          "axon_f1": 0.9969,
+          "basal_f1": 0.9461,
+          "apical_f1": 0.9186,
+          "pcf1_mean": 0.9378232664756447,
+          "pcf1_p10": 0.73292
+        }
+      }
+    },
+    "789": {
+      "n_cells": 2293,
+      "neither": {
+        "all": {
+          "accuracy": 0.9841,
+          "neurite_macro_f1": 0.9607,
+          "axon_f1": 0.9936,
+          "basal_f1": 0.9549,
+          "apical_f1": 0.9335,
+          "pcf1_mean": 0.9320191888355865,
+          "pcf1_p10": 0.6588200000000001
+        },
+        "pyramidal": {
+          "accuracy": 0.9883,
+          "neurite_macro_f1": 0.9636,
+          "axon_f1": 0.9978,
+          "basal_f1": 0.9586,
+          "apical_f1": 0.9343,
+          "pcf1_mean": 0.9226564894932016,
+          "pcf1_p10": 0.65474
+        }
+      },
+      "rules_only": {
+        "all": {
+          "accuracy": 0.9848,
+          "neurite_macro_f1": 0.9625,
+          "axon_f1": 0.9938,
+          "basal_f1": 0.9569,
+          "apical_f1": 0.9369,
+          "pcf1_mean": 0.9327054077627563,
+          "pcf1_p10": 0.65912
+        },
+        "pyramidal": {
+          "accuracy": 0.9893,
+          "neurite_macro_f1": 0.9662,
+          "axon_f1": 0.9981,
+          "basal_f1": 0.9627,
+          "apical_f1": 0.9377,
+          "pcf1_mean": 0.9233715080346107,
+          "pcf1_p10": 0.65521
+        }
+      },
+      "correction_only": {
+        "all": {
+          "accuracy": 0.9851,
+          "neurite_macro_f1": 0.9643,
+          "axon_f1": 0.9937,
+          "basal_f1": 0.9575,
+          "apical_f1": 0.9418,
+          "pcf1_mean": 0.9532511556912342,
+          "pcf1_p10": 0.84762
+        },
+        "pyramidal": {
+          "accuracy": 0.9896,
+          "neurite_macro_f1": 0.9681,
+          "axon_f1": 0.9979,
+          "basal_f1": 0.9637,
+          "apical_f1": 0.9426,
+          "pcf1_mean": 0.9527460444993818,
+          "pcf1_p10": 0.8378
+        }
+      },
+      "both": {
+        "all": {
+          "accuracy": 0.9856,
+          "neurite_macro_f1": 0.9659,
+          "axon_f1": 0.9939,
+          "basal_f1": 0.9592,
+          "apical_f1": 0.9446,
+          "pcf1_mean": 0.9538757522895769,
+          "pcf1_p10": 0.85058
+        },
+        "pyramidal": {
+          "accuracy": 0.9905,
+          "neurite_macro_f1": 0.9703,
+          "axon_f1": 0.9982,
+          "basal_f1": 0.9672,
+          "apical_f1": 0.9454,
+          "pcf1_mean": 0.9533737330037083,
+          "pcf1_p10": 0.8401200000000001
+        }
+      }
+    }
+  },
+  "summary": {
+    "all": {
+      "configs": {
+        "neither": {
+          "accuracy": {
+            "mean": 0.9843000000000001,
+            "sd": 0.0008185352771872159
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9569333333333333,
+            "sd": 0.004895235779135995
+          },
+          "axon_f1": {
+            "mean": 0.9942333333333333,
+            "sd": 0.0006027713773341566
+          },
+          "basal_f1": {
+            "mean": 0.9547,
+            "sd": 0.0020074859899884734
+          },
+          "apical_f1": {
+            "mean": 0.9217666666666666,
+            "sd": 0.013707418915803739
+          },
+          "pcf1_mean": {
+            "mean": 0.9279759369343207,
+            "sd": 0.006422205685552458
+          },
+          "pcf1_p10": {
+            "mean": 0.6564033333333333,
+            "sd": 0.003971250852481266
+          }
+        },
+        "rules_only": {
+          "accuracy": {
+            "mean": 0.9842333333333334,
+            "sd": 0.0014364307617609844
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9573,
+            "sd": 0.006581793068761764
+          },
+          "axon_f1": {
+            "mean": 0.9940666666666665,
+            "sd": 0.0003055050463303557
+          },
+          "basal_f1": {
+            "mean": 0.9542999999999999,
+            "sd": 0.0038314488121336016
+          },
+          "apical_f1": {
+            "mean": 0.9236,
+            "sd": 0.01603090764741656
+          },
+          "pcf1_mean": {
+            "mean": 0.9285719931289728,
+            "sd": 0.006962356455607317
+          },
+          "pcf1_p10": {
+            "mean": 0.6567133333333334,
+            "sd": 0.004237939751026804
+          }
+        },
+        "correction_only": {
+          "accuracy": {
+            "mean": 0.9849666666666667,
+            "sd": 0.0006110100926608204
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9594333333333332,
+            "sd": 0.005231953108862281
+          },
+          "axon_f1": {
+            "mean": 0.9943,
+            "sd": 0.0005999999999999894
+          },
+          "basal_f1": {
+            "mean": 0.9566666666666667,
+            "sd": 0.0017097758137642914
+          },
+          "apical_f1": {
+            "mean": 0.9273333333333333,
+            "sd": 0.014918891826584587
+          },
+          "pcf1_mean": {
+            "mean": 0.9497865774118028,
+            "sd": 0.005721276547757062
+          },
+          "pcf1_p10": {
+            "mean": 0.8135600000000002,
+            "sd": 0.04558859835529055
+          }
+        },
+        "both": {
+          "accuracy": {
+            "mean": 0.9848,
+            "sd": 0.0013856406460551415
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9597000000000001,
+            "sd": 0.0067557383016217986
+          },
+          "axon_f1": {
+            "mean": 0.9941666666666666,
+            "sd": 0.0002516611478423306
+          },
+          "basal_f1": {
+            "mean": 0.956,
+            "sd": 0.0037322915213043413
+          },
+          "apical_f1": {
+            "mean": 0.9289,
+            "sd": 0.016673032117764306
+          },
+          "pcf1_mean": {
+            "mean": 0.9502857396479801,
+            "sd": 0.0061558967829343815
+          },
+          "pcf1_p10": {
+            "mean": 0.81921,
+            "sd": 0.050706823012292866
+          }
+        }
+      },
+      "effects": {
+        "accuracy": {
+          "rules_without_correction": {
+            "mean": -6.666666666665932e-05,
+            "sd": 0.0008621678104251853
+          },
+          "rules_with_correction": {
+            "mean": -0.0001666666666666483,
+            "sd": 0.0008326663997864681
+          },
+          "correction_without_rules": {
+            "mean": 0.0006666666666666673,
+            "sd": 0.00035118845842838065
+          },
+          "correction_with_rules": {
+            "mean": 0.0005666666666666783,
+            "sd": 0.00025166114784232326
+          },
+          "interaction": {
+            "mean": -9.999999999998899e-05,
+            "sd": 9.999999999998899e-05
+          }
+        },
+        "neurite_macro_f1": {
+          "rules_without_correction": {
+            "mean": 0.0003666666666666633,
+            "sd": 0.0016921386861996517
+          },
+          "rules_with_correction": {
+            "mean": 0.0002666666666666743,
+            "sd": 0.0015275252316518995
+          },
+          "correction_without_rules": {
+            "mean": 0.0024999999999999836,
+            "sd": 0.0011000000000000454
+          },
+          "correction_with_rules": {
+            "mean": 0.0023999999999999946,
+            "sd": 0.0011135528725660015
+          },
+          "interaction": {
+            "mean": -9.999999999998899e-05,
+            "sd": 0.00017320508075696482
+          }
+        },
+        "axon_f1": {
+          "rules_without_correction": {
+            "mean": -0.0001666666666666853,
+            "sd": 0.0005507570547286134
+          },
+          "rules_with_correction": {
+            "mean": -0.00013333333333335565,
+            "sd": 0.0004932882862316341
+          },
+          "correction_without_rules": {
+            "mean": 6.666666666665932e-05,
+            "sd": 5.773502691895622e-05
+          },
+          "correction_with_rules": {
+            "mean": 9.999999999998899e-05,
+            "sd": 9.999999999998899e-05
+          },
+          "interaction": {
+            "mean": 3.333333333332966e-05,
+            "sd": 5.773502691895622e-05
+          }
+        },
+        "basal_f1": {
+          "rules_without_correction": {
+            "mean": -0.00040000000000002994,
+            "sd": 0.002351595203260989
+          },
+          "rules_with_correction": {
+            "mean": -0.0006666666666666673,
+            "sd": 0.0022590558499810207
+          },
+          "correction_without_rules": {
+            "mean": 0.001966666666666672,
+            "sd": 0.0007094598884597902
+          },
+          "correction_with_rules": {
+            "mean": 0.0017000000000000348,
+            "sd": 0.0007937253933193946
+          },
+          "interaction": {
+            "mean": -0.0002666666666666373,
+            "sd": 0.00015275252316517785
+          }
+        },
+        "apical_f1": {
+          "rules_without_correction": {
+            "mean": 0.0018333333333333535,
+            "sd": 0.002375570107012841
+          },
+          "rules_with_correction": {
+            "mean": 0.0015666666666666422,
+            "sd": 0.001882374387132754
+          },
+          "correction_without_rules": {
+            "mean": 0.005566666666666682,
+            "sd": 0.0026102362600602387
+          },
+          "correction_with_rules": {
+            "mean": 0.005299999999999971,
+            "sd": 0.0025632011235953082
+          },
+          "interaction": {
+            "mean": -0.0002666666666667113,
+            "sd": 0.0004932882862315329
+          }
+        },
+        "pcf1_mean": {
+          "rules_without_correction": {
+            "mean": 0.0005960561946520837,
+            "sd": 0.0005931476346912882
+          },
+          "rules_with_correction": {
+            "mean": 0.0004991622361772233,
+            "sd": 0.00045485271738135343
+          },
+          "correction_without_rules": {
+            "mean": 0.021810640477482157,
+            "sd": 0.0007166311822808893
+          },
+          "correction_with_rules": {
+            "mean": 0.021713746519007298,
+            "sd": 0.0008094209345378518
+          },
+          "interaction": {
+            "mean": -9.689395847486033e-05,
+            "sd": 0.00014944993756834115
+          }
+        },
+        "pcf1_p10": {
+          "rules_without_correction": {
+            "mean": 0.00030999999999999545,
+            "sd": 0.000315119025131785
+          },
+          "rules_with_correction": {
+            "mean": 0.00564999999999997,
+            "sd": 0.008385111806052368
+          },
+          "correction_without_rules": {
+            "mean": 0.1571566666666667,
+            "sd": 0.04166525690948436
+          },
+          "correction_with_rules": {
+            "mean": 0.16249666666666665,
+            "sd": 0.046474957055744864
+          },
+          "interaction": {
+            "mean": 0.005339999999999974,
+            "sd": 0.00808049503434032
+          }
+        }
+      },
+      "effects_per_seed": {
+        "42": {
+          "accuracy": {
+            "rules_without_correction": 9.999999999998899e-05,
+            "rules_with_correction": 9.999999999998899e-05,
+            "correction_without_rules": 0.000300000000000078,
+            "correction_with_rules": 0.000300000000000078,
+            "interaction": 0.0
+          },
+          "neurite_macro_f1": {
+            "rules_without_correction": 0.0008000000000000229,
+            "rules_with_correction": 0.0006000000000000449,
+            "correction_without_rules": 0.0013999999999999568,
+            "correction_with_rules": 0.0011999999999999789,
+            "interaction": -0.00019999999999997797
+          },
+          "axon_f1": {
+            "rules_without_correction": 9.999999999998899e-05,
+            "rules_with_correction": 9.999999999998899e-05,
+            "correction_without_rules": 0.0,
+            "correction_with_rules": 0.0,
+            "interaction": 0.0
+          },
+          "basal_f1": {
+            "rules_without_correction": -0.000500000000000056,
+            "rules_with_correction": -0.0009000000000000119,
+            "correction_without_rules": 0.0011999999999999789,
+            "correction_with_rules": 0.0008000000000000229,
+            "interaction": -0.00039999999999995595
+          },
+          "apical_f1": {
+            "rules_without_correction": 0.0030000000000000027,
+            "rules_with_correction": 0.0024999999999999467,
+            "correction_without_rules": 0.0030999999999999917,
+            "correction_with_rules": 0.0025999999999999357,
+            "interaction": -0.000500000000000056
+          },
+          "pcf1_mean": {
+            "rules_without_correction": 0.0011389604810996268,
+            "rules_with_correction": 0.0008781357388317756,
+            "correction_without_rules": 0.02158771477663224,
+            "correction_with_rules": 0.021326890034364387,
+            "interaction": -0.00026082474226785113
+          },
+          "pcf1_p10": {
+            "rules_without_correction": 0.0006300000000000194,
+            "rules_with_correction": 0.015049999999999897,
+            "correction_without_rules": 0.1727200000000001,
+            "correction_with_rules": 0.18713999999999997,
+            "interaction": 0.014419999999999877
+          }
+        },
+        "123": {
+          "accuracy": {
+            "rules_without_correction": -0.0010000000000000009,
+            "rules_with_correction": -0.0010999999999999899,
+            "correction_without_rules": 0.0006999999999999229,
+            "correction_with_rules": 0.0005999999999999339,
+            "interaction": -9.999999999998899e-05
+          },
+          "neurite_macro_f1": {
+            "rules_without_correction": -0.0015000000000000568,
+            "rules_with_correction": -0.0013999999999999568,
+            "correction_without_rules": 0.0024999999999999467,
+            "correction_with_rules": 0.0026000000000000467,
+            "interaction": 0.00010000000000010001
+          },
+          "axon_f1": {
+            "rules_without_correction": -0.0008000000000000229,
+            "rules_with_correction": -0.0007000000000000339,
+            "correction_without_rules": 9.999999999998899e-05,
+            "correction_with_rules": 0.00019999999999997797,
+            "interaction": 9.999999999998899e-05
+          },
+          "basal_f1": {
+            "rules_without_correction": -0.0027000000000000357,
+            "rules_with_correction": -0.0028000000000000247,
+            "correction_without_rules": 0.0020999999999999908,
+            "correction_with_rules": 0.0020000000000000018,
+            "interaction": -9.999999999998899e-05
+          },
+          "apical_f1": {
+            "rules_without_correction": -0.0008999999999999009,
+            "rules_with_correction": -0.0006000000000000449,
+            "correction_without_rules": 0.005300000000000082,
+            "correction_with_rules": 0.005599999999999938,
+            "interaction": 0.00029999999999985594
+          },
+          "pcf1_mean": {
+            "rules_without_correction": -3.701082431317726e-05,
+            "rules_with_correction": -5.245628642791544e-06,
+            "correction_without_rules": 0.022612239800166578,
+            "correction_with_rules": 0.022644004995836964,
+            "interaction": 3.1765195670385715e-05
+          },
+          "pcf1_p10": {
+            "rules_without_correction": 0.0,
+            "rules_with_correction": -0.0010599999999999499,
+            "correction_without_rules": 0.10994999999999999,
+            "correction_with_rules": 0.10889000000000004,
+            "interaction": -0.0010599999999999499
+          }
+        },
+        "789": {
+          "accuracy": {
+            "rules_without_correction": 0.0007000000000000339,
+            "rules_with_correction": 0.000500000000000056,
+            "correction_without_rules": 0.0010000000000000009,
+            "correction_with_rules": 0.0008000000000000229,
+            "interaction": -0.00019999999999997797
+          },
+          "neurite_macro_f1": {
+            "rules_without_correction": 0.0018000000000000238,
+            "rules_with_correction": 0.0015999999999999348,
+            "correction_without_rules": 0.0036000000000000476,
+            "correction_with_rules": 0.0033999999999999586,
+            "interaction": -0.000200000000000089
+          },
+          "axon_f1": {
+            "rules_without_correction": 0.00019999999999997797,
+            "rules_with_correction": 0.00019999999999997797,
+            "correction_without_rules": 9.999999999998899e-05,
+            "correction_with_rules": 9.999999999998899e-05,
+            "interaction": 0.0
+          },
+          "basal_f1": {
+            "rules_without_correction": 0.0020000000000000018,
+            "rules_with_correction": 0.0017000000000000348,
+            "correction_without_rules": 0.0026000000000000467,
+            "correction_with_rules": 0.0023000000000000798,
+            "interaction": -0.00029999999999996696
+          },
+          "apical_f1": {
+            "rules_without_correction": 0.0033999999999999586,
+            "rules_with_correction": 0.0028000000000000247,
+            "correction_without_rules": 0.008299999999999974,
+            "correction_with_rules": 0.00770000000000004,
+            "interaction": -0.0005999999999999339
+          },
+          "pcf1_mean": {
+            "rules_without_correction": 0.0006862189271698016,
+            "rules_with_correction": 0.000624596598342686,
+            "correction_without_rules": 0.021231966855647655,
+            "correction_with_rules": 0.02117034452682054,
+            "interaction": -6.16223288271156e-05
+          },
+          "pcf1_p10": {
+            "rules_without_correction": 0.00029999999999996696,
+            "rules_with_correction": 0.0029599999999999627,
+            "correction_without_rules": 0.18879999999999997,
+            "correction_with_rules": 0.19145999999999996,
+            "interaction": 0.0026599999999999957
+          }
+        }
+      }
+    },
+    "pyramidal": {
+      "configs": {
+        "neither": {
+          "accuracy": {
+            "mean": 0.9877333333333334,
+            "sd": 0.0015307950004273371
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9595333333333333,
+            "sd": 0.0057143095237599415
+          },
+          "axon_f1": {
+            "mean": 0.9977,
+            "sd": 9.999999999998899e-05
+          },
+          "basal_f1": {
+            "mean": 0.9542333333333334,
+            "sd": 0.005916361494477271
+          },
+          "apical_f1": {
+            "mean": 0.9266,
+            "sd": 0.011161093136427127
+          },
+          "pcf1_mean": {
+            "mean": 0.9154097758035724,
+            "sd": 0.008019065635651964
+          },
+          "pcf1_p10": {
+            "mean": 0.64939,
+            "sd": 0.006667750745191322
+          }
+        },
+        "rules_only": {
+          "accuracy": {
+            "mean": 0.9876333333333333,
+            "sd": 0.002715388247255464
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9598666666666666,
+            "sd": 0.008129165598838119
+          },
+          "axon_f1": {
+            "mean": 0.9975666666666667,
+            "sd": 0.0007571877794400166
+          },
+          "basal_f1": {
+            "mean": 0.9535666666666667,
+            "sd": 0.010301617995894295
+          },
+          "apical_f1": {
+            "mean": 0.9284666666666667,
+            "sd": 0.01347825409069485
+          },
+          "pcf1_mean": {
+            "mean": 0.9160285979869016,
+            "sd": 0.008542133814167185
+          },
+          "pcf1_p10": {
+            "mean": 0.6495099999999999,
+            "sd": 0.007585848667090555
+          }
+        },
+        "correction_only": {
+          "accuracy": {
+            "mean": 0.9886333333333334,
+            "sd": 0.0015044378795195656
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9626666666666667,
+            "sd": 0.006079747801786965
+          },
+          "axon_f1": {
+            "mean": 0.9978333333333333,
+            "sd": 5.773502691895622e-05
+          },
+          "basal_f1": {
+            "mean": 0.9579666666666666,
+            "sd": 0.0061329710037903535
+          },
+          "apical_f1": {
+            "mean": 0.9321666666666667,
+            "sd": 0.011969266198616053
+          },
+          "pcf1_mean": {
+            "mean": 0.9458943717246872,
+            "sd": 0.007476303281653547
+          },
+          "pcf1_p10": {
+            "mean": 0.7878633333333332,
+            "sd": 0.05147329631307222
+          }
+        },
+        "both": {
+          "accuracy": {
+            "mean": 0.9885,
+            "sd": 0.002645751311064593
+          },
+          "neurite_macro_f1": {
+            "mean": 0.9627666666666667,
+            "sd": 0.008280901722236167
+          },
+          "axon_f1": {
+            "mean": 0.9976666666666666,
+            "sd": 0.0006806859285553921
+          },
+          "basal_f1": {
+            "mean": 0.9568,
+            "sd": 0.01055319856725907
+          },
+          "apical_f1": {
+            "mean": 0.9337666666666666,
+            "sd": 0.013744938462333472
+          },
+          "pcf1_mean": {
+            "mean": 0.9463768778850151,
+            "sd": 0.007891252747284703
+          },
+          "pcf1_p10": {
+            "mean": 0.7896966666666666,
+            "sd": 0.053881663238372075
+          }
+        }
+      },
+      "effects": {
+        "accuracy": {
+          "rules_without_correction": {
+            "mean": -9.999999999998899e-05,
+            "sd": 0.0012767145334803387
+          },
+          "rules_with_correction": {
+            "mean": -0.00013333333333328165,
+            "sd": 0.0011676186592091248
+          },
+          "correction_without_rules": {
+            "mean": 0.0009000000000000119,
+            "sd": 0.00040000000000006697
+          },
+          "correction_with_rules": {
+            "mean": 0.0008666666666667192,
+            "sd": 0.00041633319989322514
+          },
+          "interaction": {
+            "mean": -3.333333333329266e-05,
+            "sd": 0.00011547005383788039
+          }
+        },
+        "neurite_macro_f1": {
+          "rules_without_correction": {
+            "mean": 0.00033333333333333365,
+            "sd": 0.0024704925284916605
+          },
+          "rules_with_correction": {
+            "mean": 0.000100000000000026,
+            "sd": 0.0022068076490714223
+          },
+          "correction_without_rules": {
+            "mean": 0.0031333333333333213,
+            "sd": 0.001350308606701902
+          },
+          "correction_with_rules": {
+            "mean": 0.0029000000000000137,
+            "sd": 0.0013747727084868187
+          },
+          "interaction": {
+            "mean": -0.00023333333333330764,
+            "sd": 0.0002886751345947811
+          }
+        },
+        "axon_f1": {
+          "rules_without_correction": {
+            "mean": -0.00013333333333335565,
+            "sd": 0.0006658328118479299
+          },
+          "rules_with_correction": {
+            "mean": -0.0001666666666666853,
+            "sd": 0.0006429100507328562
+          },
+          "correction_without_rules": {
+            "mean": 0.00013333333333331865,
+            "sd": 5.773502691895622e-05
+          },
+          "correction_with_rules": {
+            "mean": 9.999999999998899e-05,
+            "sd": 9.999999999998899e-05
+          },
+          "interaction": {
+            "mean": -3.333333333332966e-05,
+            "sd": 5.773502691895622e-05
+          }
+        },
+        "basal_f1": {
+          "rules_without_correction": {
+            "mean": -0.0006666666666666673,
+            "sd": 0.004609049070397631
+          },
+          "rules_with_correction": {
+            "mean": -0.0011666666666666863,
+            "sd": 0.004465795935030276
+          },
+          "correction_without_rules": {
+            "mean": 0.0037333333333333294,
+            "sd": 0.0015176736583776304
+          },
+          "correction_with_rules": {
+            "mean": 0.0032333333333333103,
+            "sd": 0.0015534906930308205
+          },
+          "interaction": {
+            "mean": -0.000500000000000019,
+            "sd": 0.00017320508075693275
+          }
+        },
+        "apical_f1": {
+          "rules_without_correction": {
+            "mean": 0.0018666666666666831,
+            "sd": 0.002318045153428431
+          },
+          "rules_with_correction": {
+            "mean": 0.0016000000000000088,
+            "sd": 0.0018248287590895203
+          },
+          "correction_without_rules": {
+            "mean": 0.005566666666666682,
+            "sd": 0.0026102362600602387
+          },
+          "correction_with_rules": {
+            "mean": 0.005300000000000009,
+            "sd": 0.0025632011235952497
+          },
+          "interaction": {
+            "mean": -0.0002666666666666743,
+            "sd": 0.0004932882862315066
+          }
+        },
+        "pcf1_mean": {
+          "rules_without_correction": {
+            "mean": 0.000618822183329241,
+            "sd": 0.0007163867497150203
+          },
+          "rules_with_correction": {
+            "mean": 0.00048250616032778176,
+            "sd": 0.0005223501507338245
+          },
+          "correction_without_rules": {
+            "mean": 0.030484595921114816,
+            "sd": 0.0005603019939204273
+          },
+          "correction_with_rules": {
+            "mean": 0.030348279898113357,
+            "sd": 0.0007141850022868572
+          },
+          "interaction": {
+            "mean": -0.00013631602300145929,
+            "sd": 0.0002088871812595713
+          }
+        },
+        "pcf1_p10": {
+          "rules_without_correction": {
+            "mean": 0.00012000000000000899,
+            "sd": 0.001011484058203625
+          },
+          "rules_with_correction": {
+            "mean": 0.0018333333333333905,
+            "sd": 0.0036742527584984223
+          },
+          "correction_without_rules": {
+            "mean": 0.13847333333333334,
+            "sd": 0.04500569445451694
+          },
+          "correction_with_rules": {
+            "mean": 0.1401866666666667,
+            "sd": 0.046540632068476896
+          },
+          "interaction": {
+            "mean": 0.0017133333333333816,
+            "sd": 0.0026876073621965343
+          }
+        }
+      },
+      "effects_per_seed": {
+        "42": {
+          "accuracy": {
+            "rules_without_correction": 0.00019999999999997797,
+            "rules_with_correction": 0.00010000000000010001,
+            "correction_without_rules": 0.0004999999999999449,
+            "correction_with_rules": 0.00040000000000006697,
+            "interaction": -9.999999999987796e-05
+          },
+          "neurite_macro_f1": {
+            "rules_without_correction": 0.0007000000000000339,
+            "rules_with_correction": 0.00029999999999996696,
+            "correction_without_rules": 0.0018000000000000238,
+            "correction_with_rules": 0.0013999999999999568,
+            "interaction": -0.00040000000000006697
+          },
+          "axon_f1": {
+            "rules_without_correction": 0.00019999999999997797,
+            "rules_with_correction": 9.999999999998899e-05,
+            "correction_without_rules": 9.999999999998899e-05,
+            "correction_with_rules": 0.0,
+            "interaction": -9.999999999998899e-05
+          },
+          "basal_f1": {
+            "rules_without_correction": -0.0010000000000000009,
+            "rules_with_correction": -0.0016000000000000458,
+            "correction_without_rules": 0.0020999999999999908,
+            "correction_with_rules": 0.0014999999999999458,
+            "interaction": -0.0006000000000000449
+          },
+          "apical_f1": {
+            "rules_without_correction": 0.0030000000000000027,
+            "rules_with_correction": 0.0025000000000000577,
+            "correction_without_rules": 0.0030999999999999917,
+            "correction_with_rules": 0.0026000000000000467,
+            "interaction": -0.0004999999999999449
+          },
+          "pcf1_mean": {
+            "rules_without_correction": 0.0012822503008422803,
+            "rules_with_correction": 0.0009169073405537187,
+            "correction_without_rules": 0.030238387484957885,
+            "correction_with_rules": 0.029873044524669323,
+            "interaction": -0.0003653429602885616
+          },
+          "pcf1_p10": {
+            "rules_without_correction": 0.0009100000000000774,
+            "rules_with_correction": 0.005240000000000022,
+            "correction_without_rules": 0.1393000000000001,
+            "correction_with_rules": 0.14363000000000004,
+            "interaction": 0.004329999999999945
+          }
+        },
+        "123": {
+          "accuracy": {
+            "rules_without_correction": -0.0014999999999999458,
+            "rules_with_correction": -0.0013999999999999568,
+            "correction_without_rules": 0.0009000000000000119,
+            "correction_with_rules": 0.0010000000000000009,
+            "interaction": 9.999999999998899e-05
+          },
+          "neurite_macro_f1": {
+            "rules_without_correction": -0.0022999999999999687,
+            "rules_with_correction": -0.0021999999999999797,
+            "correction_without_rules": 0.0030999999999999917,
+            "correction_with_rules": 0.0031999999999999806,
+            "interaction": 9.999999999998899e-05
+          },
+          "axon_f1": {
+            "rules_without_correction": -0.0009000000000000119,
+            "rules_with_correction": -0.0009000000000000119,
+            "correction_without_rules": 0.00019999999999997797,
+            "correction_with_rules": 0.00019999999999997797,
+            "interaction": 0.0
+          },
+          "basal_f1": {
+            "rules_without_correction": -0.005099999999999993,
+            "rules_with_correction": -0.00539999999999996,
+            "correction_without_rules": 0.0040000000000000036,
+            "correction_with_rules": 0.0037000000000000366,
+            "interaction": -0.00029999999999996696
+          },
+          "apical_f1": {
+            "rules_without_correction": -0.0007999999999999119,
+            "rules_with_correction": -0.000500000000000056,
+            "correction_without_rules": 0.005300000000000082,
+            "correction_with_rules": 0.005599999999999938,
+            "interaction": 0.00029999999999985594
+          },
+          "pcf1_mean": {
+            "rules_without_correction": -0.00014080229226365315,
+            "rules_with_correction": -9.707736389685806e-05,
+            "correction_without_rules": 0.0311258452722063,
+            "correction_with_rules": 0.031169570200573093,
+            "interaction": 4.372492836679509e-05
+          },
+          "pcf1_p10": {
+            "rules_without_correction": -0.0010200000000000209,
+            "rules_with_correction": -0.0020599999999999508,
+            "correction_without_rules": 0.09305999999999992,
+            "correction_with_rules": 0.09201999999999999,
+            "interaction": -0.0010399999999999299
+          }
+        },
+        "789": {
+          "accuracy": {
+            "rules_without_correction": 0.0010000000000000009,
+            "rules_with_correction": 0.0009000000000000119,
+            "correction_without_rules": 0.0013000000000000789,
+            "correction_with_rules": 0.0012000000000000899,
+            "interaction": -9.999999999998899e-05
+          },
+          "neurite_macro_f1": {
+            "rules_without_correction": 0.0025999999999999357,
+            "rules_with_correction": 0.0022000000000000908,
+            "correction_without_rules": 0.0044999999999999485,
+            "correction_with_rules": 0.0041000000000001036,
+            "interaction": -0.0003999999999998449
+          },
+          "axon_f1": {
+            "rules_without_correction": 0.00029999999999996696,
+            "rules_with_correction": 0.00029999999999996696,
+            "correction_without_rules": 9.999999999998899e-05,
+            "correction_with_rules": 9.999999999998899e-05,
+            "interaction": 0.0
+          },
+          "basal_f1": {
+            "rules_without_correction": 0.0040999999999999925,
+            "rules_with_correction": 0.0034999999999999476,
+            "correction_without_rules": 0.005099999999999993,
+            "correction_with_rules": 0.0044999999999999485,
+            "interaction": -0.0006000000000000449
+          },
+          "apical_f1": {
+            "rules_without_correction": 0.0033999999999999586,
+            "rules_with_correction": 0.0028000000000000247,
+            "correction_without_rules": 0.008299999999999974,
+            "correction_with_rules": 0.00770000000000004,
+            "interaction": -0.0005999999999999339
+          },
+          "pcf1_mean": {
+            "rules_without_correction": 0.0007150185414090959,
+            "rules_with_correction": 0.0006276885043264846,
+            "correction_without_rules": 0.03008955500618027,
+            "correction_with_rules": 0.030002224969097657,
+            "interaction": -8.733003708261133e-05
+          },
+          "pcf1_p10": {
+            "rules_without_correction": 0.00046999999999997044,
+            "rules_with_correction": 0.0023200000000000998,
+            "correction_without_rules": 0.18306,
+            "correction_with_rules": 0.18491000000000013,
+            "interaction": 0.0018500000000001293
+          }
+        }
+      }
+    }
+  },
+  "ladder_reproduction_max_abs_diff": {
+    "seed42/rules_only": 0.0,
+    "seed42/both": 0.0,
+    "seed123/rules_only": 0.0,
+    "seed123/both": 0.0,
+    "seed789/rules_only": 0.0,
+    "seed789/both": 0.0
+  }
+}

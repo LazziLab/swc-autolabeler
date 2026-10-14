@@ -1,0 +1,44 @@
+QUALITY FLAG IN A MIXED-CELL DEPLOYMENT -- Stage 1 routing, one flag per routed type,
+leave-one-seed-out models, mean over seeds
+
+Routing (per seed, mean):
+  interneurons_routed_pyramidal                27.67
+  interneurons_routed_pyramidal_bad             9.00
+  pyramidal_routed_interneuron                 32.00
+  pyramidal_routed_interneuron_bad             20.00
+  pyramidal_routed_interneuron_mean_f1          0.56
+  true_pyramidal_bad                           81.33
+  true_interneuron_bad                         39.00
+
+  no flag: mean F1 0.9458, P10 all 0.8030, P10 true pyramidal 0.7745, bad share 0.0513
+  AP on all cells 0.2577; pyramidal flag on GT-pyramidal 0.3953; interneuron flag on GT-interneuron 0.3939
+
+Review budgets (the same fraction of each routed group):
+  budget   prec rec all rec pyr rec int rec mis keptP10 all keptP10 pyr kept bad | random P10 pyr oracle P10 pyr
+    0.05  0.305   0.303   0.240   0.439   0.166      0.8769      0.8362   0.0379 |         0.7740         0.9034
+    0.10  0.240   0.474   0.409   0.611   0.290      0.9448      0.8989   0.0303 |         0.7736         0.9763
+    0.15  0.199   0.587   0.526   0.709   0.438      0.9866      0.9577   0.0252 |         0.7741         0.9972
+    0.20  0.170   0.665   0.631   0.738   0.528      0.9999      0.9883   0.0216 |         0.7737         1.0000
+
+Bootstrap 95% intervals at the 10% budget (mean over seeds):
+  precision                [0.2073, 0.2730]
+  recall_bad               [0.4204, 0.5204]
+  recall_true_pyr_bad      [0.3426, 0.4709]
+  recall_true_int_bad      [0.5254, 0.6938]
+  kept_p10_all             [0.9235, 0.9657]
+  kept_p10_true_pyr        [0.8667, 0.9272]
+
+Calibration over all cells: MAE of predicted F1 0.0611 (routed pyramidal 0.0576, routed interneuron 0.0697)
+  decile  predicted  true
+       1  0.7235  0.7591
+       2  0.8715  0.8705
+       3  0.9346  0.9322
+       4  0.9698  0.9538
+       5  0.9869  0.9776
+       6  0.9951  0.9923
+       7  0.9987  0.9959
+       8  0.9999  0.9872
+       9  1.0000  0.9960
+      10  1.0000  0.9940
+
+Reproduction of the canonical folds (each flag's AP on its own GT type): seed 42 OK, seed 123 OK, seed 789 OK

@@ -1,0 +1,3290 @@
+{
+ "min_uploads": 10,
+ "n_archives": 866,
+ "always_diff": 660,
+ "never_diff": 159,
+ "mixed": 47,
+ "other": 0,
+ "per_archive": {
+  "Wearne_Hof": {
+   "diff": 80
+  },
+  "Turner": {
+   "diff": 124
+  },
+  "Staiger": {
+   "diff": 214
+  },
+  "OpenWorm": {
+   "diff": 299
+  },
+  "Kornfeld": {
+   "undiff": 50,
+   "diff": 42
+  },
+  "Kuddannaya": {
+   "diff": 1532
+  },
+  "Spiga": {
+   "diff": 3
+  },
+  "Santhakumar": {
+   "diff": 76
+  },
+  "Kisvarday": {
+   "diff": 33
+  },
+  "Scanziani": {
+   "diff": 142
+  },
+  "Dusart": {
+   "diff": 6
+  },
+  "Prince": {
+   "diff": 2
+  },
+  "Nathans": {
+   "diff": 84
+  },
+  "Ascoli": {
+   "diff": 380
+  },
+  "Luebke": {
+   "diff": 459
+  },
+  "Kawaguchi": {
+   "diff": 195
+  },
+  "Mearow": {
+   "diff": 308
+  },
+  "Mallick": {
+   "diff": 281
+  },
+  "Faucherre": {
+   "diff": 6
+  },
+  "Peng": {
+   "diff": 1738,
+   "undiff": 5
+  },
+  "Mikhaylova": {
+   "diff": 84
+  },
+  "Back": {
+   "diff": 199
+  },
+  "Nandi": {
+   "diff": 16
+  },
+  "Oguro-Ando": {
+   "diff": 64
+  },
+  "Saghatelyan": {
+   "diff": 87
+  },
+  "Southam": {
+   "diff": 52
+  },
+  "Tenner": {
+   "diff": 121
+  },
+  "Allen Cell Types": {
+   "diff": 1506
+  },
+  "Vannini": {
+   "diff": 58
+  },
+  "Ortega": {
+   "diff": 60
+  },
+  "Negyessy": {
+   "diff": 6
+  },
+  "Cline": {
+   "diff": 139
+  },
+  "Ye": {
+   "diff": 206
+  },
+  "Feller": {
+   "diff": 76,
+   "undiff": 81
+  },
+  "Chang": {
+   "diff": 659
+  },
+  "Tensaouti": {
+   "diff": 1208
+  },
+  "Gabbiani": {
+   "diff": 3
+  },
+  "Todd": {
+   "diff": 406
+  },
+  "Pinto": {
+   "diff": 24
+  },
+  "Swanson": {
+   "diff": 114
+  },
+  "Hajos": {
+   "diff": 238
+  },
+  "Ventura": {
+   "diff": 88
+  },
+  "Allman": {
+   "diff": 65
+  },
+  "Lein": {
+   "diff": 3700
+  },
+  "Jekely": {
+   "undiff": 416
+  },
+  "Cirelli": {
+   "diff": 220
+  },
+  "Gonzalez-Burgos": {
+   "diff": 103
+  },
+  "Namiki": {
+   "diff": 10,
+   "undiff": 5
+  },
+  "SungBae": {
+   "diff": 8
+  },
+  "Henny": {
+   "diff": 19
+  },
+  "Ikeno": {
+   "undiff": 15,
+   "diff": 132
+  },
+  "Yang": {
+   "diff": 84
+  },
+  "Singh_K": {
+   "diff": 4
+  },
+  "Bock": {
+   "undiff": 160
+  },
+  "Somogyi": {
+   "diff": 26
+  },
+  "Rusakov": {
+   "undiff": 1
+  },
+  "Lagali": {
+   "diff": 182
+  },
+  "Venugopal_Travers": {
+   "diff": 55
+  },
+  "Almuhtasib": {
+   "diff": 80
+  },
+  "Parker": {
+   "diff": 373
+  },
+  "Cappelli_Buratti": {
+   "diff": 10
+  },
+  "Wang": {
+   "diff": 266
+  },
+  "Yousheng": {
+   "diff": 20
+  },
+  "Razetti": {
+   "diff": 45
+  },
+  "Foerster": {
+   "diff": 31,
+   "undiff": 2
+  },
+  "Briggs": {
+   "diff": 478
+  },
+  "Tang-Schomer": {
+   "diff": 26
+  },
+  "Baltussen_Ultanir": {
+   "diff": 302
+  },
+  "Williams": {
+   "diff": 28
+  },
+  "Long": {
+   "diff": 56
+  },
+  "Markram": {
+   "diff": 1401
+  },
+  "Nath": {
+   "diff": 10
+  },
+  "Morsch": {
+   "undiff": 2
+  },
+  "Martemyanov": {
+   "diff": 28
+  },
+  "Bilkei-Gorzo": {
+   "undiff": 583
+  },
+  "Otsuka": {
+   "diff": 6
+  },
+  "Heistek_Mansvelder": {
+   "diff": 2
+  },
+  "Smith_Koizumi": {
+   "diff": 28
+  },
+  "Brunjes": {
+   "diff": 324
+  },
+  "Kelliher": {
+   "diff": 12
+  },
+  "Darnell": {
+   "diff": 136
+  },
+  "HustTDI": {
+   "diff": 35
+  },
+  "Tamas": {
+   "diff": 37
+  },
+  "Landgraf": {
+   "diff": 7
+  },
+  "Imai": {
+   "diff": 2083
+  },
+  "Grtuzendler_Hill": {
+   "diff": 21
+  },
+  "Galliano_Grubb": {
+   "diff": 23
+  },
+  "Vaasjo": {
+   "diff": 45
+  },
+  "Mustaparta_Lofaldli": {
+   "diff": 11
+  },
+  "Martineau": {
+   "diff": 68
+  },
+  "Ma": {
+   "diff": 1
+  },
+  "Badea": {
+   "diff": 94
+  },
+  "Tavakoli": {
+   "diff": 94
+  },
+  "Pascucci": {
+   "diff": 89
+  },
+  "Weigel": {
+   "diff": 25
+  },
+  "Vidal": {
+   "diff": 323
+  },
+  "Chadderton": {
+   "diff": 32
+  },
+  "Delvalle": {
+   "undiff": 127
+  },
+  "Wadiche": {
+   "diff": 476
+  },
+  "Sengelaub": {
+   "diff": 35,
+   "undiff": 12
+  },
+  "Ben-Ari": {
+   "undiff": 22
+  },
+  "Mena-Segovia": {
+   "diff": 31
+  },
+  "Doe": {
+   "undiff": 31
+  },
+  "Morrice": {
+   "diff": 3
+  },
+  "Niquille": {
+   "diff": 15
+  },
+  "Montgomery_Masino": {
+   "undiff": 70
+  },
+  "Blagburn": {
+   "diff": 1
+  },
+  "Dong": {
+   "diff": 451
+  },
+  "Brumberg": {
+   "diff": 341
+  },
+  "Arnold_Johnston": {
+   "diff": 18
+  },
+  "Cheng": {
+   "diff": 82
+  },
+  "Yen_Chen": {
+   "diff": 21
+  },
+  "Vicini": {
+   "undiff": 38
+  },
+  "Feldmeyer": {
+   "diff": 272
+  },
+  "Ruiyu": {
+   "diff": 47
+  },
+  "Li_Bolshakov": {
+   "diff": 32
+  },
+  "Huang_JY": {
+   "diff": 481
+  },
+  "Luo": {
+   "diff": 461
+  },
+  "Wittner": {
+   "diff": 21
+  },
+  "Smart": {
+   "diff": 11
+  },
+  "Kist": {
+   "diff": 52
+  },
+  "Zamboni_Merlo": {
+   "diff": 107
+  },
+  "Chklovskii": {
+   "diff": 724
+  },
+  "Bragado-Alonso": {
+   "diff": 27
+  },
+  "Putatunda_Hu": {
+   "diff": 58
+  },
+  "vanWoerden": {
+   "diff": 52
+  },
+  "Wu_Yu": {
+   "diff": 107
+  },
+  "Thier": {
+   "diff": 1
+  },
+  "Cohen-Cory": {
+   "diff": 412
+  },
+  "Maguire-Zeiss": {
+   "undiff": 26
+  },
+  "Kantor_Szarka": {
+   "diff": 47
+  },
+  "Nombela-Palomo": {
+   "diff": 3
+  },
+  "Wellman": {
+   "diff": 148
+  },
+  "Fellin": {
+   "diff": 13
+  },
+  "Boyle": {
+   "diff": 54
+  },
+  "Svoboda": {
+   "diff": 66
+  },
+  "Rosenkranz": {
+   "diff": 270
+  },
+  "Sreenath": {
+   "diff": 113
+  },
+  "Ribic": {
+   "diff": 79
+  },
+  "Jensen": {
+   "diff": 20
+  },
+  "Huynh": {
+   "diff": 41
+  },
+  "Rico": {
+   "undiff": 57
+  },
+  "Herget": {
+   "undiff": 27
+  },
+  "Manis": {
+   "diff": 1
+  },
+  "Pirone": {
+   "diff": 47
+  },
+  "Igarashi": {
+   "diff": 14
+  },
+  "Yamawaki": {
+   "diff": 10
+  },
+  "Birinyi": {
+   "diff": 57
+  },
+  "Beer_Foerster": {
+   "undiff": 24
+  },
+  "Cox": {
+   "diff": 2104
+  },
+  "Szegedi": {
+   "diff": 10
+  },
+  "Topolnik": {
+   "diff": 76
+  },
+  "Dudek": {
+   "diff": 52
+  },
+  "Pozzo-Miller": {
+   "diff": 28
+  },
+  "Yu_Wong": {
+   "diff": 54
+  },
+  "Rosner": {
+   "undiff": 4,
+   "diff": 3
+  },
+  "Marder": {
+   "undiff": 33
+  },
+  "Radic": {
+   "diff": 29
+  },
+  "vonEngelhardt": {
+   "diff": 307
+  },
+  "Tracey": {
+   "undiff": 201,
+   "diff": 1
+  },
+  "Wu": {
+   "diff": 51
+  },
+  "Huang_ZJ": {
+   "diff": 62
+  },
+  "Steinecke_Taniguchi": {
+   "diff": 39
+  },
+  "Bandtlow": {
+   "diff": 174
+  },
+  "Chiang": {
+   "diff": 23635
+  },
+  "Bengochea": {
+   "diff": 20
+  },
+  "Borst": {
+   "undiff": 14,
+   "diff": 76
+  },
+  "Lin_Zhang": {
+   "diff": 36
+  },
+  "Miroschnikow": {
+   "undiff": 431
+  },
+  "Beckstead": {
+   "undiff": 173
+  },
+  "Bailey": {
+   "diff": 725
+  },
+  "Brecht": {
+   "diff": 2
+  },
+  "Brager": {
+   "diff": 40
+  },
+  "Jaarsma": {
+   "diff": 1
+  },
+  "O'Reilly": {
+   "diff": 60
+  },
+  "Meliza": {
+   "diff": 21
+  },
+  "Park": {
+   "diff": 1
+  },
+  "Priya": {
+   "diff": 33
+  },
+  "Peca": {
+   "diff": 90
+  },
+  "Tepper": {
+   "diff": 25
+  },
+  "Tsirka": {
+   "undiff": 44
+  },
+  "Dumas": {
+   "diff": 96
+  },
+  "Bastian": {
+   "diff": 1080
+  },
+  "Anselmi_Travagli": {
+   "diff": 1
+  },
+  "Browning": {
+   "diff": 73
+  },
+  "DeFelipe": {
+   "diff": 2058
+  },
+  "DeMoya_Morrison": {
+   "diff": 70
+  },
+  "Tobin_Lee": {
+   "undiff": 5
+  },
+  "Travagli": {
+   "diff": 87
+  },
+  "Wong_Silver": {
+   "diff": 334
+  },
+  "Hess": {
+   "diff": 8
+  },
+  "Zoghbi": {
+   "diff": 284
+  },
+  "Reiser": {
+   "diff": 1
+  },
+  "Field": {
+   "diff": 7
+  },
+  "Yayon_Soreq": {
+   "diff": 5150
+  },
+  "Firestein": {
+   "diff": 1285
+  },
+  "Franklin": {
+   "undiff": 305
+  },
+  "Marin": {
+   "diff": 4
+  },
+  "Browning_Travagli": {
+   "diff": 32
+  },
+  "Isaacson": {
+   "diff": 8
+  },
+  "Lee_LJ": {
+   "diff": 1468,
+   "undiff": 211
+  },
+  "Zheng": {
+   "undiff": 9
+  },
+  "Bellemer": {
+   "diff": 18
+  },
+  "Weir": {
+   "diff": 15
+  },
+  "Jefferis": {
+   "diff": 256,
+   "undiff": 976
+  },
+  "Krajka": {
+   "undiff": 51
+  },
+  "Peterson": {
+   "diff": 30
+  },
+  "Banerjee": {
+   "diff": 114
+  },
+  "Sachse": {
+   "undiff": 2
+  },
+  "Peng_YR": {
+   "undiff": 1
+  },
+  "Lukas": {
+   "diff": 32
+  },
+  "Bareyre": {
+   "diff": 141
+  },
+  "Kiyota_Machhi": {
+   "undiff": 175
+  },
+  "Fernandez-Ruiz": {
+   "undiff": 136
+  },
+  "Piskorowski": {
+   "diff": 5
+  },
+  "Oviedo": {
+   "diff": 9
+  },
+  "Abdolhoseini_Kluge": {
+   "undiff": 18
+  },
+  "Fricker": {
+   "diff": 103
+  },
+  "Urban_K": {
+   "diff": 590
+  },
+  "Jacoby_Schwartz": {
+   "diff": 16
+  },
+  "Hughes": {
+   "diff": 87
+  },
+  "Buskila": {
+   "diff": 12,
+   "undiff": 71
+  },
+  "H_Zhang": {
+   "undiff": 328,
+   "diff": 60
+  },
+  "Liu_XD": {
+   "diff": 470,
+   "undiff": 407
+  },
+  "Dahmen": {
+   "diff": 1
+  },
+  "Bito": {
+   "undiff": 74
+  },
+  "Gonzalez-Arenas": {
+   "diff": 160
+  },
+  "Muotri": {
+   "diff": 66
+  },
+  "Kramvis_Spijker": {
+   "diff": 38
+  },
+  "Garcia": {
+   "undiff": 18
+  },
+  "Lai": {
+   "diff": 44
+  },
+  "Meucci": {
+   "diff": 83
+  },
+  "Shinomiya_FlyEM": {
+   "undiff": 1240
+  },
+  "Diniz": {
+   "undiff": 5009
+  },
+  "MouseLight": {
+   "diff": 1112
+  },
+  "Uusisaari": {
+   "diff": 92
+  },
+  "Morara": {
+   "undiff": 180
+  },
+  "Cardona": {
+   "undiff": 973,
+   "diff": 123
+  },
+  "Anstoetz": {
+   "diff": 439
+  },
+  "Yamada": {
+   "diff": 226
+  },
+  "Hernandez-Garzon": {
+   "undiff": 111
+  },
+  "Sekulic": {
+   "diff": 5
+  },
+  "Rudy": {
+   "diff": 37
+  },
+  "Szatko_Franke": {
+   "undiff": 19
+  },
+  "Zagreb": {
+   "diff": 24
+  },
+  "Temereva": {
+   "undiff": 1
+  },
+  "Ellis": {
+   "diff": 1042
+  },
+  "Beck": {
+   "diff": 15
+  },
+  "Hrvoj-Mihic_Semendeferi": {
+   "diff": 217
+  },
+  "Gazan": {
+   "diff": 2
+  },
+  "Fried": {
+   "diff": 37
+  },
+  "Grasselli_Hansel": {
+   "diff": 17
+  },
+  "Stedehouder": {
+   "diff": 5
+  },
+  "Bove_Travagli": {
+   "diff": 91
+  },
+  "Hyunsoo": {
+   "undiff": 30
+  },
+  "Shah_Bamji": {
+   "diff": 49
+  },
+  "Bercier": {
+   "diff": 87
+  },
+  "Farrow": {
+   "diff": 761
+  },
+  "La Barbera": {
+   "undiff": 1486,
+   "diff": 38
+  },
+  "A. Mortensen": {
+   "diff": 37
+  },
+  "Rochefort": {
+   "diff": 19
+  },
+  "Chaimowicz": {
+   "diff": 2
+  },
+  "Ziegler_Tavosanis": {
+   "diff": 210
+  },
+  "Kole": {
+   "diff": 136
+  },
+  "Williams_Wilson": {
+   "diff": 22
+  },
+  "Park_Smirnakis": {
+   "diff": 1
+  },
+  "Sawtell": {
+   "diff": 1
+  },
+  "Vitriol": {
+   "undiff": 257
+  },
+  "Kosillo": {
+   "diff": 69
+  },
+  "Khodosevich": {
+   "diff": 27
+  },
+  "Ito": {
+   "diff": 47
+  },
+  "Huh": {
+   "diff": 30
+  },
+  "Guo_Xia": {
+   "diff": 148
+  },
+  "Wake": {
+   "undiff": 84
+  },
+  "Vida": {
+   "diff": 162
+  },
+  "Jacobs": {
+   "diff": 5040
+  },
+  "Tolias": {
+   "diff": 1019
+  },
+  "VanHook": {
+   "diff": 69
+  },
+  "MacDonald": {
+   "undiff": 85
+  },
+  "Weiss_Manzini": {
+   "diff": 90
+  },
+  "Stopfer": {
+   "diff": 1
+  },
+  "Mizrahi": {
+   "diff": 64
+  },
+  "Seki": {
+   "diff": 28
+  },
+  "Sato-Bigbee": {
+   "undiff": 80
+  },
+  "Chen_Zhao": {
+   "undiff": 97
+  },
+  "Ellender": {
+   "diff": 164
+  },
+  "Lefler_Amsalem": {
+   "diff": 3
+  },
+  "Baier": {
+   "diff": 447,
+   "undiff": 2322
+  },
+  "Canavesi": {
+   "diff": 11
+  },
+  "Bianco": {
+   "undiff": 11
+  },
+  "Weston": {
+   "diff": 92
+  },
+  "Nixdorf-Bergweiler": {
+   "diff": 13
+  },
+  "Szucs": {
+   "diff": 30
+  },
+  "Qiu": {
+   "diff": 116
+  },
+  "Naegele": {
+   "diff": 149
+  },
+  "Kroon": {
+   "diff": 51
+  },
+  "Fontana": {
+   "undiff": 219
+  },
+  "Gradinaru": {
+   "diff": 28
+  },
+  "Jiezheng": {
+   "diff": 39
+  },
+  "Rancz": {
+   "diff": 14
+  },
+  "Medalla": {
+   "diff": 79
+  },
+  "Klausberger": {
+   "diff": 5
+  },
+  "Greathouse_Herskowitz": {
+   "diff": 72
+  },
+  "Sztarker": {
+   "undiff": 8,
+   "diff": 10
+  },
+  "Folgueira": {
+   "diff": 13
+  },
+  "Kamikouchi": {
+   "diff": 90,
+   "undiff": 5
+  },
+  "Sell": {
+   "diff": 25
+  },
+  "Soriano": {
+   "diff": 404,
+   "undiff": 202
+  },
+  "Grilli": {
+   "diff": 1301,
+   "undiff": 724
+  },
+  "Schwaller": {
+   "undiff": 20
+  },
+  "Tendulkar": {
+   "diff": 2
+  },
+  "Carriba": {
+   "undiff": 1959
+  },
+  "Jubao_Forrest": {
+   "diff": 300
+  },
+  "Oboti": {
+   "diff": 48
+  },
+  "Gunnersen": {
+   "diff": 55
+  },
+  "Molofsky": {
+   "diff": 44
+  },
+  "Rishal": {
+   "undiff": 3
+  },
+  "Rivlin": {
+   "diff": 1
+  },
+  "Geis_Borst": {
+   "diff": 4
+  },
+  "Kadow": {
+   "undiff": 3
+  },
+  "Klatt_Heine": {
+   "diff": 32
+  },
+  "Hsueh": {
+   "diff": 1
+  },
+  "Siemsen": {
+   "undiff": 164
+  },
+  "Quinlan": {
+   "diff": 32
+  },
+  "Iascone": {
+   "diff": 12
+  },
+  "Heppner": {
+   "undiff": 80
+  },
+  "Wilson_R": {
+   "undiff": 29
+  },
+  "Gangras": {
+   "diff": 8
+  },
+  "Scimemi": {
+   "diff": 3
+  },
+  "Kim_JH": {
+   "diff": 12
+  },
+  "Straiker": {
+   "undiff": 20
+  },
+  "Jonas": {
+   "diff": 77
+  },
+  "Sanz-Morello": {
+   "diff": 43
+  },
+  "Lanoue": {
+   "undiff": 140
+  },
+  "Stagkourakis_Broberger": {
+   "diff": 10
+  },
+  "Ahmed": {
+   "diff": 25
+  },
+  "Linaro": {
+   "diff": 14
+  },
+  "Vissel": {
+   "diff": 18
+  },
+  "Baptista_Sousa": {
+   "undiff": 115
+  },
+  "Evans": {
+   "diff": 221
+  },
+  "Zeiser": {
+   "undiff": 3
+  },
+  "da Silva": {
+   "diff": 1
+  },
+  "Yang_CY": {
+   "diff": 3
+  },
+  "Robel": {
+   "undiff": 68
+  },
+  "Michaelson": {
+   "diff": 755
+  },
+  "Epsztein": {
+   "diff": 44
+  },
+  "Johenning": {
+   "diff": 89
+  },
+  "Cai": {
+   "diff": 99,
+   "undiff": 21
+  },
+  "Ma_Pan": {
+   "diff": 50
+  },
+  "Campos": {
+   "undiff": 69
+  },
+  "Glennon": {
+   "diff": 55
+  },
+  "Takahashi": {
+   "diff": 19
+  },
+  "Sitaraman": {
+   "diff": 354
+  },
+  "Gugula": {
+   "diff": 80
+  },
+  "Lewis": {
+   "diff": 398
+  },
+  "Bruckner": {
+   "undiff": 264
+  },
+  "Studer": {
+   "diff": 61
+  },
+  "Olesnicky": {
+   "diff": 315
+  },
+  "Oliveira": {
+   "undiff": 705
+  },
+  "Lohr": {
+   "undiff": 53
+  },
+  "Hu_Cheng_Soba": {
+   "diff": 57
+  },
+  "Sturner_Tavosanis": {
+   "diff": 71
+  },
+  "Brennand": {
+   "undiff": 214
+  },
+  "Middei_Minichiello": {
+   "diff": 66
+  },
+  "Otto": {
+   "undiff": 706
+  },
+  "Kavetsky": {
+   "undiff": 57
+  },
+  "Ding_Feldmeyer": {
+   "diff": 48
+  },
+  "Chen_D": {
+   "diff": 36
+  },
+  "Roberts": {
+   "diff": 119
+  },
+  "Rajamani_Qvist": {
+   "diff": 93
+  },
+  "Pantelis_Mann": {
+   "diff": 1
+  },
+  "Althammer": {
+   "undiff": 1394
+  },
+  "Hof_Varghese": {
+   "diff": 113
+  },
+  "Wang_XD": {
+   "diff": 24
+  },
+  "Coate": {
+   "diff": 511
+  },
+  "Falcone": {
+   "undiff": 511
+  },
+  "Wright_Heuckeroth": {
+   "undiff": 8
+  },
+  "Sun": {
+   "diff": 14
+  },
+  "Wang_Olson": {
+   "diff": 8
+  },
+  "Tan_Ng": {
+   "diff": 8
+  },
+  "Dolci_Decimo": {
+   "diff": 4
+  },
+  "Ozaki": {
+   "undiff": 188
+  },
+  "Bertels": {
+   "diff": 942
+  },
+  "Kana_Desland": {
+   "diff": 133
+  },
+  "Shimell": {
+   "diff": 853
+  },
+  "Lopez-Schier": {
+   "diff": 149
+  },
+  "Tolias_Jiang": {
+   "diff": 34
+  },
+  "Nagaeva_Korpi": {
+   "diff": 42
+  },
+  "Auer": {
+   "diff": 4
+  },
+  "Huang_ML": {
+   "diff": 25
+  },
+  "Acharya": {
+   "diff": 101
+  },
+  "Baharani_A": {
+   "diff": 348
+  },
+  "Fulton": {
+   "undiff": 158
+  },
+  "VilaVerde": {
+   "undiff": 73
+  },
+  "Castanho_Oliveira": {
+   "diff": 487
+  },
+  "Fishell": {
+   "diff": 2
+  },
+  "Hurd": {
+   "diff": 130
+  },
+  "Murer": {
+   "diff": 38
+  },
+  "Mancia-Leon": {
+   "diff": 233
+  },
+  "Opitz": {
+   "diff": 10
+  },
+  "Schornig_Taverna": {
+   "undiff": 807
+  },
+  "Dias_Lima": {
+   "diff": 185
+  },
+  "Lim_Kitazawa": {
+   "undiff": 12
+  },
+  "Mani_Schwartz": {
+   "diff": 4
+  },
+  "deKloet_Mansvelder": {
+   "diff": 4
+  },
+  "Illiano_Pardo": {
+   "undiff": 27
+  },
+  "McKellar": {
+   "diff": 2
+  },
+  "Vaidya": {
+   "diff": 58
+  },
+  "Zhang_Jiang": {
+   "diff": 675
+  },
+  "Kontou_Kittler": {
+   "diff": 10
+  },
+  "Adke_Carrasquillo": {
+   "diff": 13
+  },
+  "Nacher": {
+   "diff": 395
+  },
+  "Diana": {
+   "diff": 1
+  },
+  "Yang_XW": {
+   "diff": 3993,
+   "undiff": 11
+  },
+  "Zhan_Kipp": {
+   "undiff": 49
+  },
+  "Valiante": {
+   "diff": 10
+  },
+  "Sjostrom": {
+   "diff": 232,
+   "undiff": 33
+  },
+  "Ruthazer": {
+   "diff": 10
+  },
+  "Ferguson": {
+   "diff": 26
+  },
+  "Conte": {
+   "diff": 81,
+   "undiff": 1
+  },
+  "Ngodup_Trussel": {
+   "diff": 15
+  },
+  "Koehl": {
+   "diff": 233
+  },
+  "Tao": {
+   "diff": 96
+  },
+  "Piirainen": {
+   "undiff": 102
+  },
+  "Lien": {
+   "diff": 56,
+   "undiff": 5
+  },
+  "Hale": {
+   "diff": 21
+  },
+  "BICCN-MOp-miniatlas-anatomy": {
+   "diff": 301
+  },
+  "Skyberg": {
+   "diff": 221
+  },
+  "Aharon_Zuo": {
+   "diff": 274
+  },
+  "Feng": {
+   "diff": 16
+  },
+  "Su": {
+   "undiff": 6,
+   "diff": 23
+  },
+  "Mellor": {
+   "diff": 71
+  },
+  "Rossi": {
+   "diff": 8
+  },
+  "Ghatak_Lipton": {
+   "undiff": 3
+  },
+  "Oliveira_Neumann": {
+   "undiff": 9
+  },
+  "Summavielle": {
+   "diff": 149,
+   "undiff": 58
+  },
+  "Kojic": {
+   "diff": 59
+  },
+  "Tejos-Bravo_Fiedler": {
+   "diff": 31
+  },
+  "Moons": {
+   "diff": 201
+  },
+  "Peric_Bataveljic": {
+   "undiff": 56
+  },
+  "Nishitoh": {
+   "diff": 120
+  },
+  "Bergstrom": {
+   "diff": 195
+  },
+  "Yang-CY": {
+   "diff": 3
+  },
+  "Giniger": {
+   "diff": 42
+  },
+  "Suzuki_Dityatev": {
+   "undiff": 140
+  },
+  "Zorrilla_Bacci": {
+   "diff": 53
+  },
+  "Dehorter": {
+   "diff": 15
+  },
+  "Hu_Soba": {
+   "diff": 106
+  },
+  "Brunner": {
+   "diff": 2
+  },
+  "Zhang_L": {
+   "diff": 1
+  },
+  "Chao": {
+   "diff": 107
+  },
+  "Charlet": {
+   "undiff": 1063
+  },
+  "Morimoto_Zhao_Reiser": {
+   "undiff": 76
+  },
+  "Issa_Schwalbe": {
+   "diff": 3
+  },
+  "Lorenzati": {
+   "undiff": 115
+  },
+  "Carlen": {
+   "diff": 38
+  },
+  "Xiong": {
+   "undiff": 796
+  },
+  "Wildenberg_Kasthuri": {
+   "undiff": 4
+  },
+  "Bathellier_Larkum": {
+   "diff": 19
+  },
+  "Vivinetto_Cave": {
+   "undiff": 157
+  },
+  "Consiglio": {
+   "diff": 445
+  },
+  "Bu": {
+   "diff": 6,
+   "undiff": 24
+  },
+  "Artinian": {
+   "diff": 20
+  },
+  "Neves": {
+   "undiff": 231
+  },
+  "Zhong_Mao_Ganguli": {
+   "diff": 6
+  },
+  "Zhuang": {
+   "diff": 12
+  },
+  "Gomes": {
+   "diff": 87,
+   "undiff": 79
+  },
+  "Mehder": {
+   "diff": 553
+  },
+  "Wallace_Palmer": {
+   "diff": 49
+  },
+  "Adori": {
+   "diff": 20
+  },
+  "Sweet": {
+   "diff": 319
+  },
+  "Milnerwood": {
+   "diff": 85
+  },
+  "Schwartz": {
+   "diff": 155
+  },
+  "Barreda": {
+   "diff": 137
+  },
+  "Gaspar": {
+   "undiff": 765,
+   "diff": 475
+  },
+  "Wenzel_Berman": {
+   "diff": 49
+  },
+  "Krishnaswamy": {
+   "diff": 15
+  },
+  "Ghosh": {
+   "diff": 52
+  },
+  "Qiru": {
+   "undiff": 41
+  },
+  "Grunert": {
+   "diff": 25
+  },
+  "Guo": {
+   "diff": 39
+  },
+  "VanDerZee": {
+   "diff": 83
+  },
+  "Bardy": {
+   "diff": 92
+  },
+  "Masachs": {
+   "diff": 509
+  },
+  "Yin": {
+   "diff": 41
+  },
+  "Rasia-Filho": {
+   "diff": 67
+  },
+  "Huber_Haapasalo": {
+   "diff": 133
+  },
+  "Richards": {
+   "diff": 795
+  },
+  "Liu_Zeng": {
+   "diff": 1
+  },
+  "Dickstein": {
+   "diff": 98
+  },
+  "Siqueira_Guil": {
+   "diff": 117
+  },
+  "Serra_Colasante": {
+   "undiff": 15
+  },
+  "Schulz": {
+   "diff": 12
+  },
+  "Keller": {
+   "diff": 36
+  },
+  "Shcheglovitov": {
+   "diff": 16
+  },
+  "Laukoter_Hippenmeyer": {
+   "undiff": 47
+  },
+  "Kosta_Jones": {
+   "diff": 12
+  },
+  "Raju_Oldham": {
+   "undiff": 24
+  },
+  "Riera-Tur": {
+   "undiff": 124
+  },
+  "Steelman": {
+   "undiff": 966
+  },
+  "Wang_I-F": {
+   "diff": 5
+  },
+  "Dhanya": {
+   "diff": 214
+  },
+  "Puglielli": {
+   "undiff": 130,
+   "diff": 2
+  },
+  "Mentis": {
+   "diff": 43
+  },
+  "Cohen_A": {
+   "diff": 8
+  },
+  "Liu": {
+   "diff": 26
+  },
+  "Galloni_Rancz": {
+   "diff": 11
+  },
+  "Tischfield": {
+   "diff": 21
+  },
+  "Yuste": {
+   "diff": 874
+  },
+  "Northington": {
+   "diff": 35
+  },
+  "Parnas": {
+   "undiff": 1
+  },
+  "Wang_Zhou": {
+   "diff": 45
+  },
+  "Yorek": {
+   "undiff": 3880,
+   "diff": 332
+  },
+  "Spruston": {
+   "diff": 24
+  },
+  "Wang_Lefebvre": {
+   "diff": 774
+  },
+  "Mechawar": {
+   "undiff": 465
+  },
+  "Acsady": {
+   "diff": 13
+  },
+  "Kodali_Shetty": {
+   "undiff": 428
+  },
+  "Miller_Allison": {
+   "diff": 133
+  },
+  "West_Hofer": {
+   "undiff": 304
+  },
+  "Martin_Avendano": {
+   "diff": 32
+  },
+  "Vandenbroucke": {
+   "undiff": 470
+  },
+  "Calderon": {
+   "diff": 46
+  },
+  "MacAskill": {
+   "diff": 13
+  },
+  "Luikart": {
+   "diff": 566
+  },
+  "Kuan_Phelps": {
+   "diff": 25,
+   "undiff": 908
+  },
+  "Hart": {
+   "undiff": 873
+  },
+  "Duan": {
+   "undiff": 4
+  },
+  "Wernitznig": {
+   "diff": 31
+  },
+  "Scott": {
+   "diff": 144,
+   "undiff": 25
+  },
+  "Chen_Dong": {
+   "diff": 217
+  },
+  "Petersen": {
+   "diff": 25
+  },
+  "Patterson_Neitz": {
+   "diff": 53
+  },
+  "Gareau": {
+   "undiff": 166
+  },
+  "Shao_Chen": {
+   "diff": 89
+  },
+  "Chen_Dai": {
+   "undiff": 2
+  },
+  "Yang_Liu": {
+   "undiff": 30
+  },
+  "vdHeuvel": {
+   "diff": 376
+  },
+  "Nam_Yu": {
+   "undiff": 12
+  },
+  "Lee_CJ": {
+   "undiff": 608
+  },
+  "Howard": {
+   "diff": 53
+  },
+  "Sakalar_Lasztoczi": {
+   "diff": 3
+  },
+  "Sheets": {
+   "diff": 55
+  },
+  "Keyvani": {
+   "diff": 461
+  },
+  "Molinard-Chenu": {
+   "diff": 34
+  },
+  "Kubota": {
+   "diff": 24
+  },
+  "Siegert": {
+   "undiff": 41886
+  },
+  "Amaral": {
+   "diff": 47
+  },
+  "Smith": {
+   "diff": 1175
+  },
+  "Esclapez": {
+   "diff": 41
+  },
+  "Quan": {
+   "undiff": 2
+  },
+  "Henny_Roeper": {
+   "diff": 20
+  },
+  "Kosillo_Ahmed": {
+   "diff": 129
+  },
+  "Hierlemann": {
+   "diff": 2
+  },
+  "Achim_Partanen": {
+   "undiff": 30
+  },
+  "Hunt": {
+   "diff": 6
+  },
+  "vonWyl_vomBerg": {
+   "diff": 480
+  },
+  "Maras_Akil": {
+   "undiff": 242
+  },
+  "Lagartos-Donate": {
+   "diff": 11
+  },
+  "Alilain": {
+   "undiff": 42
+  },
+  "Smith-Cowan": {
+   "diff": 150
+  },
+  "Guizzetti": {
+   "undiff": 2803,
+   "diff": 372
+  },
+  "Lin": {
+   "undiff": 2603
+  },
+  "Fernandez-Acosta_Vicario": {
+   "diff": 77
+  },
+  "Wang_Maas": {
+   "diff": 290
+  },
+  "Garcia-Hernandez_DeSantis": {
+   "undiff": 61
+  },
+  "Gesuita_Karayannis": {
+   "diff": 22
+  },
+  "Griego_Galvan": {
+   "diff": 12
+  },
+  "Thomas": {
+   "undiff": 760
+  },
+  "Narkilahti": {
+   "undiff": 2978
+  },
+  "Lopes": {
+   "diff": 5
+  },
+  "Yamao": {
+   "diff": 36
+  },
+  "Chen_Qu": {
+   "diff": 109
+  },
+  "Hioki": {
+   "diff": 63
+  },
+  "Smith_Bilbo": {
+   "undiff": 49
+  },
+  "Routh": {
+   "diff": 10
+  },
+  "Goaillard": {
+   "diff": 38
+  },
+  "Pushchin": {
+   "diff": 277
+  },
+  "Ciosk": {
+   "undiff": 56
+  },
+  "Lee": {
+   "diff": 186
+  },
+  "Mueller_Chen": {
+   "undiff": 10
+  },
+  "Cossart": {
+   "diff": 5
+  },
+  "Bartmann": {
+   "diff": 259
+  },
+  "DiLisa": {
+   "diff": 88
+  },
+  "Hayes": {
+   "undiff": 187
+  },
+  "Rosenberg": {
+   "diff": 16
+  },
+  "Mercuri": {
+   "undiff": 30
+  },
+  "Yin_Yuan": {
+   "diff": 40
+  },
+  "Zwart": {
+   "undiff": 55
+  },
+  "Duch": {
+   "undiff": 27
+  },
+  "Renner": {
+   "diff": 3
+  },
+  "Mercer": {
+   "undiff": 24
+  },
+  "Morgan": {
+   "diff": 945
+  },
+  "Becchetti": {
+   "diff": 80
+  },
+  "Qu": {
+   "undiff": 32
+  },
+  "Sully_Delogu": {
+   "diff": 52
+  },
+  "GliaLab": {
+   "undiff": 78
+  },
+  "Zeng": {
+   "diff": 172
+  },
+  "Dierssen": {
+   "diff": 180
+  },
+  "Eickholt": {
+   "undiff": 886
+  },
+  "Szegedi_Paizs_Lamsa": {
+   "diff": 6
+  },
+  "Jan": {
+   "diff": 750
+  },
+  "Meszena": {
+   "diff": 1
+  },
+  "Madeira_Tsirka": {
+   "undiff": 3
+  },
+  "Liao": {
+   "undiff": 1893
+  },
+  "Rodrigues": {
+   "diff": 450
+  },
+  "Ma_Serra": {
+   "diff": 281
+  },
+  "Bu_Yu": {
+   "diff": 12
+  },
+  "Skiteva_Chergui": {
+   "diff": 49
+  },
+  "Whiddon_Krimm": {
+   "diff": 18
+  },
+  "Bellesi_Zhang": {
+   "undiff": 2199
+  },
+  "Von_Gersdorff": {
+   "diff": 5
+  },
+  "Sensorimotor_Lab": {
+   "diff": 10,
+   "undiff": 1
+  },
+  "Vlachos": {
+   "diff": 50
+  },
+  "Rosario": {
+   "diff": 99
+  },
+  "Du": {
+   "diff": 49
+  },
+  "Wong_K": {
+   "diff": 5
+  },
+  "Ballas": {
+   "undiff": 92
+  },
+  "Smith_VanHook": {
+   "diff": 39
+  },
+  "Iavarone_Hill": {
+   "diff": 99
+  },
+  "Wang_G": {
+   "diff": 29
+  },
+  "Su_Garaschuk": {
+   "diff": 35
+  },
+  "Lin_Liu": {
+   "undiff": 18
+  },
+  "Seo": {
+   "undiff": 1016
+  },
+  "Baptista_Fi": {
+   "undiff": 579
+  },
+  "Plachez": {
+   "diff": 273
+  },
+  "Tuorto": {
+   "diff": 121
+  },
+  "Witter": {
+   "diff": 362
+  },
+  "Galvan": {
+   "diff": 19
+  },
+  "Vanherle_Meissner": {
+   "diff": 229
+  },
+  "Hatchell_Tomlinson": {
+   "undiff": 104
+  },
+  "Franca": {
+   "diff": 2044
+  },
+  "Moratalla": {
+   "diff": 2
+  },
+  "Szegedi_Lamsa": {
+   "diff": 6
+  },
+  "Stevens_Vaccarino": {
+   "undiff": 11
+  },
+  "Salamon_Mahmoud": {
+   "diff": 6
+  },
+  "Doorn": {
+   "diff": 30
+  },
+  "Agostinho": {
+   "undiff": 57
+  },
+  "Heuer": {
+   "diff": 523
+  },
+  "Krimm": {
+   "diff": 90
+  },
+  "Gudenschwager": {
+   "undiff": 82
+  },
+  "Brazane": {
+   "undiff": 154
+  },
+  "Camp": {
+   "diff": 22
+  },
+  "Cieri": {
+   "undiff": 49
+  },
+  "Ciganok-Huckels_Jehasse_Kampa": {
+   "diff": 66
+  },
+  "Winters": {
+   "diff": 70
+  },
+  "Gamper": {
+   "diff": 10
+  },
+  "Xie_Gao": {
+   "diff": 68
+  },
+  "Schaaf_Zarbalis": {
+   "diff": 102
+  },
+  "Forro_Klausberger": {
+   "diff": 16
+  },
+  "Offner_Manzini": {
+   "diff": 61
+  },
+  "Celdran": {
+   "undiff": 1622
+  },
+  "Pandit_Eswarappa": {
+   "undiff": 846
+  },
+  "Rautio_Whitlock": {
+   "diff": 38
+  },
+  "Rolemage": {
+   "diff": 9,
+   "undiff": 136
+  },
+  "Kyrargyri_Attwell": {
+   "undiff": 54
+  },
+  "Wang_JF": {
+   "diff": 87
+  },
+  "Wang_Zhang": {
+   "diff": 8
+  },
+  "Schmidt": {
+   "diff": 52,
+   "undiff": 10
+  },
+  "Janowska": {
+   "undiff": 3
+  },
+  "Goodhill": {
+   "diff": 10
+  },
+  "Jin": {
+   "diff": 23
+  },
+  "Drenan": {
+   "diff": 2
+  },
+  "Kummer": {
+   "diff": 81
+  },
+  "oSullivan_vonPhilipsborn": {
+   "undiff": 10
+  },
+  "Moulin": {
+   "diff": 23
+  },
+  "Strauss": {
+   "diff": 2
+  },
+  "Maffei": {
+   "diff": 3
+  },
+  "Tamadon_Feng": {
+   "diff": 12
+  },
+  "Song_WJ": {
+   "diff": 9
+  },
+  "Abraham": {
+   "diff": 5
+  },
+  "Nair_Augustine": {
+   "diff": 15
+  },
+  "Chen_Kuruvilla": {
+   "diff": 8
+  },
+  "Kamiya": {
+   "undiff": 30
+  },
+  "Chapman_Hill": {
+   "undiff": 9
+  },
+  "Komulainen": {
+   "diff": 110
+  },
+  "Wang_Y": {
+   "diff": 79
+  },
+  "Shivkumar": {
+   "diff": 2
+  },
+  "Prichard_Singer": {
+   "undiff": 1154
+  },
+  "Schoenfeld": {
+   "diff": 282
+  },
+  "Greggio": {
+   "undiff": 162
+  },
+  "Chee": {
+   "diff": 34
+  },
+  "Nigro": {
+   "diff": 4
+  },
+  "Hosseini": {
+   "undiff": 1037
+  },
+  "Figarella": {
+   "undiff": 779
+  },
+  "Zhao": {
+   "undiff": 38,
+   "diff": 1
+  },
+  "Leiter": {
+   "diff": 411
+  },
+  "Nolan": {
+   "diff": 69
+  },
+  "Helmstaedter": {
+   "undiff": 3640,
+   "diff": 328
+  },
+  "Unterwald": {
+   "diff": 47
+  },
+  "DeKock": {
+   "diff": 109
+  },
+  "Harder": {
+   "undiff": 2126
+  },
+  "Hamad": {
+   "diff": 5482
+  },
+  "Jagst_Steinmann": {
+   "undiff": 15
+  },
+  "Kasthuri": {
+   "diff": 28
+  },
+  "Chen_Parisiadou": {
+   "diff": 45
+  },
+  "Neigh": {
+   "undiff": 1018
+  },
+  "Sanchez-Alonso": {
+   "undiff": 158
+  },
+  "Zhang_Y": {
+   "diff": 184
+  },
+  "Mukherjee_Feliciano": {
+   "diff": 96
+  },
+  "Swain": {
+   "undiff": 34
+  },
+  "Miao": {
+   "undiff": 37
+  },
+  "Apokotou": {
+   "undiff": 403
+  },
+  "Seney": {
+   "undiff": 1351,
+   "diff": 2
+  },
+  "Soto": {
+   "diff": 212
+  },
+  "Harwell": {
+   "undiff": 64
+  },
+  "Munoz et al.": {
+   "diff": 77
+  },
+  "Oberlaender": {
+   "diff": 12
+  },
+  "Jing_Jiang": {
+   "diff": 291
+  },
+  "Hoppa": {
+   "diff": 1
+  },
+  "Kiraly": {
+   "diff": 20
+  },
+  "D'Angelo": {
+   "diff": 1
+  },
+  "Roossien": {
+   "diff": 57
+  },
+  "Chimal-Juarez_Lasagna-Reeves": {
+   "undiff": 1460
+  },
+  "Brandalise_Holtmaat": {
+   "diff": 30
+  },
+  "Bohlen_Rudzite": {
+   "diff": 1
+  },
+  "Guzman": {
+   "diff": 168
+  },
+  "Tribble": {
+   "diff": 202
+  },
+  "Blankenship": {
+   "diff": 45
+  },
+  "Brandebura": {
+   "diff": 8
+  },
+  "Basu": {
+   "diff": 17
+  },
+  "Physio Lab - Medical Faculty - UoI": {
+   "diff": 19
+  },
+  "Booker": {
+   "diff": 137
+  },
+  "Saminathan_Sharma": {
+   "undiff": 10463
+  },
+  "Alvarez": {
+   "diff": 6
+  },
+  "Lambe": {
+   "diff": 197
+  },
+  "Kim_KW": {
+   "diff": 59
+  },
+  "Chen": {
+   "diff": 99
+  },
+  "Santiago": {
+   "undiff": 207
+  },
+  "Myers": {
+   "diff": 33
+  },
+  "Liu_S": {
+   "diff": 231
+  },
+  "Cho": {
+   "diff": 163
+  },
+  "Collin": {
+   "diff": 75
+  },
+  "Kim": {
+   "diff": 46
+  },
+  "Lumpkin": {
+   "diff": 21
+  },
+  "Maxwell": {
+   "diff": 20
+  },
+  "Middledorp": {
+   "diff": 50
+  },
+  "Nordman": {
+   "diff": 401
+  },
+  "Portera-Cailliau": {
+   "diff": 49
+  },
+  "Radley": {
+   "diff": 783
+  },
+  "Rose": {
+   "diff": 16
+  },
+  "Rubel": {
+   "diff": 36
+  },
+  "Avendano": {
+   "diff": 68
+  },
+  "Bacci": {
+   "diff": 21
+  },
+  "Baldwin": {
+   "diff": 7
+  },
+  "Bartos": {
+   "diff": 27
+  },
+  "McQuiston": {
+   "diff": 21,
+   "undiff": 1
+  },
+  "Bianchi": {
+   "diff": 518
+  },
+  "Blackman": {
+   "diff": 8
+  },
+  "Calabresi_Ghiglieri": {
+   "diff": 4
+  },
+  "Rice-Baylor": {
+   "diff": 19
+  },
+  "Chmykhova": {
+   "diff": 14
+  },
+  "Cohen": {
+   "diff": 7
+  },
+  "Coombes": {
+   "diff": 1
+  },
+  "De Paola": {
+   "diff": 86
+  },
+  "De Schutter": {
+   "diff": 1
+  },
+  "Fukunaga": {
+   "diff": 16
+  },
+  "Gerber": {
+   "diff": 2
+  },
+  "Groen": {
+   "diff": 12
+  },
+  "Halnes": {
+   "diff": 3
+  },
+  "Hay": {
+   "diff": 4
+  },
+  "Henckens": {
+   "diff": 373
+  },
+  "Irintchev": {
+   "diff": 32
+  },
+  "Johnson": {
+   "diff": 150
+  },
+  "Katona": {
+   "diff": 3
+  },
+  "Kimura": {
+   "diff": 111
+  },
+  "Lee_CH": {
+   "diff": 47
+  },
+  "Luzzati": {
+   "diff": 33
+  },
+  "Margrie": {
+   "diff": 16
+  },
+  "Merchan-Perez": {
+   "diff": 1
+  },
+  "Palmer": {
+   "diff": 1
+  },
+  "McBain": {
+   "diff": 177
+  },
+  "Poria": {
+   "diff": 11
+  },
+  "Schmitz": {
+   "diff": 9
+  },
+  "Seung": {
+   "diff": 362,
+   "undiff": 21
+  },
+  "Sikdar": {
+   "diff": 2
+  },
+  "Soltesz": {
+   "diff": 18
+  },
+  "Tagawa": {
+   "diff": 26
+  },
+  "Usiello": {
+   "diff": 31
+  },
+  "Brown": {
+   "diff": 181
+  },
+  "Claiborne": {
+   "diff": 54
+  },
+  "Garcia-Cairasco": {
+   "diff": 40
+  },
+  "Martone": {
+   "diff": 12
+  },
+  "Bannatyne": {
+   "diff": 52
+  },
+  "Berkowitz": {
+   "diff": 31
+  },
+  "Caille": {
+   "diff": 106
+  },
+  "Vannini_Restani_Caleo": {
+   "diff": 55
+  },
+  "Jacobs_G": {
+   "diff": 127
+  },
+  "Del Negro": {
+   "diff": 47
+  },
+  "Frankland": {
+   "diff": 203
+  },
+  "Gage": {
+   "diff": 97
+  },
+  "Hoffman": {
+   "diff": 10
+  },
+  "Kondo": {
+   "diff": 4
+  },
+  "Rainnie": {
+   "diff": 40
+  },
+  "Rumbaugh": {
+   "diff": 26
+  },
+  "Gulyas": {
+   "diff": 99
+  },
+  "Storm": {
+   "diff": 20
+  },
+  "Suter_Shepherd": {
+   "diff": 28
+  },
+  "Tessarollo_Yanpallewar": {
+   "diff": 478
+  },
+  "Barco_Scandaglia": {
+   "diff": 69
+  },
+  "Baulac": {
+   "diff": 23
+  },
+  "Beining": {
+   "diff": 240
+  },
+  "Blackwell": {
+   "diff": 38
+  },
+  "Bleckert": {
+   "diff": 9
+  },
+  "Branchereau_Cattaert": {
+   "diff": 4
+  },
+  "Bullmann": {
+   "diff": 95
+  },
+  "Capogna": {
+   "diff": 6
+  },
+  "Chandrashekar": {
+   "diff": 5
+  },
+  "Smith_Cowan": {
+   "diff": 163
+  },
+  "DeMunter": {
+   "diff": 10
+  },
+  "Drago": {
+   "diff": 6
+  },
+  "Duque-Tahvildari": {
+   "diff": 9
+  },
+  "FlyEM": {
+   "diff": 524,
+   "undiff": 1279
+  },
+  "Guthrie": {
+   "diff": 167
+  },
+  "Hannibal": {
+   "diff": 17
+  },
+  "Hen": {
+   "diff": 198
+  },
+  "Johnston": {
+   "diff": 30
+  },
+  "Chalupa": {
+   "diff": 180
+  },
+  "Kannan": {
+   "undiff": 117
+  },
+  "Kantor": {
+   "diff": 30
+  },
+  "Karlsson": {
+   "diff": 1190
+  },
+  "Kengaku": {
+   "diff": 32
+  },
+  "Khankan": {
+   "undiff": 4807
+  },
+  "Bikson": {
+   "diff": 28
+  },
+  "Danzer": {
+   "diff": 173
+  },
+  "Jaeger": {
+   "diff": 12
+  },
+  "Korngreen": {
+   "diff": 31
+  },
+  "Mailly": {
+   "diff": 12
+  },
+  "Povysheva": {
+   "diff": 7
+  },
+  "Sun_Prince": {
+   "diff": 3
+  },
+  "Timofeev": {
+   "diff": 11
+  },
+  "Barbour": {
+   "diff": 2
+  },
+  "Lee_KH": {
+   "diff": 38
+  },
+  "Leroy": {
+   "diff": 31
+  },
+  "Burke": {
+   "diff": 6
+  },
+  "Orion": {
+   "diff": 10
+  },
+  "Petreanu": {
+   "diff": 10
+  },
+  "Prida": {
+   "diff": 2
+  },
+  "Ren": {
+   "diff": 36
+  },
+  "Dendritica": {
+   "diff": 16
+  },
+  "Rieger": {
+   "diff": 6
+  },
+  "Gartner-Alpar": {
+   "diff": 53
+  },
+  "Singh": {
+   "diff": 186
+  },
+  "Cameron": {
+   "diff": 64
+  },
+  "Cauli": {
+   "diff": 10
+  },
+  "Szoboszlay": {
+   "diff": 18
+  },
+  "Kimura_Tohyama": {
+   "diff": 10
+  },
+  "Rhode": {
+   "diff": 5
+  },
+  "Vuksic": {
+   "diff": 80
+  },
+  "Urban": {
+   "diff": 236
+  },
+  "Nusser": {
+   "diff": 32
+  },
+  "Zhao_Yuan": {
+   "diff": 57
+  },
+  "Lovell": {
+   "diff": 2
+  },
+  "Andolina": {
+   "diff": 1
+  },
+  "Bazan": {
+   "diff": 80
+  },
+  "Buchs": {
+   "diff": 8
+  },
+  "Buelow": {
+   "diff": 301
+  },
+  "Carvalho": {
+   "diff": 129
+  },
+  "Caviedes": {
+   "diff": 2
+  },
+  "Dallman": {
+   "diff": 3
+  },
+  "Deng": {
+   "diff": 40
+  },
+  "Denk": {
+   "undiff": 1165
+  },
+  "Masland": {
+   "diff": 260
+  },
+  "Dragich": {
+   "undiff": 100
+  },
+  "Fujita": {
+   "diff": 1609
+  },
+  "Gauron": {
+   "diff": 19
+  },
+  "Grasselli": {
+   "diff": 33
+  },
+  "Groh": {
+   "diff": 21
+  },
+  "Huang": {
+   "diff": 91
+  },
+  "Ka_Kim": {
+   "diff": 4
+  },
+  "Karube": {
+   "diff": 23
+  },
+  "Kougias_Juraska": {
+   "diff": 693
+  },
+  "Li_Yao": {
+   "diff": 1
+  },
+  "Lozano": {
+   "diff": 15
+  },
+  "Luders": {
+   "undiff": 30
+  },
+  "Baro": {
+   "diff": 3
+  },
+  "Miyasaka": {
+   "diff": 55
+  },
+  "Morelli": {
+   "diff": 15
+  },
+  "Moyer": {
+   "diff": 2
+  },
+  "Murase": {
+   "diff": 195
+  },
+  "Nath_Schwartz": {
+   "diff": 4
+  },
+  "Nedelescu-Aoki": {
+   "diff": 47
+  },
+  "Nelson": {
+   "diff": 29
+  },
+  "Newbern": {
+   "diff": 14
+  },
+  "Norkett": {
+   "diff": 54
+  },
+  "Ohgomori": {
+   "undiff": 392
+  },
+  "Bausch": {
+   "diff": 62
+  },
+  "Olson": {
+   "undiff": 22
+  },
+  "Pischedda_Piccoli": {
+   "diff": 467
+  },
+  "Poleg-Polsky": {
+   "diff": 5
+  },
+  "Pierce": {
+   "diff": 10
+  },
+  "Rancillac": {
+   "diff": 66
+  },
+  "Stevens": {
+   "diff": 118
+  },
+  "Rodrigues_Sousa_Cunha": {
+   "diff": 135
+  },
+  "Barrionuevo": {
+   "diff": 8
+  },
+  "Sanes": {
+   "diff": 23
+  },
+  "Segev": {
+   "diff": 6
+  },
+  "Taylor": {
+   "diff": 14
+  },
+  "Trudeau": {
+   "diff": 164,
+   "undiff": 1
+  },
+  "Varela-Nallar": {
+   "diff": 2
+  },
+  "Votruba": {
+   "diff": 49
+  },
+  "Wang_Hadjab": {
+   "diff": 1
+  },
+  "Wanner_Friedrich": {
+   "undiff": 1021
+  },
+  "Fyffe": {
+   "diff": 32
+  },
+  "Vervaeke": {
+   "diff": 8
+  },
+  "Weil": {
+   "undiff": 202
+  },
+  "Wolf": {
+   "diff": 60
+  },
+  "Wotjak": {
+   "diff": 46
+  },
+  "Zhang": {
+   "diff": 29
+  },
+  "Zhang_S": {
+   "diff": 4
+  },
+  "Zhou_Heijnen": {
+   "diff": 32
+  },
+  "Zylbertal": {
+   "diff": 1
+  },
+  "Johnson_T": {
+   "diff": 206
+  },
+  "Antic": {
+   "diff": 1
+  },
+  "Arenkiel": {
+   "diff": 29
+  },
+  "Argue": {
+   "diff": 421
+  },
+  "Ataman_Boulting": {
+   "diff": 208
+  },
+  "Bacigaluppi": {
+   "diff": 24
+  },
+  "Balleine": {
+   "undiff": 135
+  },
+  "Ballester-Rosado": {
+   "diff": 52
+  },
+  "Brecha": {
+   "diff": 3
+  },
+  "Briggman": {
+   "undiff": 2
+  },
+  "Buffo": {
+   "diff": 494
+  },
+  "Miller": {
+   "diff": 61
+  },
+  "Burkhalter": {
+   "diff": 15
+  },
+  "Chen_SK": {
+   "diff": 20
+  },
+  "Daria": {
+   "diff": 1
+  },
+  "De Bartolo": {
+   "diff": 8
+  },
+  "Buzsaki": {
+   "diff": 5
+  },
+  "Araujo": {
+   "diff": 28
+  },
+  "Hirsch": {
+   "diff": 2
+  },
+  "Diaz": {
+   "diff": 2
+  },
+  "Di Benedetto": {
+   "undiff": 25
+  },
+  "Guerra da Rocha": {
+   "diff": 80
+  },
+  "Dwyer": {
+   "diff": 25
+  },
+  "Ginty": {
+   "diff": 650
+  },
+  "Kilb": {
+   "diff": 41
+  },
+  "Korte": {
+   "diff": 36
+  },
+  "Gupton_Song": {
+   "diff": 11
+  },
+  "Higgs": {
+   "diff": 125
+  },
+  "Kameda_Kaneko": {
+   "diff": 32
+  },
+  "Huberman": {
+   "diff": 96
+  },
+  "Huebener": {
+   "diff": 2
+  },
+  "Hur": {
+   "diff": 20
+  },
+  "Hwang": {
+   "diff": 48
+  },
+  "Johnston_J": {
+   "diff": 3
+  },
+  "Jongbloets": {
+   "diff": 354
+  },
+  "Lu_Lichtman": {
+   "diff": 85
+  },
+  "Kabbani": {
+   "undiff": 124
+  },
+  "Kanatsou": {
+   "diff": 168
+  },
+  "King": {
+   "undiff": 248
+  },
+  "Kononenko_Haucke": {
+   "diff": 2
+  },
+  "Koshy": {
+   "diff": 56
+  },
+  "Krasnoshchekova": {
+   "diff": 6
+  },
+  "Kullander": {
+   "diff": 1
+  },
+  "Lasik": {
+   "diff": 162
+  },
+  "Meyer": {
+   "diff": 82
+  },
+  "Levkowitz": {
+   "undiff": 9
+  },
+  "Lopez-Bendito": {
+   "diff": 23
+  },
+  "Martina": {
+   "diff": 14
+  },
+  "Morrow": {
+   "diff": 9
+  },
+  "Mulholland": {
+   "diff": 17
+  },
+  "Munoz-Cobo": {
+   "diff": 46
+  },
+  "Nishiyama": {
+   "diff": 7
+  },
+  "Pal": {
+   "diff": 7,
+   "undiff": 1
+  },
+  "Papageorgiou_Kann": {
+   "undiff": 776
+  },
+  "Jaffe": {
+   "diff": 66
+  },
+  "Monyer": {
+   "diff": 6
+  },
+  "Petrosini": {
+   "diff": 7
+  },
+  "Poorthuis": {
+   "diff": 3
+  },
+  "Pappas_Dauer": {
+   "diff": 97
+  },
+  "Pham": {
+   "diff": 1
+  },
+  "Rybak_Knaden": {
+   "undiff": 5
+  },
+  "Sailor": {
+   "diff": 13
+  },
+  "Valley": {
+   "diff": 7
+  },
+  "Yu": {
+   "diff": 101
+  },
+  "Selten_Kasri": {
+   "diff": 13
+  },
+  "Si_Wang": {
+   "diff": 47
+  },
+  "Siegelbaum": {
+   "diff": 3
+  },
+  "Sng": {
+   "diff": 9
+  },
+  "Stuart": {
+   "diff": 3
+  },
+  "Takeuchi": {
+   "diff": 46
+  },
+  "Tarusawa": {
+   "diff": 34
+  },
+  "TieYuan_Zhang": {
+   "diff": 189
+  },
+  "Ullian": {
+   "undiff": 34
+  },
+  "vanderVoet_Castells": {
+   "diff": 10
+  },
+  "VonGersdorff": {
+   "diff": 6,
+   "undiff": 6
+  },
+  "Wang_J": {
+   "undiff": 165
+  },
+  "Watt": {
+   "diff": 18
+  },
+  "Wernig": {
+   "diff": 7
+  },
+  "West": {
+   "diff": 13
+  },
+  "Zhang_Hu": {
+   "diff": 6
+  },
+  "Zhang_X": {
+   "diff": 298
+  },
+  "Yuan": {
+   "diff": 14
+  },
+  "Wong": {
+   "diff": 138
+  },
+  "Abrous": {
+   "diff": 103
+  },
+  "Anderson": {
+   "diff": 11
+  },
+  "Chen_B": {
+   "diff": 99
+  },
+  "Chen_Maniatis": {
+   "diff": 13
+  },
+  "Chen_YP": {
+   "diff": 15
+  },
+  "DiCristo": {
+   "diff": 1
+  },
+  "Egger": {
+   "diff": 27
+  },
+  "Eroglu": {
+   "diff": 23
+  },
+  "White": {
+   "diff": 1
+  },
+  "Strettoi": {
+   "diff": 7
+  },
+  "Smit-Rigter": {
+   "diff": 51
+  },
+  "Maccaferri": {
+   "diff": 2
+  },
+  "Giugliano": {
+   "diff": 2
+  },
+  "Goldman-Rakic": {
+   "diff": 4
+  },
+  "Han_etal": {
+   "diff": 71
+  },
+  "Harland": {
+   "diff": 311
+  },
+  "Kellendonk": {
+   "diff": 187
+  },
+  "Hetman": {
+   "diff": 1
+  },
+  "Kanninen": {
+   "undiff": 24
+  },
+  "Kula_Gugula": {
+   "diff": 41
+  },
+  "Laurent": {
+   "diff": 22
+  },
+  "Linyi_Chen": {
+   "undiff": 50
+  },
+  "Manzini": {
+   "diff": 8
+  },
+  "Medan": {
+   "diff": 3
+  },
+  "Flores": {
+   "diff": 82
+  },
+  "Fisher": {
+   "diff": 78
+  },
+  "Munera": {
+   "diff": 2
+  },
+  "Nakano_Doya": {
+   "diff": 1
+  },
+  "Pearlstein_Hammond": {
+   "diff": 31
+  },
+  "Pita-Thomas": {
+   "diff": 108
+  },
+  "Rockland": {
+   "diff": 1
+  },
+  "Se-Jun": {
+   "undiff": 24
+  },
+  "Semendeferi_Muotri": {
+   "diff": 45
+  },
+  "Skalecka": {
+   "diff": 220
+  },
+  "Soba": {
+   "diff": 1
+  },
+  "Sondereker_Renna": {
+   "diff": 5
+  },
+  "Sweedler": {
+   "undiff": 23
+  },
+  "Trullas": {
+   "diff": 515
+  },
+  "Valero_Malva": {
+   "diff": 191
+  },
+  "Larkman": {
+   "diff": 6
+  },
+  "Wong_H": {
+   "diff": 79
+  },
+  "Xue": {
+   "diff": 61
+  },
+  "Hildebrand": {
+   "undiff": 741
+  },
+  "Beguin": {
+   "diff": 40
+  },
+  "Almeida": {
+   "diff": 42
+  },
+  "Bao_Hechen": {
+   "diff": 41
+  },
+  "Destexhe": {
+   "diff": 5
+  },
+  "Bicanic": {
+   "diff": 157
+  },
+  "Boesmans_VandenBerghe": {
+   "undiff": 4
+  },
+  "DIADEM": {
+   "diff": 3
+  },
+  "Denizet": {
+   "diff": 1383
+  },
+  "Anton": {
+   "diff": 6
+  },
+  "Alzheimer": {
+   "diff": 11
+  },
+  "Zaitsev": {
+   "diff": 6
+  },
+  "Uteshev": {
+   "diff": 37
+  },
+  "Rodger": {
+   "diff": 371
+  },
+  "Djenoune_wyart": {
+   "diff": 61
+  },
+  "Gage_Toda": {
+   "diff": 61
+  },
+  "Gulledge": {
+   "diff": 11
+  },
+  "Martin": {
+   "diff": 2
+  },
+  "Loane": {
+   "undiff": 25
+  },
+  "Macedo-Lima": {
+   "diff": 80
+  },
+  "Makihara_Goshima": {
+   "diff": 202
+  },
+  "Papazian": {
+   "diff": 7
+  },
+  "Nedelescu": {
+   "diff": 120
+  },
+  "Orlowski": {
+   "diff": 73
+  },
+  "Roysam": {
+   "undiff": 2877
+  },
+  "Krieger": {
+   "diff": 69
+  },
+  "De Koninck": {
+   "diff": 90
+  },
+  "Burdakov": {
+   "diff": 33
+  },
+  "Schoppik_Schier": {
+   "diff": 26
+  },
+  "Tsoulfas": {
+   "diff": 1
+  },
+  "Wang_Ye": {
+   "diff": 71
+  },
+  "Zhou": {
+   "diff": 46
+  },
+  "EyeWire": {
+   "diff": 395
+  },
+  "Andreae": {
+   "diff": 58
+  },
+  "Bevan_Chu": {
+   "diff": 52
+  },
+  "Bird": {
+   "diff": 233
+  },
+  "Conti": {
+   "diff": 299
+  },
+  "Herring_Keyvani": {
+   "diff": 108
+  },
+  "Hoxha": {
+   "diff": 18
+  },
+  "Karaca_Oliveira": {
+   "diff": 21
+  }
+ }
+}

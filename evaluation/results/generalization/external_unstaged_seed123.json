@@ -1,0 +1,123 @@
+[
+  {
+    "group": "ALL",
+    "n_cells": 1500,
+    "node_acc": 0.8914,
+    "neurite_macro_f1": 0.8822,
+    "axon_f1": 0.9491,
+    "basal_f1": 0.8815,
+    "apical_f1": 0.8161,
+    "pcf1_mean": 0.6839,
+    "pcf1_p10": 0.3224
+  },
+  {
+    "group": "BICCN-MOp-miniatlas-anatomy",
+    "n_cells": 150,
+    "node_acc": 0.943,
+    "neurite_macro_f1": 0.726,
+    "axon_f1": 0.9903,
+    "basal_f1": 0.787,
+    "apical_f1": 0.4006,
+    "pcf1_mean": 0.6097,
+    "pcf1_p10": 0.4686
+  },
+  {
+    "group": "Bianchi",
+    "n_cells": 150,
+    "node_acc": 0.8607,
+    "neurite_macro_f1": 0.6073,
+    "axon_f1": 0.175,
+    "basal_f1": 0.9064,
+    "apical_f1": 0.7404,
+    "pcf1_mean": 0.5935,
+    "pcf1_p10": 0.2967
+  },
+  {
+    "group": "Hamad",
+    "n_cells": 150,
+    "node_acc": 0.8029,
+    "neurite_macro_f1": 0.8011,
+    "axon_f1": 0.0,
+    "basal_f1": 0.8186,
+    "apical_f1": 0.7836,
+    "pcf1_mean": 0.779,
+    "pcf1_p10": 0.2968
+  },
+  {
+    "group": "Kougias_Juraska",
+    "n_cells": 150,
+    "node_acc": 0.9997,
+    "neurite_macro_f1": 0.9997,
+    "axon_f1": 0.0,
+    "basal_f1": 0.9998,
+    "apical_f1": 0.9996,
+    "pcf1_mean": 0.996,
+    "pcf1_p10": 1.0
+  },
+  {
+    "group": "Lambe",
+    "n_cells": 150,
+    "node_acc": 0.7874,
+    "neurite_macro_f1": 0.6704,
+    "axon_f1": 0.2845,
+    "basal_f1": 0.8516,
+    "apical_f1": 0.875,
+    "pcf1_mean": 0.639,
+    "pcf1_p10": 0.491
+  },
+  {
+    "group": "Lewis",
+    "n_cells": 150,
+    "node_acc": 0.9322,
+    "neurite_macro_f1": 0.7273,
+    "axon_f1": 0.3126,
+    "basal_f1": 0.9408,
+    "apical_f1": 0.9284,
+    "pcf1_mean": 0.829,
+    "pcf1_p10": 0.4134
+  },
+  {
+    "group": "Witter",
+    "n_cells": 150,
+    "node_acc": 0.816,
+    "neurite_macro_f1": 0.7721,
+    "axon_f1": 0.8859,
+    "basal_f1": 0.8779,
+    "apical_f1": 0.5526,
+    "pcf1_mean": 0.6283,
+    "pcf1_p10": 0.3184
+  },
+  {
+    "group": "Zeng",
+    "n_cells": 150,
+    "node_acc": 0.8608,
+    "neurite_macro_f1": 0.8607,
+    "axon_f1": 0.9349,
+    "basal_f1": 0.7953,
+    "apical_f1": 0.8519,
+    "pcf1_mean": 0.6503,
+    "pcf1_p10": 0.2323
+  },
+  {
+    "group": "Zhang_Jiang",
+    "n_cells": 150,
+    "node_acc": 0.8598,
+    "neurite_macro_f1": 0.857,
+    "axon_f1": 0.0,
+    "basal_f1": 0.881,
+    "apical_f1": 0.8329,
+    "pcf1_mean": 0.6975,
+    "pcf1_p10": 0.3421
+  },
+  {
+    "group": "vdHeuvel",
+    "n_cells": 150,
+    "node_acc": 0.9264,
+    "neurite_macro_f1": 0.4914,
+    "axon_f1": 0.036,
+    "basal_f1": 0.9612,
+    "apical_f1": 0.477,
+    "pcf1_mean": 0.4163,
+    "pcf1_p10": 0.3039
+  }
+]

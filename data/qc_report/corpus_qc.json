@@ -1,0 +1,31 @@
+{
+  "corpus": "data",
+  "n_total": 11862,
+  "n_pass": 11862,
+  "n_fail": 0,
+  "pass_by_cell_type": {
+    "pyramidal": 8488,
+    "interneuron": 3374
+  },
+  "fail_by_cell_type": {
+    "pyramidal": 0,
+    "interneuron": 0
+  },
+  "by_source": {
+    "allen": {
+      "pass": 203,
+      "fail": 0
+    },
+    "hpf_ca1": {
+      "pass": 1358,
+      "fail": 0
+    },
+    "neuromorpho": {
+      "pass": 10301,
+      "fail": 0
+    }
+  },
+  "fail_reason_counts": {},
+  "elapsed_min": 8.920840040000622,
+  "csv": "data/qc_report/corpus_qc.csv"
+}

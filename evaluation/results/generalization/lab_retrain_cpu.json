@@ -1,0 +1,84 @@
+{
+  "vdHeuvel": {
+    "n_train": 100,
+    "train_s": 6.64,
+    "n_test": 50,
+    "own": {
+      "node_acc": 0.9996828381455093,
+      "node_acc_with_soma": 0.9996830176717648,
+      "neurite_macro_f1": 0.9985401311960113,
+      "apical_f1": 0.9957882069795427,
+      "basal_f1": 0.9998321866084914,
+      "pcf1_mean": 0.998062,
+      "pcf1_p10": 1.0
+    },
+    "frozen": {
+      "node_acc": 0.8712096326586093,
+      "node_acc_with_soma": 0.8712825331416345,
+      "neurite_macro_f1": 0.5395369124974908,
+      "apical_f1": 0.21824524152574507,
+      "basal_f1": 0.9295425533233359,
+      "pcf1_mean": 0.507016,
+      "pcf1_p10": 0.27728
+    }
+  },
+  "Hamad": {
+    "n_train": 107,
+    "train_s": 4.24,
+    "n_test": 43,
+    "own": {
+      "node_acc": 0.9871958734651025,
+      "node_acc_with_soma": 0.9872084273890143,
+      "neurite_macro_f1": 0.9871838677307727,
+      "apical_f1": 0.9875761266747869,
+      "basal_f1": 0.9867916087867586,
+      "pcf1_mean": 0.9736348837209301,
+      "pcf1_p10": 1.0
+    },
+    "frozen": {
+      "node_acc": 0.7686355959282422,
+      "node_acc_with_soma": 0.7688624392913332,
+      "neurite_macro_f1": 0.7609090457871581,
+      "apical_f1": 0.7166357868732806,
+      "basal_f1": 0.8051823047010357,
+      "pcf1_mean": 0.6573372093023256,
+      "pcf1_p10": 0.21936
+    },
+    "note": "correction head untrainable on this corpus; lab model runs without it"
+  },
+  "Bianchi": {
+    "n_train": 108,
+    "train_s": 3.9,
+    "n_test": 42,
+    "own": {
+      "node_acc": 0.8502962085308057,
+      "node_acc_with_soma": 0.850667769767167,
+      "neurite_macro_f1": 0.7002365904710336,
+      "apical_f1": 0.7638599416423509,
+      "basal_f1": 0.8933530280649926,
+      "pcf1_mean": 0.7908761904761905,
+      "pcf1_p10": 0.52245
+    },
+    "frozen": {
+      "node_acc": 0.8125,
+      "node_acc_with_soma": 0.8129653705235788,
+      "neurite_macro_f1": 0.6160706852393546,
+      "apical_f1": 0.7008564437194127,
+      "basal_f1": 0.8671358317788707,
+      "pcf1_mean": 0.6382714285714286,
+      "pcf1_p10": 0.28824
+    }
+  },
+  "_run": {
+    "archives": [
+      "vdHeuvel",
+      "Hamad",
+      "Bianchi"
+    ],
+    "seed": 123,
+    "test_size": 0.3333333333333333,
+    "device": "cpu",
+    "frozen_models": "pipeline/models/seed123",
+    "failed": {}
+  }
+}

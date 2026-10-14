@@ -1,0 +1,146 @@
+{
+  "seed": 123,
+  "source_prefix": "hpf_ca1__",
+  "n_test_cells": 294,
+  "n_test_cells_selected": 294,
+  "n_test_nodes": 10965009,
+  "inference_min": 4.62,
+  "correction_applied": true,
+  "correction_applied_cells": 294,
+  "deployment": false,
+  "skipped_unparseable": [],
+  "rules_disabled": [],
+  "corpus": {
+    "accuracy": 0.9926379449392153,
+    "macro_f1": 0.9666834119366615,
+    "neurite_macro_f1": 0.9555778825822152,
+    "per_class": {
+      "soma": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 294
+      },
+      "axon": {
+        "precision": 0.9989083603016254,
+        "recall": 0.996961170322002,
+        "f1": 0.9979338154629488,
+        "support": 10065059
+      },
+      "basal": {
+        "precision": 0.8964274633306497,
+        "recall": 0.9613919934928371,
+        "f1": 0.9277738833317243,
+        "support": 459801
+      },
+      "apical": {
+        "precision": 0.9561542450716057,
+        "recall": 0.9263689170294757,
+        "f1": 0.9410259489519728,
+        "support": 439855
+      }
+    },
+    "confusion": [
+      [
+        294,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        10034473,
+        29452,
+        1134
+      ],
+      [
+        0,
+        201,
+        442049,
+        17551
+      ],
+      [
+        0,
+        10765,
+        21622,
+        407468
+      ]
+    ],
+    "confusion_labels": [
+      "soma",
+      "axon",
+      "basal",
+      "apical"
+    ],
+    "pcf1_mean": 0.9672578231292516,
+    "pcf1_p10": 0.91819
+  },
+  "by_cell_type": {
+    "pyramidal": {
+      "n_nodes": 10965009,
+      "accuracy": 0.9926379449392153,
+      "macro_f1": 0.9666834119366615,
+      "neurite_macro_f1": 0.9555778825822152,
+      "per_class": {
+        "soma": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 294
+        },
+        "axon": {
+          "precision": 0.9989083603016254,
+          "recall": 0.996961170322002,
+          "f1": 0.9979338154629488,
+          "support": 10065059
+        },
+        "basal": {
+          "precision": 0.8964274633306497,
+          "recall": 0.9613919934928371,
+          "f1": 0.9277738833317243,
+          "support": 459801
+        },
+        "apical": {
+          "precision": 0.9561542450716057,
+          "recall": 0.9263689170294757,
+          "f1": 0.9410259489519728,
+          "support": 439855
+        }
+      },
+      "confusion": [
+        [
+          294,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10034473,
+          29452,
+          1134
+        ],
+        [
+          0,
+          201,
+          442049,
+          17551
+        ],
+        [
+          0,
+          10765,
+          21622,
+          407468
+        ]
+      ],
+      "confusion_labels": [
+        "soma",
+        "axon",
+        "basal",
+        "apical"
+      ],
+      "pcf1_mean": 0.9672578231292516,
+      "pcf1_p10": 0.91819
+    }
+  }
+}

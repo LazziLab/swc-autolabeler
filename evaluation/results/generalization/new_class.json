@@ -1,0 +1,176 @@
+{
+  "granule/Rodrigues": {
+    "n_train": 105,
+    "n_test": 45,
+    "n_all": 150,
+    "schema": "interneuron",
+    "own": {
+      "node_acc": 0.9868630573248408,
+      "node_acc_with_soma": 0.9869410368025326,
+      "neurite_macro_f1": 0.9835030993712588,
+      "axon_f1": 0.990948157630063,
+      "pcf1_mean": 0.9742644444444445,
+      "pcf1_p10": 1.0,
+      "dendrite_f1": 0.9760580411124546
+    },
+    "frozen": {
+      "node_acc": 0.2703025477707006,
+      "node_acc_with_soma": 0.2746339533043134,
+      "neurite_macro_f1": 0.21278596051394547,
+      "axon_f1": 0.0,
+      "pcf1_mean": 0.20563111111111104,
+      "pcf1_p10": 0.10868,
+      "dendrite_f1": 0.42557192102789093
+    },
+    "frozen_deployment": {
+      "node_acc": 0.40485668789808915,
+      "node_acc_with_soma": 0.40838939453897904,
+      "neurite_macro_f1": 0.488180049649079,
+      "axon_f1": 0.34972034147777453,
+      "pcf1_mean": 0.5018511111111111,
+      "pcf1_p10": 0.16932,
+      "dendrite_f1": 0.6266397578203835,
+      "stage1_pyramidal_frac": 1.0
+    },
+    "frozen_all": {
+      "node_acc": 0.2707641931058896,
+      "node_acc_with_soma": 0.27557255263967645,
+      "neurite_macro_f1": 0.2245493268067067,
+      "axon_f1": 0.03524177496780236,
+      "pcf1_mean": 0.20654466666666665,
+      "pcf1_p10": 0.10162,
+      "dendrite_f1": 0.41385687864561105
+    },
+    "frozen_deployment_all": {
+      "node_acc": 0.39050400460197354,
+      "node_acc_with_soma": 0.39452283616862277,
+      "neurite_macro_f1": 0.4724166645630791,
+      "axon_f1": 0.3351603046029975,
+      "pcf1_mean": 0.5170013333333333,
+      "pcf1_p10": 0.13820000000000002,
+      "dendrite_f1": 0.6096730245231607,
+      "stage1_pyramidal_frac": 1.0
+    }
+  },
+  "ganglion/Rodger": {
+    "n_train": 92,
+    "n_test": 58,
+    "n_all": 150,
+    "schema": "interneuron",
+    "own": {
+      "node_acc": 0.9769101235836402,
+      "node_acc_with_soma": 0.9769482832312295,
+      "neurite_macro_f1": 0.8672685746268434,
+      "axon_f1": 0.7466332602568118,
+      "pcf1_mean": 0.9119017241379311,
+      "pcf1_p10": 0.6655000000000001,
+      "dendrite_f1": 0.9879038889968751
+    },
+    "frozen": {
+      "node_acc": 0.8889459714016611,
+      "node_acc_with_soma": 0.8891295056275823,
+      "neurite_macro_f1": 0.47617552905836735,
+      "axon_f1": 0.011181702668360865,
+      "pcf1_mean": 0.4733293103448276,
+      "pcf1_p10": 0.41231,
+      "dendrite_f1": 0.9411693554483739
+    },
+    "frozen_deployment": {
+      "node_acc": 0.8005251591175043,
+      "node_acc_with_soma": 0.8008548226243054,
+      "neurite_macro_f1": 0.4723224821221849,
+      "axon_f1": 0.05574193548387097,
+      "pcf1_mean": 0.4767741379310345,
+      "pcf1_p10": 0.32452,
+      "dendrite_f1": 0.8889030287604989,
+      "stage1_pyramidal_frac": 0.39655172413793105
+    },
+    "frozen_all": {
+      "node_acc": 0.8862860965547998,
+      "node_acc_with_soma": 0.8864759572573464,
+      "neurite_macro_f1": 0.4806567355390347,
+      "axon_f1": 0.021678657074340527,
+      "pcf1_mean": 0.473302,
+      "pcf1_p10": 0.39230000000000004,
+      "dendrite_f1": 0.9396348140037288
+    },
+    "frozen_deployment_all": {
+      "node_acc": 0.8036904894637084,
+      "node_acc_with_soma": 0.8040182546749778,
+      "neurite_macro_f1": 0.47496782640060653,
+      "axon_f1": 0.05915901401643306,
+      "pcf1_mean": 0.46866533333333327,
+      "pcf1_p10": 0.31666000000000005,
+      "dendrite_f1": 0.89077663878478,
+      "stage1_pyramidal_frac": 0.4
+    }
+  },
+  "mitral_tufted/Urban": {
+    "n_train": 43,
+    "n_test": 20,
+    "n_all": 63,
+    "schema": "pyramidal",
+    "own": {
+      "node_acc": 0.7056336779038027,
+      "node_acc_with_soma": 0.7056626826552631,
+      "neurite_macro_f1": 0.6310492149842535,
+      "axon_f1": 0.5468724293376328,
+      "pcf1_mean": 0.6605599999999999,
+      "pcf1_p10": 0.22648000000000001,
+      "basal_f1": 0.7779182062166844,
+      "apical_f1": 0.5683570093984432
+    },
+    "frozen": {
+      "node_acc": 0.32647148671153636,
+      "node_acc_with_soma": 0.32653785139276176,
+      "neurite_macro_f1": 0.3291408758808319,
+      "axon_f1": 0.49083316357710327,
+      "pcf1_mean": 0.184725,
+      "pcf1_p10": 0.07348,
+      "basal_f1": 0.43614344522632964,
+      "apical_f1": 0.06044601883906288
+    },
+    "frozen_deployment": {
+      "node_acc": 0.3642182126351265,
+      "node_acc_with_soma": 0.3642808580240223,
+      "neurite_macro_f1": 0.34720513861015506,
+      "axon_f1": 0.5381200971497166,
+      "pcf1_mean": 0.19777999999999998,
+      "pcf1_p10": 0.07348,
+      "basal_f1": 0.4978382101703358,
+      "apical_f1": 0.005657108510412615,
+      "stage1_pyramidal_frac": 0.75
+    },
+    "frozen_all": {
+      "node_acc": 0.3523719237523223,
+      "node_acc_with_soma": 0.35243681520983666,
+      "neurite_macro_f1": 0.2961687887758299,
+      "axon_f1": 0.29636409699010324,
+      "pcf1_mean": 0.19914761904761907,
+      "pcf1_p10": 0.02314,
+      "basal_f1": 0.47438843510413836,
+      "apical_f1": 0.11775383423324817
+    },
+    "frozen_deployment_all": {
+      "node_acc": 0.371920571094088,
+      "node_acc_with_soma": 0.3719835038035725,
+      "neurite_macro_f1": 0.26031273374158054,
+      "axon_f1": 0.22619460033719024,
+      "pcf1_mean": 0.19993650793650794,
+      "pcf1_p10": 0.043960000000000006,
+      "basal_f1": 0.5364793288145939,
+      "apical_f1": 0.018264272072957555,
+      "stage1_pyramidal_frac": 0.7301587301587301
+    }
+  },
+  "_run": {
+    "classes": [
+      "granule",
+      "ganglion",
+      "mitral_tufted"
+    ],
+    "seed": 123,
+    "test_size": 0.3333333333333333,
+    "frozen_models": "pipeline/models/seed123"
+  }
+}

@@ -1,0 +1,19 @@
+Single-seed pyramidal flag (grouped 5-fold CV by file, the 90 columns the shipped flag reads)
+kept-P10, recall of bad cells and AP after rejecting the riskiest 10%
+
+    seed   cells   files  no-flag P10   kept-P10   recall      AP
+      42    1662    1662       0.7732     0.9128   0.5783  0.4164
+     123    1745    1745       0.7206     0.8880   0.5758  0.3916
+     789    1618    1618       0.8297     0.9565   0.6452  0.3672
+
+    mean                       0.7745     0.9191   0.5998  0.3917
+
+Single-seed interneuron flag (grouped 5-fold CV by file, the 90 columns the shipped flag reads)
+kept-P10, recall of bad cells and AP after rejecting the riskiest 10%
+
+    seed   cells   files  no-flag P10   kept-P10   recall      AP
+      42     666     666       1.0000     1.0000   0.6970  0.4707
+     123     657     657       0.9523     1.0000   0.5250  0.2906
+     789     675     675       0.9077     1.0000   0.5227  0.3223
+
+    mean                       0.9533     1.0000   0.5816  0.3612

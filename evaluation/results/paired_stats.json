@@ -1,0 +1,144 @@
+{
+  "seeds": [
+    42,
+    123,
+    789
+  ],
+  "metric": "neurite_macro_f1",
+  "n_perm": 100000,
+  "n_boot": 10000,
+  "results": [
+    {
+      "baseline": "majority",
+      "metric": "neurite_macro_f1",
+      "n_seed_file_pairs": 7023,
+      "n_unique_files": 5739,
+      "ours_mean": 0.9491202212929081,
+      "baseline_mean": 0.4940931172678167,
+      "mean_diff": 0.45502710402509156,
+      "mean_diff_ci95": [
+        0.44415873511645465,
+        0.4660935662426671
+      ],
+      "sign_flip_p_two_sided": 9.99990000099999e-06,
+      "p10_diff": 0.7873600000000001,
+      "p10_diff_ci95": [
+        0.7547492500000001,
+        0.8095005
+      ],
+      "ours_win_files": 3395,
+      "baseline_win_files": 225,
+      "ours_win_fraction": 0.5915664749956439
+    },
+    {
+      "baseline": "rules_only",
+      "metric": "neurite_macro_f1",
+      "n_seed_file_pairs": 7023,
+      "n_unique_files": 5739,
+      "ours_mean": 0.9491202212929081,
+      "baseline_mean": 0.6531328454434571,
+      "mean_diff": 0.2959873758494511,
+      "mean_diff_ci95": [
+        0.28708424188302256,
+        0.3047302283353662
+      ],
+      "sign_flip_p_two_sided": 9.99990000099999e-06,
+      "p10_diff": 0.6788000000000001,
+      "p10_diff_ci95": [
+        0.6449000000000001,
+        0.7024
+      ],
+      "ours_win_files": 4388,
+      "baseline_win_files": 305,
+      "ours_win_fraction": 0.7645931346924552
+    },
+    {
+      "baseline": "neurom_rf",
+      "metric": "neurite_macro_f1",
+      "n_seed_file_pairs": 7023,
+      "n_unique_files": 5739,
+      "ours_mean": 0.9491202212929081,
+      "baseline_mean": 0.846227571586223,
+      "mean_diff": 0.10289264970668524,
+      "mean_diff_ci95": [
+        0.09835013482313991,
+        0.1074490838270314
+      ],
+      "sign_flip_p_two_sided": 9.99990000099999e-06,
+      "p10_diff": 0.28134000000000003,
+      "p10_diff_ci95": [
+        0.2524385000000001,
+        0.30167999999999995
+      ],
+      "ours_win_files": 3612,
+      "baseline_win_files": 382,
+      "ours_win_fraction": 0.6293779404077365
+    },
+    {
+      "baseline": "sholl_mlp",
+      "metric": "neurite_macro_f1",
+      "n_seed_file_pairs": 7023,
+      "n_unique_files": 5739,
+      "ours_mean": 0.9491202212929081,
+      "baseline_mean": 0.8675498489864668,
+      "mean_diff": 0.08157037230644132,
+      "mean_diff_ci95": [
+        0.0758919862635767,
+        0.0874932570279375
+      ],
+      "sign_flip_p_two_sided": 9.99990000099999e-06,
+      "p10_diff": 0.40762000000000004,
+      "p10_diff_ci95": [
+        0.37492000000000003,
+        0.4283805000000001
+      ],
+      "ours_win_files": 1214,
+      "baseline_win_files": 415,
+      "ours_win_fraction": 0.21153511064645408
+    },
+    {
+      "baseline": "sholl_rf",
+      "metric": "neurite_macro_f1",
+      "n_seed_file_pairs": 7023,
+      "n_unique_files": 5739,
+      "ours_mean": 0.9491202212929081,
+      "baseline_mean": 0.8890573531974212,
+      "mean_diff": 0.06006286809548702,
+      "mean_diff_ci95": [
+        0.054812235435906374,
+        0.06547091798803507
+      ],
+      "sign_flip_p_two_sided": 9.99990000099999e-06,
+      "p10_diff": 0.3736,
+      "p10_diff_ci95": [
+        0.3366200000000001,
+        0.3970805000000001
+      ],
+      "ours_win_files": 920,
+      "baseline_win_files": 461,
+      "ours_win_fraction": 0.16030667363652204
+    },
+    {
+      "baseline": "lmeasure_rf",
+      "metric": "neurite_macro_f1",
+      "n_seed_file_pairs": 7023,
+      "n_unique_files": 5739,
+      "ours_mean": 0.9491202212929081,
+      "baseline_mean": 0.9052538885984783,
+      "mean_diff": 0.04386633269442992,
+      "mean_diff_ci95": [
+        0.03907177992681652,
+        0.04859774416274612
+      ],
+      "sign_flip_p_two_sided": 9.99990000099999e-06,
+      "p10_diff": 0.29857999999999996,
+      "p10_diff_ci95": [
+        0.24581991666666606,
+        0.32722049999999997
+      ],
+      "ours_win_files": 743,
+      "baseline_win_files": 493,
+      "ours_win_fraction": 0.1294650635999303
+    }
+  ]
+}

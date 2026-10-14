@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "seeds": [
+    123,
+    42,
+    789
+  ],
+  "n_rows": 7023,
+  "n_unique_files": 5739,
+  "duplicate_file_rows_across_seeds": 1284,
+  "pair_test_file_overlaps": {
+    "123_x_42": 462,
+    "123_x_789": 471,
+    "42_x_789": 445
+  },
+  "triple_test_file_overlap": 94,
+  "by_seed": {
+    "123": {
+      "n_labels": 2402,
+      "n_features": 2402,
+      "n_unique_files": 2402,
+      "files_not_in_model_test": 0,
+      "duplicate_row_ids": 0,
+      "missing_feature_rows": 0,
+      "extra_feature_rows": 0,
+      "examples": {
+        "files_not_in_model_test": [],
+        "missing_feature_rows": [],
+        "extra_feature_rows": []
+      }
+    },
+    "42": {
+      "n_labels": 2328,
+      "n_features": 2328,
+      "n_unique_files": 2328,
+      "files_not_in_model_test": 0,
+      "duplicate_row_ids": 0,
+      "missing_feature_rows": 0,
+      "extra_feature_rows": 0,
+      "examples": {
+        "files_not_in_model_test": [],
+        "missing_feature_rows": [],
+        "extra_feature_rows": []
+      }
+    },
+    "789": {
+      "n_labels": 2293,
+      "n_features": 2293,
+      "n_unique_files": 2293,
+      "files_not_in_model_test": 0,
+      "duplicate_row_ids": 0,
+      "missing_feature_rows": 0,
+      "extra_feature_rows": 0,
+      "examples": {
+        "files_not_in_model_test": [],
+        "missing_feature_rows": [],
+        "extra_feature_rows": []
+      }
+    }
+  }
+}

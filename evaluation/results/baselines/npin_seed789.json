@@ -1,0 +1,157 @@
+{
+  "seed": 789,
+  "npin_commit": "8d632fe",
+  "features": [
+    "as",
+    "c1",
+    "ds",
+    "l",
+    "nds",
+    "nl",
+    "ns",
+    "rc",
+    "s"
+  ],
+  "model": "XGBClassifier(seed=123)",
+  "by_cell_type": {
+    "pyramidal": {
+      "n_train_cells": 6869,
+      "n_test_cells": 1618,
+      "threshold": 0.75,
+      "threshold_cv_tip_accuracy": {
+        "0.5": 0.9642490039112476,
+        "0.55": 0.9633965712614687,
+        "0.6": 0.9644493182732025,
+        "0.65": 0.9650546478049494,
+        "0.7": 0.9657374712139489,
+        "0.75": 0.9661995101802098,
+        "0.8": 0.9660693789523705,
+        "0.85": 0.9649786160763242,
+        "0.9": 0.9630573527799101,
+        "0.95": 0.9613568739262346
+      },
+      "npin": {
+        "n_cells": 1618,
+        "n_nodes": 12926556,
+        "accuracy": 0.9743383311069089,
+        "axon_f1": 0.9840762018143174,
+        "dendrite_f1": 0.9339417996740871,
+        "macro_f1": 0.9590090007442023,
+        "pcf1_mean": 0.8873552669971764,
+        "pcf1_p10": 0.49320259697442337
+      },
+      "ours": {
+        "n_cells": 1618,
+        "n_nodes": 12926556,
+        "accuracy": 0.9970798873265238,
+        "axon_f1": 0.9981883250225637,
+        "dendrite_f1": 0.9924772261059207,
+        "macro_f1": 0.9953327755642423,
+        "pcf1_mean": 0.9728449959654365,
+        "pcf1_p10": 0.9935487219485821
+      },
+      "cells_without_axon": {
+        "n": 900,
+        "npin_mean_axon_share": 0.008140813720940117,
+        "ours_mean_axon_share": 0.003435723231005254
+      }
+    },
+    "interneuron": {
+      "n_train_cells": 2686,
+      "n_test_cells": 675,
+      "threshold": 0.85,
+      "threshold_cv_tip_accuracy": {
+        "0.5": 0.9040544315205304,
+        "0.55": 0.9029002387439853,
+        "0.6": 0.9053561923233004,
+        "0.65": 0.9074932935602368,
+        "0.7": 0.9096751922337056,
+        "0.75": 0.9107740470004163,
+        "0.8": 0.9119150640603343,
+        "0.85": 0.912942769957258,
+        "0.9": 0.9117411446008549,
+        "0.95": 0.9081837011115035
+      },
+      "npin": {
+        "n_cells": 675,
+        "n_nodes": 5447983,
+        "accuracy": 0.902798889056739,
+        "axon_f1": 0.9335821895163333,
+        "dendrite_f1": 0.8188305392421502,
+        "macro_f1": 0.8762063643792417,
+        "pcf1_mean": 0.8323397469225414,
+        "pcf1_p10": 0.4425999674284784
+      },
+      "ours": {
+        "n_cells": 675,
+        "n_nodes": 5447983,
+        "accuracy": 0.9743861168436099,
+        "axon_f1": 0.9826150310264338,
+        "dendrite_f1": 0.9513658912988775,
+        "macro_f1": 0.9669904611626556,
+        "pcf1_mean": 0.955967534959563,
+        "pcf1_p10": 1.0
+      },
+      "cells_without_axon": {
+        "n": 264,
+        "npin_mean_axon_share": 0.17101192620206118,
+        "ours_mean_axon_share": 0.013652748288669025
+      }
+    }
+  },
+  "all": {
+    "npin": {
+      "n_cells": 2293,
+      "n_nodes": 18374539,
+      "accuracy": 0.9531271505641584,
+      "axon_f1": 0.9700996061835675,
+      "dendrite_f1": 0.8915900868281754,
+      "macro_f1": 0.9308448465058714,
+      "pcf1_mean": 0.8711601182617298,
+      "pcf1_p10": 0.4913069223601551
+    },
+    "ours": {
+      "n_cells": 2293,
+      "n_nodes": 18374539,
+      "accuracy": 0.9903512681324957,
+      "axon_f1": 0.993857311724063,
+      "dendrite_f1": 0.9775209938329843,
+      "macro_f1": 0.9856891527785236,
+      "pcf1_mean": 0.9678767071826346,
+      "pcf1_p10": 0.9936863498068467
+    }
+  },
+  "cells_without_npin_features": [
+    "pyramidal/neuromorpho__10month-wt-8_4.swc",
+    "interneuron/neuromorpho__ADAL.swc",
+    "interneuron/neuromorpho__ADAR.swc",
+    "interneuron/neuromorpho__AIAL.swc",
+    "interneuron/neuromorpho__AIAR.swc",
+    "interneuron/neuromorpho__AIBL.swc",
+    "interneuron/neuromorpho__AIBR.swc",
+    "interneuron/neuromorpho__AIML.swc",
+    "interneuron/neuromorpho__AIMR.swc",
+    "interneuron/neuromorpho__AIYL.swc",
+    "interneuron/neuromorpho__AIYR.swc",
+    "interneuron/neuromorpho__AIZL.swc",
+    "interneuron/neuromorpho__AIZR.swc",
+    "interneuron/neuromorpho__ALA.swc"
+  ],
+  "npin_failures": {
+    "pyramidal/neuromorpho__10month-wt-8_4.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIBR.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__ALA.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIBL.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIZR.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIZL.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__ADAL.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__ADAR.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIMR.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIML.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIYL.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIYR.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIAL.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'.",
+    "interneuron/neuromorpho__AIAR.swc": "SystemExit: No fork in the neuron! Check 'neuron_first_fork()'."
+  },
+  "feature_seconds_total": 27909.95779162203
+}

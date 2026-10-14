@@ -1,0 +1,77 @@
+{
+  "n_pyramidal_files": 8488,
+  "other_type_nodes": 5804,
+  "malformed_lines": 0,
+  "neurite_nodes": {
+    "axon": {
+      "count": 52254199,
+      "share": 0.8067095146033719
+    },
+    "basal": {
+      "count": 7748547,
+      "share": 0.11962343139642068
+    },
+    "apical": {
+      "count": 4771746,
+      "share": 0.07366705400020737
+    }
+  },
+  "primary_subtrees_majority_label": {
+    "axon": {
+      "count": 3653,
+      "share": 0.06815807149787298
+    },
+    "basal": {
+      "count": 45638,
+      "share": 0.851518770057467
+    },
+    "apical": {
+      "count": 4305,
+      "share": 0.08032315844466005
+    }
+  },
+  "neurite_nodes_by_source": {
+    "allen": {
+      "axon": {
+        "count": 503788,
+        "share": 0.4746895317063978
+      },
+      "basal": {
+        "count": 247099,
+        "share": 0.2328267219447847
+      },
+      "apical": {
+        "count": 310413,
+        "share": 0.29248374634881746
+      }
+    },
+    "hpf_ca1": {
+      "axon": {
+        "count": 45056933,
+        "share": 0.9145409651917766
+      },
+      "basal": {
+        "count": 2127216,
+        "share": 0.04317706608684151
+      },
+      "apical": {
+        "count": 2083117,
+        "share": 0.04228196872138186
+      }
+    },
+    "neuromorpho": {
+      "axon": {
+        "count": 6693478,
+        "share": 0.4633471056130289
+      },
+      "basal": {
+        "count": 5374232,
+        "share": 0.3720240571632445
+      },
+      "apical": {
+        "count": 2378216,
+        "share": 0.1646288372237266
+      }
+    }
+  }
+}

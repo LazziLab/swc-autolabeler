@@ -1,0 +1,1573 @@
+{
+  "seed": 123,
+  "test_size": 0.2,
+  "method": "all",
+  "source_prefix": "hpf_ca1__",
+  "train_source_prefix": "",
+  "n_train": 9460,
+  "n_test": 294,
+  "split_source": "hash-bucket split over data/{pyramidal,interneuron}/*.swc",
+  "convention": "per-cell macro F1 averages only the neurite classes present in that cell's ground truth; the soma is excluded from every reported metric",
+  "reports": [
+    {
+      "method": "neurom_rf",
+      "n_test_cells": 294,
+      "n_test_nodes": 10965009,
+      "inference_min": null,
+      "convention": "v11 (macro F1 over GT-present classes only)",
+      "corpus": {
+        "accuracy": 0.9527,
+        "macro_f1": 0.8238,
+        "neurite_macro_f1": 0.7651,
+        "per_class": {
+          "soma": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 294
+          },
+          "axon": {
+            "precision": 0.9811,
+            "recall": 0.9787,
+            "f1": 0.9799,
+            "support": 10065059
+          },
+          "basal/dendrite": {
+            "precision": 0.791,
+            "recall": 0.6632,
+            "f1": 0.7215,
+            "support": 459801
+          },
+          "apical": {
+            "precision": 0.5395,
+            "recall": 0.6606,
+            "f1": 0.594,
+            "support": 439855
+          }
+        },
+        "confusion": {
+          "soma": {
+            "soma": 294,
+            "axon": 0,
+            "basal/dendrite": 0,
+            "apical": 0
+          },
+          "axon": {
+            "soma": 0,
+            "axon": 9850507,
+            "basal/dendrite": 31060,
+            "apical": 183492
+          },
+          "basal/dendrite": {
+            "soma": 0,
+            "axon": 90347,
+            "basal/dendrite": 304942,
+            "apical": 64512
+          },
+          "apical": {
+            "soma": 0,
+            "axon": 99744,
+            "basal/dendrite": 49522,
+            "apical": 290589
+          }
+        }
+      },
+      "per_cell": {
+        "accuracy": {
+          "n": 294,
+          "mean": 0.9348096082189118,
+          "median": 0.9592725074434688,
+          "p10": 0.8597529642167749,
+          "p25": 0.9303907101808568,
+          "p75": 0.9790583269208061,
+          "p90": 0.9878358707702958,
+          "min": 0.1353135313531353
+        },
+        "neurite_macro_f1": {
+          "n": 294,
+          "mean": 0.817171768707483,
+          "median": 0.8409,
+          "p10": 0.6742400000000001,
+          "p25": 0.771425,
+          "p75": 0.8883000000000001,
+          "p90": 0.92188,
+          "min": 0.3553
+        },
+        "per_class_f1": {
+          "soma": {
+            "n": 294,
+            "mean": 1.0,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 1.0
+          },
+          "axon": {
+            "n": 294,
+            "mean": 0.9677704081632653,
+            "median": 0.98485,
+            "p10": 0.92882,
+            "p25": 0.9696750000000001,
+            "p75": 0.992775,
+            "p90": 0.9961099999999999,
+            "min": 0.0092
+          },
+          "basal/dendrite": {
+            "n": 292,
+            "mean": 0.7502027397260274,
+            "median": 0.81835,
+            "p10": 0.45485,
+            "p25": 0.654825,
+            "p75": 0.888925,
+            "p90": 0.92106,
+            "min": 0.167
+          },
+          "apical": {
+            "n": 213,
+            "mean": 0.7288051643192488,
+            "median": 0.7565,
+            "p10": 0.55378,
+            "p25": 0.6644,
+            "p75": 0.8339,
+            "p90": 0.88538,
+            "min": 0.0
+          }
+        }
+      },
+      "by_cell_type": {
+        "pyramidal": {
+          "n_cells": 294,
+          "n_nodes": 10965009,
+          "corpus": {
+            "accuracy": 0.9527,
+            "macro_f1": 0.8238,
+            "neurite_macro_f1": 0.7651,
+            "per_class": {
+              "soma": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 294
+              },
+              "axon": {
+                "precision": 0.9811,
+                "recall": 0.9787,
+                "f1": 0.9799,
+                "support": 10065059
+              },
+              "basal/dendrite": {
+                "precision": 0.791,
+                "recall": 0.6632,
+                "f1": 0.7215,
+                "support": 459801
+              },
+              "apical": {
+                "precision": 0.5395,
+                "recall": 0.6606,
+                "f1": 0.594,
+                "support": 439855
+              }
+            },
+            "confusion": {
+              "soma": {
+                "soma": 294,
+                "axon": 0,
+                "basal/dendrite": 0,
+                "apical": 0
+              },
+              "axon": {
+                "soma": 0,
+                "axon": 9850507,
+                "basal/dendrite": 31060,
+                "apical": 183492
+              },
+              "basal/dendrite": {
+                "soma": 0,
+                "axon": 90347,
+                "basal/dendrite": 304942,
+                "apical": 64512
+              },
+              "apical": {
+                "soma": 0,
+                "axon": 99744,
+                "basal/dendrite": 49522,
+                "apical": 290589
+              }
+            }
+          },
+          "per_cell": {
+            "accuracy": {
+              "n": 294,
+              "mean": 0.9348096082189118,
+              "median": 0.9592725074434688,
+              "p10": 0.8597529642167749,
+              "p25": 0.9303907101808568,
+              "p75": 0.9790583269208061,
+              "p90": 0.9878358707702958,
+              "min": 0.1353135313531353
+            },
+            "neurite_macro_f1": {
+              "n": 294,
+              "mean": 0.817171768707483,
+              "median": 0.8409,
+              "p10": 0.6742400000000001,
+              "p25": 0.771425,
+              "p75": 0.8883000000000001,
+              "p90": 0.92188,
+              "min": 0.3553
+            },
+            "per_class_f1": {
+              "soma": {
+                "n": 294,
+                "mean": 1.0,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 1.0
+              },
+              "axon": {
+                "n": 294,
+                "mean": 0.9677704081632653,
+                "median": 0.98485,
+                "p10": 0.92882,
+                "p25": 0.9696750000000001,
+                "p75": 0.992775,
+                "p90": 0.9961099999999999,
+                "min": 0.0092
+              },
+              "basal/dendrite": {
+                "n": 292,
+                "mean": 0.7502027397260274,
+                "median": 0.81835,
+                "p10": 0.45485,
+                "p25": 0.654825,
+                "p75": 0.888925,
+                "p90": 0.92106,
+                "min": 0.167
+              },
+              "apical": {
+                "n": 213,
+                "mean": 0.7288051643192488,
+                "median": 0.7565,
+                "p10": 0.55378,
+                "p25": 0.6644,
+                "p75": 0.8339,
+                "p90": 0.88538,
+                "min": 0.0
+              }
+            }
+          }
+        }
+      },
+      "fit_min": 0.10946389666642062,
+      "predict_min": 3.0475340499988914,
+      "fit_from_cache": false,
+      "wall_clock_min": 3.156997946665312,
+      "n_train_cells": 9460
+    },
+    {
+      "method": "lmeasure_rf",
+      "n_test_cells": 294,
+      "n_test_nodes": 10965009,
+      "inference_min": null,
+      "convention": "v11 (macro F1 over GT-present classes only)",
+      "corpus": {
+        "accuracy": 0.9925,
+        "macro_f1": 0.9631,
+        "neurite_macro_f1": 0.9508,
+        "per_class": {
+          "soma": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 294
+          },
+          "axon": {
+            "precision": 0.9971,
+            "recall": 0.9994,
+            "f1": 0.9983,
+            "support": 10065059
+          },
+          "basal/dendrite": {
+            "precision": 0.9695,
+            "recall": 0.8852,
+            "f1": 0.9254,
+            "support": 459801
+          },
+          "apical": {
+            "precision": 0.9118,
+            "recall": 0.9464,
+            "f1": 0.9288,
+            "support": 439855
+          }
+        },
+        "confusion": {
+          "soma": {
+            "soma": 294,
+            "axon": 0,
+            "basal/dendrite": 0,
+            "apical": 0
+          },
+          "axon": {
+            "soma": 0,
+            "axon": 10059522,
+            "basal/dendrite": 0,
+            "apical": 5537
+          },
+          "basal/dendrite": {
+            "soma": 0,
+            "axon": 18046,
+            "basal/dendrite": 407011,
+            "apical": 34744
+          },
+          "apical": {
+            "soma": 0,
+            "axon": 10765,
+            "basal/dendrite": 12820,
+            "apical": 416270
+          }
+        }
+      },
+      "per_cell": {
+        "accuracy": {
+          "n": 294,
+          "mean": 0.9832021834061795,
+          "median": 1.0,
+          "p10": 0.9766079562262822,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.06498506993556498
+        },
+        "neurite_macro_f1": {
+          "n": 294,
+          "mean": 0.9497309523809523,
+          "median": 1.0,
+          "p10": 0.74308,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.3333
+        },
+        "per_class_f1": {
+          "soma": {
+            "n": 294,
+            "mean": 1.0,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 1.0
+          },
+          "axon": {
+            "n": 294,
+            "mean": 0.9886183673469388,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "basal/dendrite": {
+            "n": 292,
+            "mean": 0.9277075342465754,
+            "median": 1.0,
+            "p10": 0.7303200000000001,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "apical": {
+            "n": 213,
+            "mean": 0.9295774647887324,
+            "median": 1.0,
+            "p10": 0.81296,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          }
+        }
+      },
+      "by_cell_type": {
+        "pyramidal": {
+          "n_cells": 294,
+          "n_nodes": 10965009,
+          "corpus": {
+            "accuracy": 0.9925,
+            "macro_f1": 0.9631,
+            "neurite_macro_f1": 0.9508,
+            "per_class": {
+              "soma": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 294
+              },
+              "axon": {
+                "precision": 0.9971,
+                "recall": 0.9994,
+                "f1": 0.9983,
+                "support": 10065059
+              },
+              "basal/dendrite": {
+                "precision": 0.9695,
+                "recall": 0.8852,
+                "f1": 0.9254,
+                "support": 459801
+              },
+              "apical": {
+                "precision": 0.9118,
+                "recall": 0.9464,
+                "f1": 0.9288,
+                "support": 439855
+              }
+            },
+            "confusion": {
+              "soma": {
+                "soma": 294,
+                "axon": 0,
+                "basal/dendrite": 0,
+                "apical": 0
+              },
+              "axon": {
+                "soma": 0,
+                "axon": 10059522,
+                "basal/dendrite": 0,
+                "apical": 5537
+              },
+              "basal/dendrite": {
+                "soma": 0,
+                "axon": 18046,
+                "basal/dendrite": 407011,
+                "apical": 34744
+              },
+              "apical": {
+                "soma": 0,
+                "axon": 10765,
+                "basal/dendrite": 12820,
+                "apical": 416270
+              }
+            }
+          },
+          "per_cell": {
+            "accuracy": {
+              "n": 294,
+              "mean": 0.9832021834061795,
+              "median": 1.0,
+              "p10": 0.9766079562262822,
+              "p25": 1.0,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.06498506993556498
+            },
+            "neurite_macro_f1": {
+              "n": 294,
+              "mean": 0.9497309523809523,
+              "median": 1.0,
+              "p10": 0.74308,
+              "p25": 1.0,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.3333
+            },
+            "per_class_f1": {
+              "soma": {
+                "n": 294,
+                "mean": 1.0,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 1.0
+              },
+              "axon": {
+                "n": 294,
+                "mean": 0.9886183673469388,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "basal/dendrite": {
+                "n": 292,
+                "mean": 0.9277075342465754,
+                "median": 1.0,
+                "p10": 0.7303200000000001,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "apical": {
+                "n": 213,
+                "mean": 0.9295774647887324,
+                "median": 1.0,
+                "p10": 0.81296,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              }
+            }
+          }
+        }
+      },
+      "fit_min": 0.009934296666566903,
+      "predict_min": 9.158630865001275,
+      "fit_from_cache": true,
+      "wall_clock_min": 9.168565161667841,
+      "n_train_cells": 9460
+    },
+    {
+      "method": "sholl_rf",
+      "n_test_cells": 294,
+      "n_test_nodes": 10965009,
+      "inference_min": null,
+      "convention": "v11 (macro F1 over GT-present classes only)",
+      "corpus": {
+        "accuracy": 0.9915,
+        "macro_f1": 0.9584,
+        "neurite_macro_f1": 0.9445,
+        "per_class": {
+          "soma": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 294
+          },
+          "axon": {
+            "precision": 0.9965,
+            "recall": 0.9994,
+            "f1": 0.998,
+            "support": 10065059
+          },
+          "basal/dendrite": {
+            "precision": 0.9727,
+            "recall": 0.8629,
+            "f1": 0.9145,
+            "support": 459801
+          },
+          "apical": {
+            "precision": 0.8988,
+            "recall": 0.9441,
+            "f1": 0.9209,
+            "support": 439855
+          }
+        },
+        "confusion": {
+          "soma": {
+            "soma": 294,
+            "axon": 0,
+            "basal/dendrite": 0,
+            "apical": 0
+          },
+          "axon": {
+            "soma": 0,
+            "axon": 10059522,
+            "basal/dendrite": 0,
+            "apical": 5537
+          },
+          "basal/dendrite": {
+            "soma": 0,
+            "axon": 21806,
+            "basal/dendrite": 396773,
+            "apical": 41222
+          },
+          "apical": {
+            "soma": 0,
+            "axon": 13481,
+            "basal/dendrite": 11118,
+            "apical": 415256
+          }
+        }
+      },
+      "per_cell": {
+        "accuracy": {
+          "n": 294,
+          "mean": 0.9827620095235814,
+          "median": 1.0,
+          "p10": 0.9715877742081347,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.06498506993556498
+        },
+        "neurite_macro_f1": {
+          "n": 294,
+          "mean": 0.9461517006802722,
+          "median": 1.0,
+          "p10": 0.73412,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.3197
+        },
+        "per_class_f1": {
+          "soma": {
+            "n": 294,
+            "mean": 1.0,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 1.0
+          },
+          "axon": {
+            "n": 294,
+            "mean": 0.988460544217687,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "basal/dendrite": {
+            "n": 292,
+            "mean": 0.9177157534246576,
+            "median": 1.0,
+            "p10": 0.64787,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "apical": {
+            "n": 213,
+            "mean": 0.9318854460093897,
+            "median": 1.0,
+            "p10": 0.8433200000000002,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          }
+        }
+      },
+      "by_cell_type": {
+        "pyramidal": {
+          "n_cells": 294,
+          "n_nodes": 10965009,
+          "corpus": {
+            "accuracy": 0.9915,
+            "macro_f1": 0.9584,
+            "neurite_macro_f1": 0.9445,
+            "per_class": {
+              "soma": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 294
+              },
+              "axon": {
+                "precision": 0.9965,
+                "recall": 0.9994,
+                "f1": 0.998,
+                "support": 10065059
+              },
+              "basal/dendrite": {
+                "precision": 0.9727,
+                "recall": 0.8629,
+                "f1": 0.9145,
+                "support": 459801
+              },
+              "apical": {
+                "precision": 0.8988,
+                "recall": 0.9441,
+                "f1": 0.9209,
+                "support": 439855
+              }
+            },
+            "confusion": {
+              "soma": {
+                "soma": 294,
+                "axon": 0,
+                "basal/dendrite": 0,
+                "apical": 0
+              },
+              "axon": {
+                "soma": 0,
+                "axon": 10059522,
+                "basal/dendrite": 0,
+                "apical": 5537
+              },
+              "basal/dendrite": {
+                "soma": 0,
+                "axon": 21806,
+                "basal/dendrite": 396773,
+                "apical": 41222
+              },
+              "apical": {
+                "soma": 0,
+                "axon": 13481,
+                "basal/dendrite": 11118,
+                "apical": 415256
+              }
+            }
+          },
+          "per_cell": {
+            "accuracy": {
+              "n": 294,
+              "mean": 0.9827620095235814,
+              "median": 1.0,
+              "p10": 0.9715877742081347,
+              "p25": 1.0,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.06498506993556498
+            },
+            "neurite_macro_f1": {
+              "n": 294,
+              "mean": 0.9461517006802722,
+              "median": 1.0,
+              "p10": 0.73412,
+              "p25": 1.0,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.3197
+            },
+            "per_class_f1": {
+              "soma": {
+                "n": 294,
+                "mean": 1.0,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 1.0
+              },
+              "axon": {
+                "n": 294,
+                "mean": 0.988460544217687,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "basal/dendrite": {
+                "n": 292,
+                "mean": 0.9177157534246576,
+                "median": 1.0,
+                "p10": 0.64787,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "apical": {
+                "n": 213,
+                "mean": 0.9318854460093897,
+                "median": 1.0,
+                "p10": 0.8433200000000002,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              }
+            }
+          }
+        }
+      },
+      "fit_min": 0.0051105483338081585,
+      "predict_min": 3.0109413116665866,
+      "fit_from_cache": true,
+      "wall_clock_min": 3.016051860000395,
+      "n_train_cells": 9460
+    },
+    {
+      "method": "sholl_mlp",
+      "n_test_cells": 294,
+      "n_test_nodes": 10965009,
+      "inference_min": null,
+      "convention": "v11 (macro F1 over GT-present classes only)",
+      "corpus": {
+        "accuracy": 0.9916,
+        "macro_f1": 0.9592,
+        "neurite_macro_f1": 0.9456,
+        "per_class": {
+          "soma": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 294
+          },
+          "axon": {
+            "precision": 0.9965,
+            "recall": 0.9994,
+            "f1": 0.9979,
+            "support": 10065059
+          },
+          "basal/dendrite": {
+            "precision": 0.9619,
+            "recall": 0.8731,
+            "f1": 0.9154,
+            "support": 459801
+          },
+          "apical": {
+            "precision": 0.911,
+            "recall": 0.9362,
+            "f1": 0.9234,
+            "support": 439855
+          }
+        },
+        "confusion": {
+          "soma": {
+            "soma": 294,
+            "axon": 0,
+            "basal/dendrite": 0,
+            "apical": 0
+          },
+          "axon": {
+            "soma": 0,
+            "axon": 10059522,
+            "basal/dendrite": 0,
+            "apical": 5537
+          },
+          "basal/dendrite": {
+            "soma": 0,
+            "axon": 23650,
+            "basal/dendrite": 401454,
+            "apical": 34697
+          },
+          "apical": {
+            "soma": 0,
+            "axon": 12143,
+            "basal/dendrite": 15903,
+            "apical": 411809
+          }
+        }
+      },
+      "per_cell": {
+        "accuracy": {
+          "n": 294,
+          "mean": 0.9806141345215892,
+          "median": 1.0,
+          "p10": 0.965065941476308,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.06498506993556498
+        },
+        "neurite_macro_f1": {
+          "n": 294,
+          "mean": 0.9461717687074831,
+          "median": 1.0,
+          "p10": 0.75636,
+          "p25": 1.0,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.3333
+        },
+        "per_class_f1": {
+          "soma": {
+            "n": 294,
+            "mean": 1.0,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 1.0
+          },
+          "axon": {
+            "n": 294,
+            "mean": 0.9873636054421768,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "basal/dendrite": {
+            "n": 292,
+            "mean": 0.9271393835616438,
+            "median": 1.0,
+            "p10": 0.70656,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "apical": {
+            "n": 213,
+            "mean": 0.9222483568075117,
+            "median": 1.0,
+            "p10": 0.8070400000000001,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          }
+        }
+      },
+      "by_cell_type": {
+        "pyramidal": {
+          "n_cells": 294,
+          "n_nodes": 10965009,
+          "corpus": {
+            "accuracy": 0.9916,
+            "macro_f1": 0.9592,
+            "neurite_macro_f1": 0.9456,
+            "per_class": {
+              "soma": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 294
+              },
+              "axon": {
+                "precision": 0.9965,
+                "recall": 0.9994,
+                "f1": 0.9979,
+                "support": 10065059
+              },
+              "basal/dendrite": {
+                "precision": 0.9619,
+                "recall": 0.8731,
+                "f1": 0.9154,
+                "support": 459801
+              },
+              "apical": {
+                "precision": 0.911,
+                "recall": 0.9362,
+                "f1": 0.9234,
+                "support": 439855
+              }
+            },
+            "confusion": {
+              "soma": {
+                "soma": 294,
+                "axon": 0,
+                "basal/dendrite": 0,
+                "apical": 0
+              },
+              "axon": {
+                "soma": 0,
+                "axon": 10059522,
+                "basal/dendrite": 0,
+                "apical": 5537
+              },
+              "basal/dendrite": {
+                "soma": 0,
+                "axon": 23650,
+                "basal/dendrite": 401454,
+                "apical": 34697
+              },
+              "apical": {
+                "soma": 0,
+                "axon": 12143,
+                "basal/dendrite": 15903,
+                "apical": 411809
+              }
+            }
+          },
+          "per_cell": {
+            "accuracy": {
+              "n": 294,
+              "mean": 0.9806141345215892,
+              "median": 1.0,
+              "p10": 0.965065941476308,
+              "p25": 1.0,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.06498506993556498
+            },
+            "neurite_macro_f1": {
+              "n": 294,
+              "mean": 0.9461717687074831,
+              "median": 1.0,
+              "p10": 0.75636,
+              "p25": 1.0,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.3333
+            },
+            "per_class_f1": {
+              "soma": {
+                "n": 294,
+                "mean": 1.0,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 1.0
+              },
+              "axon": {
+                "n": 294,
+                "mean": 0.9873636054421768,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "basal/dendrite": {
+                "n": 292,
+                "mean": 0.9271393835616438,
+                "median": 1.0,
+                "p10": 0.70656,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "apical": {
+                "n": 213,
+                "mean": 0.9222483568075117,
+                "median": 1.0,
+                "p10": 0.8070400000000001,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              }
+            }
+          }
+        }
+      },
+      "fit_min": 0.0015975816660405448,
+      "predict_min": 2.8293607733328825,
+      "fit_from_cache": true,
+      "wall_clock_min": 2.830958354998923,
+      "n_train_cells": 9460
+    },
+    {
+      "method": "majority",
+      "n_test_cells": 294,
+      "n_test_nodes": 10965009,
+      "inference_min": null,
+      "convention": "v11 (macro F1 over GT-present classes only)",
+      "corpus": {
+        "accuracy": 0.042,
+        "macro_f1": 0.2701,
+        "neurite_macro_f1": 0.0268,
+        "per_class": {
+          "soma": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 294
+          },
+          "axon": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 10065059
+          },
+          "basal/dendrite": {
+            "precision": 0.0419,
+            "recall": 1.0,
+            "f1": 0.0805,
+            "support": 459801
+          },
+          "apical": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 439855
+          }
+        },
+        "confusion": {
+          "soma": {
+            "soma": 294,
+            "axon": 0,
+            "basal/dendrite": 0,
+            "apical": 0
+          },
+          "axon": {
+            "soma": 0,
+            "axon": 0,
+            "basal/dendrite": 10065059,
+            "apical": 0
+          },
+          "basal/dendrite": {
+            "soma": 0,
+            "axon": 0,
+            "basal/dendrite": 459801,
+            "apical": 0
+          },
+          "apical": {
+            "soma": 0,
+            "axon": 0,
+            "basal/dendrite": 439855,
+            "apical": 0
+          }
+        }
+      },
+      "per_cell": {
+        "accuracy": {
+          "n": 294,
+          "mean": 0.05709320600651294,
+          "median": 0.043941027048309725,
+          "p10": 0.02049438574002648,
+          "p25": 0.02790851636246333,
+          "p75": 0.06428525006324642,
+          "p90": 0.10309394633623688,
+          "min": 0.00040535062829347385
+        },
+        "neurite_macro_f1": {
+          "n": 294,
+          "mean": 0.041847278911564624,
+          "median": 0.030699999999999998,
+          "p10": 0.01333,
+          "p25": 0.0186,
+          "p75": 0.049025,
+          "p90": 0.07641999999999999,
+          "min": 0.0
+        },
+        "per_class_f1": {
+          "soma": {
+            "n": 294,
+            "mean": 1.0,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 1.0
+          },
+          "axon": {
+            "n": 294,
+            "mean": 0.0,
+            "median": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "p90": 0.0,
+            "min": 0.0
+          },
+          "basal/dendrite": {
+            "n": 292,
+            "mean": 0.10471438356164384,
+            "median": 0.0847,
+            "p10": 0.04152,
+            "p25": 0.055325,
+            "p75": 0.1212,
+            "p90": 0.1871600000000001,
+            "min": 0.0226
+          },
+          "apical": {
+            "n": 213,
+            "mean": 0.0,
+            "median": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "p90": 0.0,
+            "min": 0.0
+          }
+        }
+      },
+      "by_cell_type": {
+        "pyramidal": {
+          "n_cells": 294,
+          "n_nodes": 10965009,
+          "corpus": {
+            "accuracy": 0.042,
+            "macro_f1": 0.2701,
+            "neurite_macro_f1": 0.0268,
+            "per_class": {
+              "soma": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 294
+              },
+              "axon": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 10065059
+              },
+              "basal/dendrite": {
+                "precision": 0.0419,
+                "recall": 1.0,
+                "f1": 0.0805,
+                "support": 459801
+              },
+              "apical": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 439855
+              }
+            },
+            "confusion": {
+              "soma": {
+                "soma": 294,
+                "axon": 0,
+                "basal/dendrite": 0,
+                "apical": 0
+              },
+              "axon": {
+                "soma": 0,
+                "axon": 0,
+                "basal/dendrite": 10065059,
+                "apical": 0
+              },
+              "basal/dendrite": {
+                "soma": 0,
+                "axon": 0,
+                "basal/dendrite": 459801,
+                "apical": 0
+              },
+              "apical": {
+                "soma": 0,
+                "axon": 0,
+                "basal/dendrite": 439855,
+                "apical": 0
+              }
+            }
+          },
+          "per_cell": {
+            "accuracy": {
+              "n": 294,
+              "mean": 0.05709320600651294,
+              "median": 0.043941027048309725,
+              "p10": 0.02049438574002648,
+              "p25": 0.02790851636246333,
+              "p75": 0.06428525006324642,
+              "p90": 0.10309394633623688,
+              "min": 0.00040535062829347385
+            },
+            "neurite_macro_f1": {
+              "n": 294,
+              "mean": 0.041847278911564624,
+              "median": 0.030699999999999998,
+              "p10": 0.01333,
+              "p25": 0.0186,
+              "p75": 0.049025,
+              "p90": 0.07641999999999999,
+              "min": 0.0
+            },
+            "per_class_f1": {
+              "soma": {
+                "n": 294,
+                "mean": 1.0,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 1.0
+              },
+              "axon": {
+                "n": 294,
+                "mean": 0.0,
+                "median": 0.0,
+                "p10": 0.0,
+                "p25": 0.0,
+                "p75": 0.0,
+                "p90": 0.0,
+                "min": 0.0
+              },
+              "basal/dendrite": {
+                "n": 292,
+                "mean": 0.10471438356164384,
+                "median": 0.0847,
+                "p10": 0.04152,
+                "p25": 0.055325,
+                "p75": 0.1212,
+                "p90": 0.1871600000000001,
+                "min": 0.0226
+              },
+              "apical": {
+                "n": 213,
+                "mean": 0.0,
+                "median": 0.0,
+                "p10": 0.0,
+                "p25": 0.0,
+                "p75": 0.0,
+                "p90": 0.0,
+                "min": 0.0
+              }
+            }
+          }
+        }
+      },
+      "fit_min": 0.0009814483327014992,
+      "predict_min": 1.8968226216675248,
+      "fit_from_cache": true,
+      "wall_clock_min": 1.8978040700002263,
+      "n_train_cells": 9460
+    },
+    {
+      "method": "rules_only",
+      "n_test_cells": 294,
+      "n_test_nodes": 10965009,
+      "inference_min": null,
+      "convention": "v11 (macro F1 over GT-present classes only)",
+      "corpus": {
+        "accuracy": 0.5331,
+        "macro_f1": 0.6039,
+        "neurite_macro_f1": 0.4718,
+        "per_class": {
+          "soma": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 294
+          },
+          "axon": {
+            "precision": 0.9812,
+            "recall": 0.5267,
+            "f1": 0.6855,
+            "support": 10065059
+          },
+          "basal/dendrite": {
+            "precision": 0.5859,
+            "recall": 0.7436,
+            "f1": 0.6554,
+            "support": 459801
+          },
+          "apical": {
+            "precision": 0.0406,
+            "recall": 0.459,
+            "f1": 0.0745,
+            "support": 439855
+          }
+        },
+        "confusion": {
+          "soma": {
+            "soma": 294,
+            "axon": 0,
+            "basal/dendrite": 0,
+            "apical": 0
+          },
+          "axon": {
+            "soma": 0,
+            "axon": 5301693,
+            "basal/dendrite": 36648,
+            "apical": 4726718
+          },
+          "basal/dendrite": {
+            "soma": 0,
+            "axon": 68394,
+            "basal/dendrite": 341887,
+            "apical": 49520
+          },
+          "apical": {
+            "soma": 0,
+            "axon": 32953,
+            "basal/dendrite": 204987,
+            "apical": 201915
+          }
+        }
+      },
+      "per_cell": {
+        "accuracy": {
+          "n": 294,
+          "mean": 0.5095208014685714,
+          "median": 0.29184449807570373,
+          "p10": 0.015821903885437163,
+          "p25": 0.03351442340045248,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 1.7183311567805347e-05
+        },
+        "neurite_macro_f1": {
+          "n": 294,
+          "mean": 0.564902380952381,
+          "median": 0.4834,
+          "p10": 0.12346,
+          "p25": 0.15714999999999998,
+          "p75": 1.0,
+          "p90": 1.0,
+          "min": 0.0
+        },
+        "per_class_f1": {
+          "soma": {
+            "n": 294,
+            "mean": 1.0,
+            "median": 1.0,
+            "p10": 1.0,
+            "p25": 1.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 1.0
+          },
+          "axon": {
+            "n": 294,
+            "mean": 0.4911785714285714,
+            "median": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "basal/dendrite": {
+            "n": 292,
+            "mean": 0.700925,
+            "median": 0.79745,
+            "p10": 0.31217,
+            "p25": 0.45387500000000003,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          },
+          "apical": {
+            "n": 213,
+            "mean": 0.4400629107981221,
+            "median": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "p75": 1.0,
+            "p90": 1.0,
+            "min": 0.0
+          }
+        }
+      },
+      "by_cell_type": {
+        "pyramidal": {
+          "n_cells": 294,
+          "n_nodes": 10965009,
+          "corpus": {
+            "accuracy": 0.5331,
+            "macro_f1": 0.6039,
+            "neurite_macro_f1": 0.4718,
+            "per_class": {
+              "soma": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 294
+              },
+              "axon": {
+                "precision": 0.9812,
+                "recall": 0.5267,
+                "f1": 0.6855,
+                "support": 10065059
+              },
+              "basal/dendrite": {
+                "precision": 0.5859,
+                "recall": 0.7436,
+                "f1": 0.6554,
+                "support": 459801
+              },
+              "apical": {
+                "precision": 0.0406,
+                "recall": 0.459,
+                "f1": 0.0745,
+                "support": 439855
+              }
+            },
+            "confusion": {
+              "soma": {
+                "soma": 294,
+                "axon": 0,
+                "basal/dendrite": 0,
+                "apical": 0
+              },
+              "axon": {
+                "soma": 0,
+                "axon": 5301693,
+                "basal/dendrite": 36648,
+                "apical": 4726718
+              },
+              "basal/dendrite": {
+                "soma": 0,
+                "axon": 68394,
+                "basal/dendrite": 341887,
+                "apical": 49520
+              },
+              "apical": {
+                "soma": 0,
+                "axon": 32953,
+                "basal/dendrite": 204987,
+                "apical": 201915
+              }
+            }
+          },
+          "per_cell": {
+            "accuracy": {
+              "n": 294,
+              "mean": 0.5095208014685714,
+              "median": 0.29184449807570373,
+              "p10": 0.015821903885437163,
+              "p25": 0.03351442340045248,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 1.7183311567805347e-05
+            },
+            "neurite_macro_f1": {
+              "n": 294,
+              "mean": 0.564902380952381,
+              "median": 0.4834,
+              "p10": 0.12346,
+              "p25": 0.15714999999999998,
+              "p75": 1.0,
+              "p90": 1.0,
+              "min": 0.0
+            },
+            "per_class_f1": {
+              "soma": {
+                "n": 294,
+                "mean": 1.0,
+                "median": 1.0,
+                "p10": 1.0,
+                "p25": 1.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 1.0
+              },
+              "axon": {
+                "n": 294,
+                "mean": 0.4911785714285714,
+                "median": 0.0,
+                "p10": 0.0,
+                "p25": 0.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "basal/dendrite": {
+                "n": 292,
+                "mean": 0.700925,
+                "median": 0.79745,
+                "p10": 0.31217,
+                "p25": 0.45387500000000003,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              },
+              "apical": {
+                "n": 213,
+                "mean": 0.4400629107981221,
+                "median": 0.0,
+                "p10": 0.0,
+                "p25": 0.0,
+                "p75": 1.0,
+                "p90": 1.0,
+                "min": 0.0
+              }
+            }
+          }
+        }
+      },
+      "fit_min": 0.0009991583336765566,
+      "predict_min": 2.465633626668326,
+      "fit_from_cache": true,
+      "wall_clock_min": 2.4666327850020027,
+      "n_train_cells": 9460
+    }
+  ]
+}

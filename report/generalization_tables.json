@@ -1,0 +1,1686 @@
+{
+  "external": {
+    "ALL": {
+      "group": "ALL",
+      "n_cells": 1500,
+      "n_cells_axon_gt": 698,
+      "stage1_acc": 0.8573,
+      "node_acc": 0.8816,
+      "neurite_macro_f1": 0.8722,
+      "axon_f1": 0.9515,
+      "basal_f1": 0.8723,
+      "apical_f1": 0.8125,
+      "pcf1_mean": 0.6561,
+      "pcf1_p10": 0.2917
+    },
+    "BICCN-MOp-miniatlas-anatomy": {
+      "group": "BICCN-MOp-miniatlas-anatomy",
+      "n_cells": 150,
+      "n_cells_axon_gt": 134,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9537,
+      "neurite_macro_f1": 0.7942,
+      "axon_f1": 0.9976,
+      "basal_f1": 0.8309,
+      "apical_f1": 0.5612,
+      "pcf1_mean": 0.654,
+      "pcf1_p10": 0.4735
+    },
+    "Bianchi": {
+      "group": "Bianchi",
+      "n_cells": 150,
+      "n_cells_axon_gt": 61,
+      "stage1_acc": 1.0,
+      "node_acc": 0.7876,
+      "neurite_macro_f1": 0.5899,
+      "axon_f1": 0.3474,
+      "basal_f1": 0.8508,
+      "apical_f1": 0.6453,
+      "pcf1_mean": 0.5732,
+      "pcf1_p10": 0.2533
+    },
+    "Hamad": {
+      "group": "Hamad",
+      "n_cells": 150,
+      "n_cells_axon_gt": 0,
+      "stage1_acc": 0.5733,
+      "node_acc": 0.5965,
+      "neurite_macro_f1": 0.5592,
+      "axon_f1": null,
+      "basal_f1": 0.6998,
+      "apical_f1": 0.4185,
+      "pcf1_mean": 0.5506,
+      "pcf1_p10": 0.2265,
+      "pred_axon_share": 0.0066
+    },
+    "Kougias_Juraska": {
+      "group": "Kougias_Juraska",
+      "n_cells": 150,
+      "n_cells_axon_gt": 0,
+      "stage1_acc": 0.9733,
+      "node_acc": 0.988,
+      "neurite_macro_f1": 0.9863,
+      "axon_f1": null,
+      "basal_f1": 0.9917,
+      "apical_f1": 0.9808,
+      "pcf1_mean": 0.9524,
+      "pcf1_p10": 0.9309,
+      "pred_axon_share": 0.0025
+    },
+    "Lambe": {
+      "group": "Lambe",
+      "n_cells": 150,
+      "n_cells_axon_gt": 138,
+      "stage1_acc": 0.9467,
+      "node_acc": 0.7841,
+      "neurite_macro_f1": 0.7074,
+      "axon_f1": 0.4223,
+      "basal_f1": 0.7735,
+      "apical_f1": 0.9266,
+      "pcf1_mean": 0.66,
+      "pcf1_p10": 0.3171
+    },
+    "Lewis": {
+      "group": "Lewis",
+      "n_cells": 150,
+      "n_cells_axon_gt": 37,
+      "stage1_acc": 0.9533,
+      "node_acc": 0.8832,
+      "neurite_macro_f1": 0.6724,
+      "axon_f1": 0.2974,
+      "basal_f1": 0.8994,
+      "apical_f1": 0.8707,
+      "pcf1_mean": 0.7883,
+      "pcf1_p10": 0.3192
+    },
+    "Witter": {
+      "group": "Witter",
+      "n_cells": 150,
+      "n_cells_axon_gt": 81,
+      "stage1_acc": 0.7333,
+      "node_acc": 0.7469,
+      "neurite_macro_f1": 0.6078,
+      "axon_f1": 0.838,
+      "basal_f1": 0.8496,
+      "apical_f1": 0.445,
+      "pcf1_mean": 0.6096,
+      "pcf1_p10": 0.2915
+    },
+    "Zeng": {
+      "group": "Zeng",
+      "n_cells": 150,
+      "n_cells_axon_gt": 102,
+      "stage1_acc": 0.8533,
+      "node_acc": 0.8964,
+      "neurite_macro_f1": 0.8958,
+      "axon_f1": 0.9155,
+      "basal_f1": 0.8801,
+      "apical_f1": 0.9082,
+      "pcf1_mean": 0.7153,
+      "pcf1_p10": 0.5
+    },
+    "Zhang_Jiang": {
+      "group": "Zhang_Jiang",
+      "n_cells": 150,
+      "n_cells_axon_gt": 0,
+      "stage1_acc": 0.6333,
+      "node_acc": 0.6084,
+      "neurite_macro_f1": 0.5393,
+      "axon_f1": null,
+      "basal_f1": 0.7215,
+      "apical_f1": 0.3571,
+      "pcf1_mean": 0.5209,
+      "pcf1_p10": 0.2356,
+      "pred_axon_share": 0.0394
+    },
+    "vdHeuvel": {
+      "group": "vdHeuvel",
+      "n_cells": 150,
+      "n_cells_axon_gt": 145,
+      "stage1_acc": 0.9067,
+      "node_acc": 0.8888,
+      "neurite_macro_f1": 0.5666,
+      "axon_f1": 0.4327,
+      "basal_f1": 0.9394,
+      "apical_f1": 0.3276,
+      "pcf1_mean": 0.5371,
+      "pcf1_p10": 0.2827
+    },
+    "sp:chimpanzee": {
+      "group": "sp:chimpanzee",
+      "n_cells": 150,
+      "n_cells_axon_gt": 61,
+      "stage1_acc": 1.0,
+      "node_acc": 0.7876,
+      "neurite_macro_f1": 0.5899,
+      "axon_f1": 0.3474,
+      "basal_f1": 0.8508,
+      "apical_f1": 0.6453,
+      "pcf1_mean": 0.5732,
+      "pcf1_p10": 0.2533
+    },
+    "sp:human": {
+      "group": "sp:human",
+      "n_cells": 215,
+      "n_cells_axon_gt": 145,
+      "stage1_acc": 0.9349,
+      "node_acc": 0.9022,
+      "neurite_macro_f1": 0.6842,
+      "axon_f1": 0.4327,
+      "basal_f1": 0.9428,
+      "apical_f1": 0.6813,
+      "pcf1_mean": 0.6553,
+      "pcf1_p10": 0.2967
+    },
+    "sp:monkey": {
+      "group": "sp:monkey",
+      "n_cells": 85,
+      "n_cells_axon_gt": 37,
+      "stage1_acc": 0.9176,
+      "node_acc": 0.8415,
+      "neurite_macro_f1": 0.6481,
+      "axon_f1": 0.2974,
+      "basal_f1": 0.8595,
+      "apical_f1": 0.8322,
+      "pcf1_mean": 0.6815,
+      "pcf1_p10": 0.2705
+    },
+    "sp:mouse": {
+      "group": "sp:mouse",
+      "n_cells": 600,
+      "n_cells_axon_gt": 374,
+      "stage1_acc": 0.8583,
+      "node_acc": 0.9007,
+      "neurite_macro_f1": 0.8802,
+      "axon_f1": 0.9551,
+      "basal_f1": 0.8339,
+      "apical_f1": 0.8612,
+      "pcf1_mean": 0.6375,
+      "pcf1_p10": 0.3164
+    },
+    "sp:rat": {
+      "group": "sp:rat",
+      "n_cells": 450,
+      "n_cells_axon_gt": 81,
+      "stage1_acc": 0.76,
+      "node_acc": 0.8218,
+      "neurite_macro_f1": 0.7017,
+      "axon_f1": 0.838,
+      "basal_f1": 0.886,
+      "apical_f1": 0.7052,
+      "pcf1_mean": 0.7042,
+      "pcf1_p10": 0.2813
+    },
+    "axon-GT-only": {
+      "group": "axon-GT-only",
+      "n_cells": 698,
+      "n_cells_axon_gt": 698,
+      "stage1_acc": 0.9226,
+      "node_acc": 0.9016,
+      "neurite_macro_f1": 0.8775,
+      "axon_f1": 0.9515,
+      "basal_f1": 0.8459,
+      "apical_f1": 0.8351,
+      "pcf1_mean": 0.6079,
+      "pcf1_p10": 0.2914
+    }
+  },
+  "external_gtct": {
+    "ALL": {
+      "group": "ALL",
+      "n_cells": 1500,
+      "n_cells_axon_gt": 698,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9107,
+      "neurite_macro_f1": 0.9062,
+      "axon_f1": 0.9591,
+      "basal_f1": 0.8937,
+      "apical_f1": 0.8716,
+      "pcf1_mean": 0.7065,
+      "pcf1_p10": 0.3186
+    },
+    "BICCN-MOp-miniatlas-anatomy": {
+      "group": "BICCN-MOp-miniatlas-anatomy",
+      "n_cells": 150,
+      "n_cells_axon_gt": 134,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9537,
+      "neurite_macro_f1": 0.7942,
+      "axon_f1": 0.9976,
+      "basal_f1": 0.8309,
+      "apical_f1": 0.5612,
+      "pcf1_mean": 0.654,
+      "pcf1_p10": 0.4735
+    },
+    "Bianchi": {
+      "group": "Bianchi",
+      "n_cells": 150,
+      "n_cells_axon_gt": 61,
+      "stage1_acc": 1.0,
+      "node_acc": 0.7876,
+      "neurite_macro_f1": 0.5899,
+      "axon_f1": 0.3474,
+      "basal_f1": 0.8508,
+      "apical_f1": 0.6453,
+      "pcf1_mean": 0.5732,
+      "pcf1_p10": 0.2533
+    },
+    "Hamad": {
+      "group": "Hamad",
+      "n_cells": 150,
+      "n_cells_axon_gt": 0,
+      "stage1_acc": 1.0,
+      "node_acc": 0.8131,
+      "neurite_macro_f1": 0.8123,
+      "axon_f1": null,
+      "basal_f1": 0.8284,
+      "apical_f1": 0.7963,
+      "pcf1_mean": 0.7521,
+      "pcf1_p10": 0.3026,
+      "pred_axon_share": 0.0026
+    },
+    "Kougias_Juraska": {
+      "group": "Kougias_Juraska",
+      "n_cells": 150,
+      "n_cells_axon_gt": 0,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9901,
+      "neurite_macro_f1": 0.9888,
+      "axon_f1": null,
+      "basal_f1": 0.9932,
+      "apical_f1": 0.9843,
+      "pcf1_mean": 0.9649,
+      "pcf1_p10": 0.984,
+      "pred_axon_share": 0.0025
+    },
+    "Lambe": {
+      "group": "Lambe",
+      "n_cells": 150,
+      "n_cells_axon_gt": 138,
+      "stage1_acc": 1.0,
+      "node_acc": 0.7911,
+      "neurite_macro_f1": 0.7193,
+      "axon_f1": 0.4531,
+      "basal_f1": 0.7789,
+      "apical_f1": 0.9262,
+      "pcf1_mean": 0.6763,
+      "pcf1_p10": 0.3398
+    },
+    "Lewis": {
+      "group": "Lewis",
+      "n_cells": 150,
+      "n_cells_axon_gt": 37,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9199,
+      "neurite_macro_f1": 0.6957,
+      "axon_f1": 0.2974,
+      "basal_f1": 0.9289,
+      "apical_f1": 0.9192,
+      "pcf1_mean": 0.827,
+      "pcf1_p10": 0.4105
+    },
+    "Witter": {
+      "group": "Witter",
+      "n_cells": 150,
+      "n_cells_axon_gt": 81,
+      "stage1_acc": 1.0,
+      "node_acc": 0.829,
+      "neurite_macro_f1": 0.7813,
+      "axon_f1": 0.8966,
+      "basal_f1": 0.8884,
+      "apical_f1": 0.5655,
+      "pcf1_mean": 0.6643,
+      "pcf1_p10": 0.3518
+    },
+    "Zeng": {
+      "group": "Zeng",
+      "n_cells": 150,
+      "n_cells_axon_gt": 102,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9357,
+      "neurite_macro_f1": 0.9334,
+      "axon_f1": 0.9381,
+      "basal_f1": 0.894,
+      "apical_f1": 0.9681,
+      "pcf1_mean": 0.7547,
+      "pcf1_p10": 0.5521
+    },
+    "Zhang_Jiang": {
+      "group": "Zhang_Jiang",
+      "n_cells": 150,
+      "n_cells_axon_gt": 0,
+      "stage1_acc": 1.0,
+      "node_acc": 0.8147,
+      "neurite_macro_f1": 0.8216,
+      "axon_f1": null,
+      "basal_f1": 0.846,
+      "apical_f1": 0.7973,
+      "pcf1_mean": 0.6532,
+      "pcf1_p10": 0.3156,
+      "pred_axon_share": 0.0502
+    },
+    "vdHeuvel": {
+      "group": "vdHeuvel",
+      "n_cells": 150,
+      "n_cells_axon_gt": 145,
+      "stage1_acc": 1.0,
+      "node_acc": 0.878,
+      "neurite_macro_f1": 0.5749,
+      "axon_f1": 0.4823,
+      "basal_f1": 0.933,
+      "apical_f1": 0.3095,
+      "pcf1_mean": 0.5457,
+      "pcf1_p10": 0.2708
+    },
+    "sp:chimpanzee": {
+      "group": "sp:chimpanzee",
+      "n_cells": 150,
+      "n_cells_axon_gt": 61,
+      "stage1_acc": 1.0,
+      "node_acc": 0.7876,
+      "neurite_macro_f1": 0.5899,
+      "axon_f1": 0.3474,
+      "basal_f1": 0.8508,
+      "apical_f1": 0.6453,
+      "pcf1_mean": 0.5732,
+      "pcf1_p10": 0.2533
+    },
+    "sp:human": {
+      "group": "sp:human",
+      "n_cells": 215,
+      "n_cells_axon_gt": 145,
+      "stage1_acc": 1.0,
+      "node_acc": 0.8936,
+      "neurite_macro_f1": 0.692,
+      "axon_f1": 0.4823,
+      "basal_f1": 0.9373,
+      "apical_f1": 0.6606,
+      "pcf1_mean": 0.6613,
+      "pcf1_p10": 0.2884
+    },
+    "sp:monkey": {
+      "group": "sp:monkey",
+      "n_cells": 85,
+      "n_cells_axon_gt": 37,
+      "stage1_acc": 1.0,
+      "node_acc": 0.8996,
+      "neurite_macro_f1": 0.686,
+      "axon_f1": 0.2974,
+      "basal_f1": 0.9064,
+      "apical_f1": 0.9072,
+      "pcf1_mean": 0.7498,
+      "pcf1_p10": 0.3505
+    },
+    "sp:mouse": {
+      "group": "sp:mouse",
+      "n_cells": 600,
+      "n_cells_axon_gt": 374,
+      "stage1_acc": 1.0,
+      "node_acc": 0.921,
+      "neurite_macro_f1": 0.9053,
+      "axon_f1": 0.9617,
+      "basal_f1": 0.8496,
+      "apical_f1": 0.9101,
+      "pcf1_mean": 0.6846,
+      "pcf1_p10": 0.3981
+    },
+    "sp:rat": {
+      "group": "sp:rat",
+      "n_cells": 450,
+      "n_cells_axon_gt": 81,
+      "stage1_acc": 1.0,
+      "node_acc": 0.8915,
+      "neurite_macro_f1": 0.8717,
+      "axon_f1": 0.8966,
+      "basal_f1": 0.9235,
+      "apical_f1": 0.8113,
+      "pcf1_mean": 0.7937,
+      "pcf1_p10": 0.3847
+    },
+    "axon-GT-only": {
+      "group": "axon-GT-only",
+      "n_cells": 698,
+      "n_cells_axon_gt": 698,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9158,
+      "neurite_macro_f1": 0.8977,
+      "axon_f1": 0.9591,
+      "basal_f1": 0.8556,
+      "apical_f1": 0.8783,
+      "pcf1_mean": 0.6279,
+      "pcf1_p10": 0.2993
+    }
+  },
+  "external_interneuron": {
+    "ALL": {
+      "group": "ALL",
+      "n_cells": 467,
+      "n_cells_axon_gt": 467,
+      "stage1_acc": 0.7773,
+      "node_acc": 0.9592,
+      "neurite_macro_f1": 0.9431,
+      "axon_f1": 0.9734,
+      "basal_f1": 0.9128,
+      "apical_f1": null,
+      "pcf1_mean": 0.7663,
+      "pcf1_p10": 0.2866
+    },
+    "Helmstaedter": {
+      "group": "Helmstaedter",
+      "n_cells": 48,
+      "n_cells_axon_gt": 48,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9979,
+      "neurite_macro_f1": 0.9958,
+      "axon_f1": 0.9988,
+      "basal_f1": 0.9928,
+      "apical_f1": null,
+      "pcf1_mean": 0.9957,
+      "pcf1_p10": 1.0
+    },
+    "Jing_Jiang": {
+      "group": "Jing_Jiang",
+      "n_cells": 94,
+      "n_cells_axon_gt": 94,
+      "stage1_acc": 0.7553,
+      "node_acc": 0.8935,
+      "neurite_macro_f1": 0.8917,
+      "axon_f1": 0.8782,
+      "basal_f1": 0.9052,
+      "apical_f1": null,
+      "pcf1_mean": 0.6734,
+      "pcf1_p10": 0.332
+    },
+    "Scanziani": {
+      "group": "Scanziani",
+      "n_cells": 110,
+      "n_cells_axon_gt": 110,
+      "stage1_acc": 0.9909,
+      "node_acc": 0.9858,
+      "neurite_macro_f1": 0.9756,
+      "axon_f1": 0.9914,
+      "basal_f1": 0.9599,
+      "apical_f1": null,
+      "pcf1_mean": 0.9414,
+      "pcf1_p10": 0.9944
+    },
+    "Sjostrom": {
+      "group": "Sjostrom",
+      "n_cells": 150,
+      "n_cells_axon_gt": 150,
+      "stage1_acc": 0.6667,
+      "node_acc": 0.6978,
+      "neurite_macro_f1": 0.6975,
+      "axon_f1": 0.692,
+      "basal_f1": 0.703,
+      "apical_f1": null,
+      "pcf1_mean": 0.5429,
+      "pcf1_p10": 0.2004
+    },
+    "Wang_Ye": {
+      "group": "Wang_Ye",
+      "n_cells": 65,
+      "n_cells_axon_gt": 65,
+      "stage1_acc": 0.5385,
+      "node_acc": 0.9961,
+      "neurite_macro_f1": 0.9959,
+      "axon_f1": 0.9969,
+      "basal_f1": 0.9948,
+      "apical_f1": null,
+      "pcf1_mean": 0.9507,
+      "pcf1_p10": 0.8786
+    },
+    "sp:human": {
+      "group": "sp:human",
+      "n_cells": 65,
+      "n_cells_axon_gt": 65,
+      "stage1_acc": 0.5385,
+      "node_acc": 0.9961,
+      "neurite_macro_f1": 0.9959,
+      "axon_f1": 0.9969,
+      "basal_f1": 0.9948,
+      "apical_f1": null,
+      "pcf1_mean": 0.9507,
+      "pcf1_p10": 0.8786
+    },
+    "sp:mouse": {
+      "group": "sp:mouse",
+      "n_cells": 327,
+      "n_cells_axon_gt": 327,
+      "stage1_acc": 0.7737,
+      "node_acc": 0.938,
+      "neurite_macro_f1": 0.9172,
+      "axon_f1": 0.9587,
+      "basal_f1": 0.8758,
+      "apical_f1": null,
+      "pcf1_mean": 0.6788,
+      "pcf1_p10": 0.2568
+    },
+    "sp:rat": {
+      "group": "sp:rat",
+      "n_cells": 75,
+      "n_cells_axon_gt": 75,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9895,
+      "neurite_macro_f1": 0.9804,
+      "axon_f1": 0.9938,
+      "basal_f1": 0.967,
+      "apical_f1": null,
+      "pcf1_mean": 0.988,
+      "pcf1_p10": 1.0
+    },
+    "axon-GT-only": {
+      "group": "axon-GT-only",
+      "n_cells": 467,
+      "n_cells_axon_gt": 467,
+      "stage1_acc": 0.7773,
+      "node_acc": 0.9592,
+      "neurite_macro_f1": 0.9431,
+      "axon_f1": 0.9734,
+      "basal_f1": 0.9128,
+      "apical_f1": null,
+      "pcf1_mean": 0.7663,
+      "pcf1_p10": 0.2866
+    }
+  },
+  "external_interneuron_gtct": {
+    "ALL": {
+      "group": "ALL",
+      "n_cells": 467,
+      "n_cells_axon_gt": 467,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9618,
+      "neurite_macro_f1": 0.9465,
+      "axon_f1": 0.9751,
+      "basal_f1": 0.9179,
+      "apical_f1": null,
+      "pcf1_mean": 0.7804,
+      "pcf1_p10": 0.303
+    },
+    "Helmstaedter": {
+      "group": "Helmstaedter",
+      "n_cells": 48,
+      "n_cells_axon_gt": 48,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9979,
+      "neurite_macro_f1": 0.9958,
+      "axon_f1": 0.9988,
+      "basal_f1": 0.9928,
+      "apical_f1": null,
+      "pcf1_mean": 0.9957,
+      "pcf1_p10": 1.0
+    },
+    "Jing_Jiang": {
+      "group": "Jing_Jiang",
+      "n_cells": 94,
+      "n_cells_axon_gt": 94,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9066,
+      "neurite_macro_f1": 0.9053,
+      "axon_f1": 0.8948,
+      "basal_f1": 0.9159,
+      "apical_f1": null,
+      "pcf1_mean": 0.6897,
+      "pcf1_p10": 0.3416
+    },
+    "Scanziani": {
+      "group": "Scanziani",
+      "n_cells": 110,
+      "n_cells_axon_gt": 110,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9858,
+      "neurite_macro_f1": 0.9756,
+      "axon_f1": 0.9914,
+      "basal_f1": 0.9599,
+      "apical_f1": null,
+      "pcf1_mean": 0.9414,
+      "pcf1_p10": 0.9944
+    },
+    "Sjostrom": {
+      "group": "Sjostrom",
+      "n_cells": 150,
+      "n_cells_axon_gt": 150,
+      "stage1_acc": 1.0,
+      "node_acc": 0.7176,
+      "neurite_macro_f1": 0.7174,
+      "axon_f1": 0.7182,
+      "basal_f1": 0.7167,
+      "apical_f1": null,
+      "pcf1_mean": 0.5721,
+      "pcf1_p10": 0.2046
+    },
+    "Wang_Ye": {
+      "group": "Wang_Ye",
+      "n_cells": 65,
+      "n_cells_axon_gt": 65,
+      "stage1_acc": 1.0,
+      "node_acc": 0.999,
+      "neurite_macro_f1": 0.9989,
+      "axon_f1": 0.9992,
+      "basal_f1": 0.9987,
+      "apical_f1": null,
+      "pcf1_mean": 0.9607,
+      "pcf1_p10": 1.0
+    },
+    "sp:human": {
+      "group": "sp:human",
+      "n_cells": 65,
+      "n_cells_axon_gt": 65,
+      "stage1_acc": 1.0,
+      "node_acc": 0.999,
+      "neurite_macro_f1": 0.9989,
+      "axon_f1": 0.9992,
+      "basal_f1": 0.9987,
+      "apical_f1": null,
+      "pcf1_mean": 0.9607,
+      "pcf1_p10": 1.0
+    },
+    "sp:mouse": {
+      "group": "sp:mouse",
+      "n_cells": 327,
+      "n_cells_axon_gt": 327,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9419,
+      "neurite_macro_f1": 0.9219,
+      "axon_f1": 0.9614,
+      "basal_f1": 0.8825,
+      "apical_f1": null,
+      "pcf1_mean": 0.6969,
+      "pcf1_p10": 0.2615
+    },
+    "sp:rat": {
+      "group": "sp:rat",
+      "n_cells": 75,
+      "n_cells_axon_gt": 75,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9895,
+      "neurite_macro_f1": 0.9804,
+      "axon_f1": 0.9938,
+      "basal_f1": 0.967,
+      "apical_f1": null,
+      "pcf1_mean": 0.988,
+      "pcf1_p10": 1.0
+    },
+    "axon-GT-only": {
+      "group": "axon-GT-only",
+      "n_cells": 467,
+      "n_cells_axon_gt": 467,
+      "stage1_acc": 1.0,
+      "node_acc": 0.9618,
+      "neurite_macro_f1": 0.9465,
+      "axon_f1": 0.9751,
+      "basal_f1": 0.9179,
+      "apical_f1": null,
+      "pcf1_mean": 0.7804,
+      "pcf1_p10": 0.303
+    }
+  },
+  "flag_transfer": {
+    "seed": 123,
+    "n": 1500,
+    "n_scoped": 1286,
+    "n_routed_interneuron": 214,
+    "routed_interneuron_pcf1_mean": 0.33073598130841125,
+    "triage": {
+      "0.00": {
+        "mean": 0.710287402799378,
+        "p10": 0.32
+      },
+      "0.10": {
+        "mean": 0.723684701815039,
+        "p10": 0.32404000000000005
+      },
+      "0.15": {
+        "mean": 0.7305896614821592,
+        "p10": 0.3259
+      },
+      "0.20": {
+        "mean": 0.7408397473275025,
+        "p10": 0.32867999999999997
+      },
+      "0.30": {
+        "mean": 0.7519263333333334,
+        "p10": 0.32961
+      }
+    },
+    "per_archive": {
+      "BICCN-MOp-miniatlas-anatomy": {
+        "n": 150,
+        "p10": 0.47346,
+        "p10_reject20": 0.5037200000000001
+      },
+      "Bianchi": {
+        "n": 150,
+        "p10": 0.25333,
+        "p10_reject20": 0.27893
+      },
+      "Hamad": {
+        "n": 86,
+        "p10": 0.275,
+        "p10_reject20": 0.29142
+      },
+      "Kougias_Juraska": {
+        "n": 146,
+        "p10": 0.9854499999999999,
+        "p10_reject20": 1.0
+      },
+      "Lambe": {
+        "n": 142,
+        "p10": 0.47049,
+        "p10_reject20": 0.58655
+      },
+      "Lewis": {
+        "n": 143,
+        "p10": 0.40388,
+        "p10_reject20": 0.43653000000000003
+      },
+      "Witter": {
+        "n": 110,
+        "p10": 0.37899000000000005,
+        "p10_reject20": 0.42012
+      },
+      "Zeng": {
+        "n": 128,
+        "p10": 0.57517,
+        "p10_reject20": 0.59273
+      },
+      "Zhang_Jiang": {
+        "n": 95,
+        "p10": 0.31272,
+        "p10_reject20": 0.30235
+      },
+      "vdHeuvel": {
+        "n": 136,
+        "p10": 0.2766,
+        "p10_reject20": 0.30807999999999996
+      }
+    },
+    "gate": {
+      "0.70": {
+        "caught": 0.3878504672897196,
+        "cost": 0.09331259720062209
+      },
+      "0.80": {
+        "caught": 0.4953271028037383,
+        "cost": 0.17651632970451012
+      },
+      "0.90": {
+        "caught": 0.677570093457944,
+        "cost": 0.31493001555209954
+      },
+      "0.95": {
+        "caught": 0.8551401869158879,
+        "cost": 0.45800933125972004
+      }
+    },
+    "controls": {
+      "0.00": {
+        "flag_p10": 0.32,
+        "random_p10": 0.32,
+        "oracle_p10": 0.32
+      },
+      "0.10": {
+        "flag_p10": 0.32404000000000005,
+        "random_p10": 0.32015814,
+        "oracle_p10": 0.43092
+      },
+      "0.15": {
+        "flag_p10": 0.3259,
+        "random_p10": 0.32013526000000003,
+        "oracle_p10": 0.49558
+      },
+      "0.20": {
+        "flag_p10": 0.32867999999999997,
+        "random_p10": 0.3203682,
+        "oracle_p10": 0.54374
+      },
+      "0.30": {
+        "flag_p10": 0.32961,
+        "random_p10": 0.31999986,
+        "oracle_p10": 0.61355
+      }
+    },
+    "coverage": {
+      "0.00": {
+        "flag": {
+          "mean": 0.710287402799378,
+          "p10": 0.32
+        },
+        "random": {
+          "mean": 0.710287402799378,
+          "p10": 0.31999999999999995
+        },
+        "oracle": {
+          "mean": 0.710287402799378,
+          "p10": 0.32
+        }
+      },
+      "0.02": {
+        "flag": {
+          "mean": 0.7124155555555556,
+          "p10": 0.31985
+        },
+        "random": {
+          "mean": 0.710330019047619,
+          "p10": 0.3200530999999999
+        },
+        "oracle": {
+          "mean": 0.7212026190476191,
+          "p10": 0.32719
+        }
+      },
+      "0.04": {
+        "flag": {
+          "mean": 0.7155934412955466,
+          "p10": 0.32014
+        },
+        "random": {
+          "mean": 0.7104352562753036,
+          "p10": 0.32017260000000003
+        },
+        "oracle": {
+          "mean": 0.7309142510121458,
+          "p10": 0.34712
+        }
+      },
+      "0.06": {
+        "flag": {
+          "mean": 0.7170516129032258,
+          "p10": 0.32017999999999996
+        },
+        "random": {
+          "mean": 0.7102071071133167,
+          "p10": 0.320112
+        },
+        "oracle": {
+          "mean": 0.7407626137303557,
+          "p10": 0.38864000000000004
+        }
+      },
+      "0.08": {
+        "flag": {
+          "mean": 0.7185819949281488,
+          "p10": 0.3215
+        },
+        "random": {
+          "mean": 0.7104477299239224,
+          "p10": 0.3201793
+        },
+        "oracle": {
+          "mean": 0.7504994928148776,
+          "p10": 0.4143
+        }
+      },
+      "0.10": {
+        "flag": {
+          "mean": 0.723684701815039,
+          "p10": 0.32404000000000005
+        },
+        "random": {
+          "mean": 0.7100437731201381,
+          "p10": 0.3201294
+        },
+        "oracle": {
+          "mean": 0.7602968885047536,
+          "p10": 0.43092
+        }
+      },
+      "0.12": {
+        "flag": {
+          "mean": 0.7268006183745583,
+          "p10": 0.32523
+        },
+        "random": {
+          "mean": 0.7103402924028268,
+          "p10": 0.32023185
+        },
+        "oracle": {
+          "mean": 0.7699214664310954,
+          "p10": 0.45728
+        }
+      },
+      "0.14": {
+        "flag": {
+          "mean": 0.7297583182640145,
+          "p10": 0.3258
+        },
+        "random": {
+          "mean": 0.7102330637432188,
+          "p10": 0.31997525
+        },
+        "oracle": {
+          "mean": 0.7800785714285714,
+          "p10": 0.48235
+        }
+      },
+      "0.16": {
+        "flag": {
+          "mean": 0.7327440740740739,
+          "p10": 0.32608
+        },
+        "random": {
+          "mean": 0.7101431328703705,
+          "p10": 0.3200443
+        },
+        "oracle": {
+          "mean": 0.7896814814814814,
+          "p10": 0.5
+        }
+      },
+      "0.18": {
+        "flag": {
+          "mean": 0.7362506161137441,
+          "p10": 0.32704
+        },
+        "random": {
+          "mean": 0.7100494170616113,
+          "p10": 0.32018389999999997
+        },
+        "oracle": {
+          "mean": 0.7987182938388625,
+          "p10": 0.52152
+        }
+      },
+      "0.20": {
+        "flag": {
+          "mean": 0.7408397473275025,
+          "p10": 0.32867999999999997
+        },
+        "random": {
+          "mean": 0.7101389086491738,
+          "p10": 0.3199606
+        },
+        "oracle": {
+          "mean": 0.8080238095238095,
+          "p10": 0.54374
+        }
+      },
+      "0.22": {
+        "flag": {
+          "mean": 0.7429556331006979,
+          "p10": 0.33024
+        },
+        "random": {
+          "mean": 0.710376241774676,
+          "p10": 0.3201872
+        },
+        "oracle": {
+          "mean": 0.8171071784646062,
+          "p10": 0.5596599999999999
+        }
+      },
+      "0.24": {
+        "flag": {
+          "mean": 0.7439360286591608,
+          "p10": 0.33
+        },
+        "random": {
+          "mean": 0.7103257256908904,
+          "p10": 0.31996850000000004
+        },
+        "oracle": {
+          "mean": 0.8258835209825999,
+          "p10": 0.57778
+        }
+      },
+      "0.26": {
+        "flag": {
+          "mean": 0.7462577731092437,
+          "p10": 0.33022
+        },
+        "random": {
+          "mean": 0.7101598608193278,
+          "p10": 0.32017489999999993
+        },
+        "oracle": {
+          "mean": 0.834340231092437,
+          "p10": 0.59095
+        }
+      },
+      "0.28": {
+        "flag": {
+          "mean": 0.7501862850971922,
+          "p10": 0.32994999999999997
+        },
+        "random": {
+          "mean": 0.7099194146868251,
+          "p10": 0.319774
+        },
+        "oracle": {
+          "mean": 0.8428365010799136,
+          "p10": 0.60415
+        }
+      },
+      "0.30": {
+        "flag": {
+          "mean": 0.7519263333333334,
+          "p10": 0.32961
+        },
+        "random": {
+          "mean": 0.7104603716666665,
+          "p10": 0.32036105
+        },
+        "oracle": {
+          "mean": 0.8511952222222222,
+          "p10": 0.61355
+        }
+      }
+    },
+    "bootstrap_ci_kept_p10": {
+      "0.10": [
+        0.3136,
+        0.330003
+      ],
+      "0.20": [
+        0.3233995,
+        0.3767025
+      ]
+    },
+    "interneuron_set": {
+      "n_scoped": 363,
+      "n_bad": 97,
+      "triage": {
+        "0.00": {
+          "mean": 0.8184300275482094,
+          "bad_share": 0.26721763085399447,
+          "recall_bad": 0.0,
+          "random_mean": 0.8184300275482096,
+          "oracle_mean": 0.8184300275482094
+        },
+        "0.10": {
+          "mean": 0.8490752293577982,
+          "bad_share": 0.22935779816513763,
+          "recall_bad": 0.2268041237113402,
+          "random_mean": 0.8180894131498472,
+          "oracle_mean": 0.8864477064220182
+        },
+        "0.15": {
+          "mean": 0.85302071197411,
+          "bad_share": 0.22653721682847897,
+          "recall_bad": 0.27835051546391754,
+          "random_mean": 0.8187748996763753,
+          "oracle_mean": 0.9199718446601942
+        },
+        "0.20": {
+          "mean": 0.8581137931034483,
+          "bad_share": 0.21724137931034482,
+          "recall_bad": 0.35051546391752575,
+          "random_mean": 0.8183352151724139,
+          "oracle_mean": 0.9554937931034484
+        },
+        "0.30": {
+          "mean": 0.8625145669291339,
+          "bad_share": 0.2125984251968504,
+          "recall_bad": 0.44329896907216493,
+          "random_mean": 0.8182072381889763,
+          "oracle_mean": 1.0
+        }
+      }
+    },
+    "mixed_batch": {
+      "n_cells": 1967,
+      "n_pyramidal_set": 1500,
+      "n_interneuron_set": 467,
+      "n_routed_pyramidal": 1390,
+      "n_routed_interneuron": 577,
+      "interneurons_routed_pyramidal": 104,
+      "pyramidal_routed_interneuron": 214,
+      "pyramidal_routed_interneuron_bad": 211,
+      "pyramidal_bad": 659,
+      "interneuron_bad": 167,
+      "no_flag_p10_all": 0.29156,
+      "no_flag_p10_pyramidal_set": 0.2917,
+      "budgets": {
+        "0.10": {
+          "k": 197,
+          "precision": 0.5786802030456852,
+          "recall_pyramidal_bad": 0.11380880121396054,
+          "recall_interneuron_bad": 0.23353293413173654,
+          "recall_misrouted_pyramidal_bad": 0.05687203791469194,
+          "interneurons_rejected": 71,
+          "good_interneurons_rejected": 32,
+          "kept_p10_all": 0.29777000000000003,
+          "kept_p10_pyramidal_set": 0.2926
+        },
+        "0.15": {
+          "k": 295,
+          "precision": 0.5694915254237288,
+          "recall_pyramidal_bad": 0.17450682852807284,
+          "recall_interneuron_bad": 0.31736526946107785,
+          "recall_misrouted_pyramidal_bad": 0.0947867298578199,
+          "interneurons_rejected": 102,
+          "good_interneurons_rejected": 49,
+          "kept_p10_all": 0.30331,
+          "kept_p10_pyramidal_set": 0.29768
+        },
+        "0.20": {
+          "k": 393,
+          "precision": 0.5597964376590331,
+          "recall_pyramidal_bad": 0.24279210925644917,
+          "recall_interneuron_bad": 0.3592814371257485,
+          "recall_misrouted_pyramidal_bad": 0.14218009478672985,
+          "interneurons_rejected": 124,
+          "good_interneurons_rejected": 64,
+          "kept_p10_all": 0.30961,
+          "kept_p10_pyramidal_set": 0.3029
+        },
+        "0.30": {
+          "k": 590,
+          "precision": 0.5338983050847458,
+          "recall_pyramidal_bad": 0.3520485584218513,
+          "recall_interneuron_bad": 0.49700598802395207,
+          "recall_misrouted_pyramidal_bad": 0.23696682464454977,
+          "interneurons_rejected": 182,
+          "good_interneurons_rejected": 99,
+          "kept_p10_all": 0.31286,
+          "kept_p10_pyramidal_set": 0.30541
+        }
+      }
+    },
+    "calibration": {
+      "pyramidal_set_scored": {
+        "n": 1286,
+        "mae_predicted_f1": 0.23316399159223816,
+        "deciles": [
+          {
+            "n": 129,
+            "predicted_f1": 0.6664196238961331,
+            "true_f1": 0.5901271317829457
+          },
+          {
+            "n": 129,
+            "predicted_f1": 0.7611544358637906,
+            "true_f1": 0.5873906976744185
+          },
+          {
+            "n": 128,
+            "predicted_f1": 0.8063803524710238,
+            "true_f1": 0.66246953125
+          },
+          {
+            "n": 129,
+            "predicted_f1": 0.8376615805219311,
+            "true_f1": 0.6355472868217054
+          },
+          {
+            "n": 128,
+            "predicted_f1": 0.8647448890842497,
+            "true_f1": 0.6423671875
+          },
+          {
+            "n": 129,
+            "predicted_f1": 0.8900771621585817,
+            "true_f1": 0.7110186046511627
+          },
+          {
+            "n": 129,
+            "predicted_f1": 0.915769752605941,
+            "true_f1": 0.7928860465116279
+          },
+          {
+            "n": 128,
+            "predicted_f1": 0.9354630801826715,
+            "true_f1": 0.79485390625
+          },
+          {
+            "n": 129,
+            "predicted_f1": 0.9535349274790564,
+            "true_f1": 0.8345751937984497
+          },
+          {
+            "n": 128,
+            "predicted_f1": 0.9789071748964489,
+            "true_f1": 0.85249921875
+          }
+        ]
+      },
+      "interneuron_set_scored": {
+        "n": 363,
+        "mae_predicted_f1": 0.20072723038820525,
+        "deciles": [
+          {
+            "n": 37,
+            "predicted_f1": 0.5623349056050584,
+            "true_f1": 0.5525
+          },
+          {
+            "n": 36,
+            "predicted_f1": 0.7123578306701448,
+            "true_f1": 0.7720722222222222
+          },
+          {
+            "n": 36,
+            "predicted_f1": 0.7980478902657827,
+            "true_f1": 0.8270638888888888
+          },
+          {
+            "n": 37,
+            "predicted_f1": 0.8656533038293993,
+            "true_f1": 0.8817189189189188
+          },
+          {
+            "n": 36,
+            "predicted_f1": 0.9296406855185827,
+            "true_f1": 0.6500333333333332
+          },
+          {
+            "n": 36,
+            "predicted_f1": 0.9689549538824294,
+            "true_f1": 0.7897694444444444
+          },
+          {
+            "n": 37,
+            "predicted_f1": 0.9888581472474176,
+            "true_f1": 0.9223432432432432
+          },
+          {
+            "n": 36,
+            "predicted_f1": 0.9967156615522172,
+            "true_f1": 0.9329805555555555
+          },
+          {
+            "n": 36,
+            "predicted_f1": 1.0010807861884434,
+            "true_f1": 0.982136111111111
+          },
+          {
+            "n": 36,
+            "predicted_f1": 1.0060169299443562,
+            "true_f1": 0.8764249999999999
+          }
+        ]
+      },
+      "all_scored": {
+        "n": 1967,
+        "mae_predicted_f1": 0.2714461543197612,
+        "deciles": [
+          {
+            "n": 197,
+            "predicted_f1": 0.6307814354218807,
+            "true_f1": 0.6050644670050761
+          },
+          {
+            "n": 197,
+            "predicted_f1": 0.7517127497547169,
+            "true_f1": 0.577815228426396
+          },
+          {
+            "n": 197,
+            "predicted_f1": 0.8032015416827903,
+            "true_f1": 0.6481710659898476
+          },
+          {
+            "n": 196,
+            "predicted_f1": 0.8406976984471691,
+            "true_f1": 0.6200576530612244
+          },
+          {
+            "n": 197,
+            "predicted_f1": 0.8732488203774854,
+            "true_f1": 0.6829807106598986
+          },
+          {
+            "n": 197,
+            "predicted_f1": 0.9048063821598963,
+            "true_f1": 0.7305573604060914
+          },
+          {
+            "n": 196,
+            "predicted_f1": 0.9327254669398678,
+            "true_f1": 0.7461428571428571
+          },
+          {
+            "n": 197,
+            "predicted_f1": 0.9545127232062635,
+            "true_f1": 0.7416060913705583
+          },
+          {
+            "n": 197,
+            "predicted_f1": 0.9784952919495288,
+            "true_f1": 0.7144218274111676
+          },
+          {
+            "n": 196,
+            "predicted_f1": 1.0003129426313906,
+            "true_f1": 0.756540306122449
+          }
+        ]
+      }
+    },
+    "n_random": 1000,
+    "n_boot": 1000,
+    "bad_f1_threshold": 0.6
+  },
+  "retrain": {
+    "vdHeuvel": {
+      "n_train": 100,
+      "train_s": 8.62,
+      "n_test": 50,
+      "own": {
+        "node_acc": 0.9996828381455093,
+        "node_acc_with_soma": 0.9996830176717648,
+        "neurite_macro_f1": 0.9985401311960113,
+        "apical_f1": 0.9957882069795427,
+        "basal_f1": 0.9998321866084914,
+        "pcf1_mean": 0.998062,
+        "pcf1_p10": 1.0
+      },
+      "frozen": {
+        "node_acc": 0.8712096326586093,
+        "node_acc_with_soma": 0.8712825331416345,
+        "neurite_macro_f1": 0.5395369124974908,
+        "apical_f1": 0.21824524152574507,
+        "basal_f1": 0.9295425533233359,
+        "pcf1_mean": 0.507016,
+        "pcf1_p10": 0.27728
+      }
+    },
+    "Bianchi": {
+      "n_train": 108,
+      "train_s": 7.22,
+      "n_test": 42,
+      "own": {
+        "node_acc": 0.8492298578199052,
+        "node_acc_with_soma": 0.8496040657132726,
+        "neurite_macro_f1": 0.6992361870200671,
+        "apical_f1": 0.7615368552933807,
+        "basal_f1": 0.8926749040610635,
+        "pcf1_mean": 0.7889595238095237,
+        "pcf1_p10": 0.50555
+      },
+      "frozen": {
+        "node_acc": 0.8125,
+        "node_acc_with_soma": 0.8129653705235788,
+        "neurite_macro_f1": 0.6160706852393546,
+        "apical_f1": 0.7008564437194127,
+        "basal_f1": 0.8671358317788707,
+        "pcf1_mean": 0.6382714285714286,
+        "pcf1_p10": 0.28824
+      }
+    },
+    "Hamad": {
+      "n_train": 107,
+      "train_s": 5.38,
+      "n_test": 43,
+      "own": {
+        "node_acc": 0.9871958734651025,
+        "node_acc_with_soma": 0.9872084273890143,
+        "neurite_macro_f1": 0.9871838677307727,
+        "apical_f1": 0.9875761266747869,
+        "basal_f1": 0.9867916087867586,
+        "pcf1_mean": 0.9736348837209301,
+        "pcf1_p10": 1.0
+      },
+      "frozen": {
+        "node_acc": 0.7686355959282422,
+        "node_acc_with_soma": 0.7688624392913332,
+        "neurite_macro_f1": 0.7609090457871581,
+        "apical_f1": 0.7166357868732806,
+        "basal_f1": 0.8051823047010357,
+        "pcf1_mean": 0.6573372093023256,
+        "pcf1_p10": 0.21936
+      },
+      "note": "correction head untrainable on this corpus; lab model runs without it"
+    },
+    "_run": {
+      "archives": [
+        "vdHeuvel",
+        "Hamad",
+        "Bianchi"
+      ],
+      "seed": 123,
+      "test_size": 0.3333333333333333,
+      "device": "cuda",
+      "frozen_models": "pipeline/models/seed123",
+      "failed": {}
+    }
+  },
+  "new_class": {
+    "granule/Rodrigues": {
+      "n_train": 105,
+      "n_test": 45,
+      "n_all": 150,
+      "schema": "interneuron",
+      "own": {
+        "node_acc": 0.9868630573248408,
+        "node_acc_with_soma": 0.9869410368025326,
+        "neurite_macro_f1": 0.9835030993712588,
+        "axon_f1": 0.990948157630063,
+        "pcf1_mean": 0.9742644444444445,
+        "pcf1_p10": 1.0,
+        "dendrite_f1": 0.9760580411124546
+      },
+      "frozen": {
+        "node_acc": 0.2703025477707006,
+        "node_acc_with_soma": 0.2746339533043134,
+        "neurite_macro_f1": 0.21278596051394547,
+        "axon_f1": 0.0,
+        "pcf1_mean": 0.20563111111111104,
+        "pcf1_p10": 0.10868,
+        "dendrite_f1": 0.42557192102789093
+      },
+      "frozen_deployment": {
+        "node_acc": 0.40485668789808915,
+        "node_acc_with_soma": 0.40838939453897904,
+        "neurite_macro_f1": 0.488180049649079,
+        "axon_f1": 0.34972034147777453,
+        "pcf1_mean": 0.5018511111111111,
+        "pcf1_p10": 0.16932,
+        "dendrite_f1": 0.6266397578203835,
+        "stage1_pyramidal_frac": 1.0
+      },
+      "frozen_all": {
+        "node_acc": 0.2707641931058896,
+        "node_acc_with_soma": 0.27557255263967645,
+        "neurite_macro_f1": 0.2245493268067067,
+        "axon_f1": 0.03524177496780236,
+        "pcf1_mean": 0.20654466666666665,
+        "pcf1_p10": 0.10162,
+        "dendrite_f1": 0.41385687864561105
+      },
+      "frozen_deployment_all": {
+        "node_acc": 0.39050400460197354,
+        "node_acc_with_soma": 0.39452283616862277,
+        "neurite_macro_f1": 0.4724166645630791,
+        "axon_f1": 0.3351603046029975,
+        "pcf1_mean": 0.5170013333333333,
+        "pcf1_p10": 0.13820000000000002,
+        "dendrite_f1": 0.6096730245231607,
+        "stage1_pyramidal_frac": 1.0
+      }
+    },
+    "ganglion/Rodger": {
+      "n_train": 92,
+      "n_test": 58,
+      "n_all": 150,
+      "schema": "interneuron",
+      "own": {
+        "node_acc": 0.9769101235836402,
+        "node_acc_with_soma": 0.9769482832312295,
+        "neurite_macro_f1": 0.8672685746268434,
+        "axon_f1": 0.7466332602568118,
+        "pcf1_mean": 0.9119017241379311,
+        "pcf1_p10": 0.6655000000000001,
+        "dendrite_f1": 0.9879038889968751
+      },
+      "frozen": {
+        "node_acc": 0.8889459714016611,
+        "node_acc_with_soma": 0.8891295056275823,
+        "neurite_macro_f1": 0.47617552905836735,
+        "axon_f1": 0.011181702668360865,
+        "pcf1_mean": 0.4733293103448276,
+        "pcf1_p10": 0.41231,
+        "dendrite_f1": 0.9411693554483739
+      },
+      "frozen_deployment": {
+        "node_acc": 0.8005251591175043,
+        "node_acc_with_soma": 0.8008548226243054,
+        "neurite_macro_f1": 0.4723224821221849,
+        "axon_f1": 0.05574193548387097,
+        "pcf1_mean": 0.4767741379310345,
+        "pcf1_p10": 0.32452,
+        "dendrite_f1": 0.8889030287604989,
+        "stage1_pyramidal_frac": 0.39655172413793105
+      },
+      "frozen_all": {
+        "node_acc": 0.8862860965547998,
+        "node_acc_with_soma": 0.8864759572573464,
+        "neurite_macro_f1": 0.4806567355390347,
+        "axon_f1": 0.021678657074340527,
+        "pcf1_mean": 0.473302,
+        "pcf1_p10": 0.39230000000000004,
+        "dendrite_f1": 0.9396348140037288
+      },
+      "frozen_deployment_all": {
+        "node_acc": 0.8036904894637084,
+        "node_acc_with_soma": 0.8040182546749778,
+        "neurite_macro_f1": 0.47496782640060653,
+        "axon_f1": 0.05915901401643306,
+        "pcf1_mean": 0.46866533333333327,
+        "pcf1_p10": 0.31666000000000005,
+        "dendrite_f1": 0.89077663878478,
+        "stage1_pyramidal_frac": 0.4
+      }
+    },
+    "mitral_tufted/Urban": {
+      "n_train": 43,
+      "n_test": 20,
+      "n_all": 63,
+      "schema": "pyramidal",
+      "own": {
+        "node_acc": 0.7056336779038027,
+        "node_acc_with_soma": 0.7056626826552631,
+        "neurite_macro_f1": 0.6310492149842535,
+        "axon_f1": 0.5468724293376328,
+        "pcf1_mean": 0.6605599999999999,
+        "pcf1_p10": 0.22648000000000001,
+        "basal_f1": 0.7779182062166844,
+        "apical_f1": 0.5683570093984432
+      },
+      "frozen": {
+        "node_acc": 0.32647148671153636,
+        "node_acc_with_soma": 0.32653785139276176,
+        "neurite_macro_f1": 0.3291408758808319,
+        "axon_f1": 0.49083316357710327,
+        "pcf1_mean": 0.184725,
+        "pcf1_p10": 0.07348,
+        "basal_f1": 0.43614344522632964,
+        "apical_f1": 0.06044601883906288
+      },
+      "frozen_deployment": {
+        "node_acc": 0.3642182126351265,
+        "node_acc_with_soma": 0.3642808580240223,
+        "neurite_macro_f1": 0.34720513861015506,
+        "axon_f1": 0.5381200971497166,
+        "pcf1_mean": 0.19777999999999998,
+        "pcf1_p10": 0.07348,
+        "basal_f1": 0.4978382101703358,
+        "apical_f1": 0.005657108510412615,
+        "stage1_pyramidal_frac": 0.75
+      },
+      "frozen_all": {
+        "node_acc": 0.3523719237523223,
+        "node_acc_with_soma": 0.35243681520983666,
+        "neurite_macro_f1": 0.2961687887758299,
+        "axon_f1": 0.29636409699010324,
+        "pcf1_mean": 0.19914761904761907,
+        "pcf1_p10": 0.02314,
+        "basal_f1": 0.47438843510413836,
+        "apical_f1": 0.11775383423324817
+      },
+      "frozen_deployment_all": {
+        "node_acc": 0.371920571094088,
+        "node_acc_with_soma": 0.3719835038035725,
+        "neurite_macro_f1": 0.26031273374158054,
+        "axon_f1": 0.22619460033719024,
+        "pcf1_mean": 0.19993650793650794,
+        "pcf1_p10": 0.043960000000000006,
+        "basal_f1": 0.5364793288145939,
+        "apical_f1": 0.018264272072957555,
+        "stage1_pyramidal_frac": 0.7301587301587301
+      }
+    },
+    "_run": {
+      "classes": [
+        "granule",
+        "ganglion",
+        "mitral_tufted"
+      ],
+      "seed": 123,
+      "test_size": 0.3333333333333333,
+      "frozen_models": "pipeline/models/seed123"
+    }
+  },
+  "more_cells": {
+    "bianchi": {
+      "archive": "Bianchi",
+      "n_train": 474,
+      "n_published_train": 108,
+      "n_more": 366,
+      "n_test": 42,
+      "train_s": 18.11,
+      "own": {
+        "node_acc": 0.8966232227488151,
+        "node_acc_with_soma": 0.8968798014419099,
+        "neurite_macro_f1": 0.7999120004270148,
+        "apical_f1": 0.8403514086640412,
+        "basal_f1": 0.9254560211884318,
+        "pcf1_mean": 0.8685071428571427,
+        "pcf1_p10": 0.66172
+      },
+      "frozen": {
+        "node_acc": 0.8125,
+        "node_acc_with_soma": 0.8129653705235788,
+        "neurite_macro_f1": 0.6160706852393546,
+        "apical_f1": 0.7008564437194127,
+        "basal_f1": 0.8671358317788707,
+        "pcf1_mean": 0.6382714285714286,
+        "pcf1_p10": 0.28824
+      },
+      "published_own": {
+        "pcf1_mean": 0.7889595238095237,
+        "pcf1_p10": 0.50555
+      }
+    },
+    "rodger": {
+      "archive": "Rodger",
+      "n_train": 287,
+      "n_published_train": 92,
+      "n_more": 195,
+      "n_test": 58,
+      "train_s": 5.03,
+      "own": {
+        "node_acc": 0.9886405799583298,
+        "node_acc_with_soma": 0.9886593531842143,
+        "neurite_macro_f1": 0.9290254607801394,
+        "axon_f1": 0.8639781271360218,
+        "pcf1_mean": 0.9517448275862069,
+        "pcf1_p10": 0.8481,
+        "dendrite_f1": 0.9940727944242569
+      },
+      "frozen": {
+        "node_acc": 0.8889459714016611,
+        "node_acc_with_soma": 0.8891295056275823,
+        "neurite_macro_f1": 0.47617552905836735,
+        "axon_f1": 0.011181702668360865,
+        "pcf1_mean": 0.47332931034482756,
+        "pcf1_p10": 0.41231,
+        "dendrite_f1": 0.9411693554483739
+      },
+      "published_own": {
+        "pcf1_mean": 0.9119017241379311,
+        "pcf1_p10": 0.6655000000000001
+      }
+    },
+    "_run": {
+      "corpora": [
+        "bianchi",
+        "rodger"
+      ],
+      "seed": 123,
+      "test_size": 0.3333333333333333,
+      "device": "cuda",
+      "frozen_models": "pipeline/models/seed123"
+    }
+  }
+}

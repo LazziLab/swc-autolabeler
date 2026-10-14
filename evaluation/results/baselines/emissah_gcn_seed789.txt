@@ -1,0 +1,5 @@
+Emissah GCN retrained on seed 789 split (1618 held-out pyramidal cells)
+  GT cell type, GT axon/soma supplied, one-apical prior enforced (both from the released prediction rules)
+  val file-exact acc 0.421
+  node acc 0.9245  macroF1 0.8198  pcF1 mean 0.8317  P10 0.5272
+  per-class F1: soma 1.0000  axon 0.9750  basal/dendrite 0.8229  apical 0.6615

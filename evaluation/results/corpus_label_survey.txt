@@ -1,0 +1,19 @@
+Corpus label survey: 8488 QC-pass pyramidal cells
+
+  apical label present    48.8%
+  axon label present      42.9%
+  both                    30.0%
+  neither                 38.2%
+
+NeuroMorpho archives: 84  (7053 cells; 1435 in-house and Allen cells have no archive and are outside this block)
+  label apical, never axon    25
+  label axon, never apical     5
+  label both                  34
+  label neither               20
+  (an archive counts as labeling a compartment when any one of its cells does; 11 archives hold under 5 cells)
+
+Soma representation (per-archive median type-1 node count)
+  three-point (median 3)      75
+  contour (median >= 10)       7
+  no soma (median 0)           0
+  other (median 1-2, 4-9)      2

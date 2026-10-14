@@ -1,0 +1,50 @@
+{
+  "npin_commit": "8d632fe",
+  "n_cells": 3,
+  "max_abs_diff": 0.0,
+  "structural_mismatches": 0,
+  "cells": [
+    {
+      "file": "hpf_ca1__202217_025_edited.swc",
+      "n_nodes": 28854,
+      "fast_s": 1.74,
+      "original_s": 148.27,
+      "fast_peak_gb": 0.21,
+      "original_peak_gb": 1.91,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "hpf_ca1__210111_074_edited.swc",
+      "n_nodes": 44841,
+      "fast_s": 2.66,
+      "original_s": 100.3,
+      "fast_peak_gb": 0.24,
+      "original_peak_gb": 0.95,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    },
+    {
+      "file": "hpf_ca1__202237_021_edited.swc",
+      "n_nodes": 60025,
+      "fast_s": 4.75,
+      "original_s": 1111.97,
+      "fast_peak_gb": 0.26,
+      "original_peak_gb": 9.34,
+      "max_abs_diff": {
+        "df_axon": 0.0,
+        "df_eval": 0.0,
+        "train_rows": 0.0,
+        "test_rows": 0.0
+      }
+    }
+  ]
+}

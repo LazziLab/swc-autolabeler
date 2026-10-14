@@ -1,0 +1,35 @@
+TABLE -- COMPUTATIONAL COST
+
+A. TRAINING (minutes; one timed end-to-end run, seed 123)
+
+  stage                           full corpus
+                                   9460 cells
+  Stage 1 cell type                       1.4
+  Stage 2 subtree classifier              9.3
+  Stage 3 branch correction              20.9
+  Stage 4 quality flags                  12.6
+  total                                  44.2
+  total, every stage on the CPU          44.6
+
+B. INFERENCE (seconds per cell, median over the sampled cells; CPU)
+
+  parse SWC                           0.010
+  label, complete pipeline            0.042
+    of which Stage 1                  0.012
+  quality flag                        0.012
+  end to end, median                  0.073
+  end to end, mean                    0.299
+  (end to end: read, Stage 0 checks, label, write, flag; 1000 random cells)
+
+  models load in 0.3 s, 214 MB resident for weights, peak process 422 MB
+
+C. MORPHOLOGY SIZE
+
+       nodes  cells  median s  ms/1k nodes |  cells  pcF1 mean  pcF1 P10
+       0-500     25     0.019         49.4 |   1827      0.938     0.761
+    500-1000     25     0.028         30.8 |   1203      0.944     0.768
+   1000-2000     25     0.041         21.6 |   1002      0.948     0.797
+   2000-5000     25     0.085         21.8 |   1032      0.952     0.858
+       5000+     25     0.384         22.7 |   1959      0.965     0.916
+
+  left: runtime from profile_runtime; right: accuracy over seeds 42, 123, 789

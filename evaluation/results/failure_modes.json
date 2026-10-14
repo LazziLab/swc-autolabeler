@@ -1,0 +1,101 @@
+{
+  "scope": "pyramidal",
+  "n_rows": 5025,
+  "n_bad_rows": 503,
+  "bottom_decile_f1_cutoff": 0.7681,
+  "reject_rate": 0.1,
+  "enrichment_ceiling": 10.0,
+  "unmatched_bad_rows": 89,
+  "categories": [
+    {
+      "category": "Apical missed",
+      "description": "GT has apical nodes, the model predicted none",
+      "rows": 122,
+      "bad_rows": 122,
+      "unique_bad_files": 107,
+      "enrichment": 9.99,
+      "flag_recall": 0.549,
+      "false_flags": 0
+    },
+    {
+      "category": "Stage 1 propagation",
+      "description": "Stage 1 is wrong and the cell's F1 is low",
+      "rows": 62,
+      "bad_rows": 62,
+      "unique_bad_files": 55,
+      "enrichment": 9.99,
+      "flag_recall": 0.919,
+      "false_flags": 0
+    },
+    {
+      "category": "Apical over-predicted",
+      "description": "far more apical nodes than GT, with low apical F1",
+      "rows": 24,
+      "bad_rows": 24,
+      "unique_bad_files": 21,
+      "enrichment": 9.99,
+      "flag_recall": 0.458,
+      "false_flags": 0
+    },
+    {
+      "category": "Apical under-predicted",
+      "description": "under half the GT apical node count, with low apical F1",
+      "rows": 169,
+      "bad_rows": 167,
+      "unique_bad_files": 144,
+      "enrichment": 9.872,
+      "flag_recall": 0.539,
+      "false_flags": 0
+    },
+    {
+      "category": "Basal lost",
+      "description": "basal F1 below 0.5 despite GT basal nodes",
+      "rows": 75,
+      "bad_rows": 74,
+      "unique_bad_files": 68,
+      "enrichment": 9.857,
+      "flag_recall": 0.595,
+      "false_flags": 1
+    },
+    {
+      "category": "Whole-cell mislabel",
+      "description": "Stage 1 confidently disagrees with the GT cell type",
+      "rows": 15,
+      "bad_rows": 11,
+      "unique_bad_files": 10,
+      "enrichment": 7.326,
+      "flag_recall": 0.909,
+      "false_flags": 4
+    },
+    {
+      "category": "Axon/dendrite confusion",
+      "description": "axon F1 below 0.95",
+      "rows": 352,
+      "bad_rows": 224,
+      "unique_bad_files": 192,
+      "enrichment": 6.357,
+      "flag_recall": 0.42,
+      "false_flags": 17
+    },
+    {
+      "category": "Truncated apical",
+      "description": "GT apical reaches under 100 um from the soma",
+      "rows": 53,
+      "bad_rows": 29,
+      "unique_bad_files": 25,
+      "enrichment": 5.466,
+      "flag_recall": 0.414,
+      "false_flags": 6
+    },
+    {
+      "category": "Apical not opposed to basal",
+      "description": "apical and basal leave the soma in the same direction",
+      "rows": 146,
+      "bad_rows": 41,
+      "unique_bad_files": 38,
+      "enrichment": 2.805,
+      "flag_recall": 0.463,
+      "false_flags": 19
+    }
+  ]
+}

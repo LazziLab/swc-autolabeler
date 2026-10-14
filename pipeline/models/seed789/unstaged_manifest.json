@@ -1,0 +1,24 @@
+{
+  "seed": 789,
+  "test_size": 0.2,
+  "config": {
+    "n_estimators": 250,
+    "max_depth": 6,
+    "learning_rate": 0.08,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "feature_version": "branch57+subtree24+cell55",
+  "counts": {
+    "pyramidal": {
+      "n_cells": 6870,
+      "n_branches": 1320616
+    },
+    "interneuron": {
+      "n_cells": 2699,
+      "n_branches": 741537
+    }
+  },
+  "minutes": 4.47,
+  "notes": "One model per cell type over the whole feature set; no rules, no correction, no quality flag. Labeling needs this directory's Stage 1 classifier to decide the cell type."
+}

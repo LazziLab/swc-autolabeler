@@ -1,0 +1,16 @@
+Unstaged labeler, held-out evaluation (seed 42, GT cell type)
+model : pipeline/models/seed42
+test  : 2328 cells, 19272301 nodes
+
+[corpus]
+  accuracy 0.9873   macro-F1 0.9755   neurite-macro-F1 0.9673
+  pcF1 mean 0.9532   pcF1 P10 0.8178
+
+[pyramidal]
+  accuracy 0.9919   macro-F1 0.9798   neurite-macro-F1 0.9730
+  pcF1 mean 0.9439   pcF1 P10 0.6634
+
+[interneuron]
+  accuracy 0.9744   macro-F1 0.9800   neurite-macro-F1 0.9700
+  pcF1 mean 0.9764   pcF1 P10 1.0000
+

@@ -1,0 +1,72 @@
+{
+  "bianchi": {
+    "archive": "Bianchi",
+    "n_train": 474,
+    "n_published_train": 108,
+    "n_more": 366,
+    "n_test": 42,
+    "train_s": 18.11,
+    "own": {
+      "node_acc": 0.8966232227488151,
+      "node_acc_with_soma": 0.8968798014419099,
+      "neurite_macro_f1": 0.7999120004270148,
+      "apical_f1": 0.8403514086640412,
+      "basal_f1": 0.9254560211884318,
+      "pcf1_mean": 0.8685071428571427,
+      "pcf1_p10": 0.66172
+    },
+    "frozen": {
+      "node_acc": 0.8125,
+      "node_acc_with_soma": 0.8129653705235788,
+      "neurite_macro_f1": 0.6160706852393546,
+      "apical_f1": 0.7008564437194127,
+      "basal_f1": 0.8671358317788707,
+      "pcf1_mean": 0.6382714285714286,
+      "pcf1_p10": 0.28824
+    },
+    "published_own": {
+      "pcf1_mean": 0.7889595238095237,
+      "pcf1_p10": 0.50555
+    }
+  },
+  "rodger": {
+    "archive": "Rodger",
+    "n_train": 287,
+    "n_published_train": 92,
+    "n_more": 195,
+    "n_test": 58,
+    "train_s": 5.03,
+    "own": {
+      "node_acc": 0.9886405799583298,
+      "node_acc_with_soma": 0.9886593531842143,
+      "neurite_macro_f1": 0.9290254607801394,
+      "axon_f1": 0.8639781271360218,
+      "pcf1_mean": 0.9517448275862069,
+      "pcf1_p10": 0.8481,
+      "dendrite_f1": 0.9940727944242569
+    },
+    "frozen": {
+      "node_acc": 0.8889459714016611,
+      "node_acc_with_soma": 0.8891295056275823,
+      "neurite_macro_f1": 0.47617552905836735,
+      "axon_f1": 0.011181702668360865,
+      "pcf1_mean": 0.47332931034482756,
+      "pcf1_p10": 0.41231,
+      "dendrite_f1": 0.9411693554483739
+    },
+    "published_own": {
+      "pcf1_mean": 0.9119017241379311,
+      "pcf1_p10": 0.6655000000000001
+    }
+  },
+  "_run": {
+    "corpora": [
+      "bianchi",
+      "rodger"
+    ],
+    "seed": 123,
+    "test_size": 0.3333333333333333,
+    "device": "cuda",
+    "frozen_models": "pipeline/models/seed123"
+  }
+}

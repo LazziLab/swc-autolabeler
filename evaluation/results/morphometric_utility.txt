@@ -1,0 +1,44 @@
+Are automated labels good enough to measure from?
+seed 123, 2402 held-out cells, tolerance 10%
+reference: expert annotators disagree by ~12% on total length
+
+1. SYSTEMATIC SHIFT IN THE COHORT MEAN (our pipeline)
+
+  compartment / measure         cells    shift    vs human band
+  axon / total length            1128    -0.2%           inside
+  axon / surface area            1128    -0.1%           inside
+  axon / max path dist           1128    -0.4%           inside
+
+  basal / total length           2341    -1.8%           inside
+  basal / surface area           2341    -2.5%           inside
+  basal / max path dist          2341    +0.0%           inside
+
+  apical / total length           867    -3.7%           inside
+  apical / surface area           867    -3.8%           inside
+  apical / max path dist          867    -4.6%           inside
+
+2. AGAINST THE BASELINES
+
+  method          apical len  apical area  apical path    usable
+  ours                 -3.7%        -3.8%        -4.6%     82.0%
+  lmeasure_rf          -7.9%        -9.8%       -14.7%     79.6%
+  neurom_rf           -16.2%       -18.2%       +12.9%     40.7%
+  sholl_mlp           -10.2%       -11.2%       -15.4%     73.6%
+  sholl_rf            -10.7%       -11.7%       -16.5%     77.4%
+
+3. WHERE THE ERROR LIVES
+
+  the worst 10% of cells carry 89% to 100% of all cohort error
+  (even spreading would be 10%), so most cells are exact and the error is
+  concentrated in a small, identifiable minority
+  apical total length within 1 um of the reference: 76.8% (666 of 867 cells with an apical)
+
+4. TRIAGE  (pyramidal; the flag's scope)
+
+    reject    usable    kept     lift
+        0%     78.9%    1745       --
+        5%     81.7%    1658    +2.8%
+       10%     85.2%    1571    +6.3%
+       12%     86.5%    1536    +7.6%
+       15%     88.1%    1483    +9.2%
+       20%     91.2%    1396   +12.3%

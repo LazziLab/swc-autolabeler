@@ -1,0 +1,484 @@
+{
+  "seeds": [
+    42,
+    123,
+    789
+  ],
+  "modes": [
+    "stage2_only",
+    "stage3_topology",
+    "full_correction",
+    "deployment"
+  ],
+  "full": "full_correction",
+  "summary": {
+    "stage2_only": {
+      "accuracy": {
+        "mean": 0.9843000000000001,
+        "sd": 0.0008185352771872159
+      },
+      "neurite_macro_f1": {
+        "mean": 0.9569333333333333,
+        "sd": 0.004895235779135995
+      },
+      "axon_f1": {
+        "mean": 0.9942333333333333,
+        "sd": 0.0006027713773341566
+      },
+      "basal_f1": {
+        "mean": 0.9547,
+        "sd": 0.0020074859899884734
+      },
+      "apical_f1": {
+        "mean": 0.9217666666666666,
+        "sd": 0.013707418915803739
+      },
+      "pcf1_p10": {
+        "mean": 0.6564033333333333,
+        "sd": 0.003971250852481266
+      },
+      "pct_nodes_changed": {
+        "mean": null,
+        "sd": 0.0
+      },
+      "pct_cells_touched": {
+        "mean": null,
+        "sd": 0.0
+      }
+    },
+    "stage3_topology": {
+      "accuracy": {
+        "mean": 0.9842333333333334,
+        "sd": 0.0014364307617609844
+      },
+      "neurite_macro_f1": {
+        "mean": 0.9573,
+        "sd": 0.006581793068761764
+      },
+      "axon_f1": {
+        "mean": 0.9940666666666665,
+        "sd": 0.0003055050463303557
+      },
+      "basal_f1": {
+        "mean": 0.9542999999999999,
+        "sd": 0.0038314488121336016
+      },
+      "apical_f1": {
+        "mean": 0.9236,
+        "sd": 0.01603090764741656
+      },
+      "pcf1_p10": {
+        "mean": 0.6567133333333334,
+        "sd": 0.004237939751026804
+      },
+      "pct_nodes_changed": {
+        "mean": 0.2420558744083424,
+        "sd": 0.1337090914891349
+      },
+      "pct_cells_touched": {
+        "mean": 1.178900568154525,
+        "sd": 0.1861381126629817
+      }
+    },
+    "full_correction": {
+      "accuracy": {
+        "mean": 0.9848,
+        "sd": 0.0013856406460551415
+      },
+      "neurite_macro_f1": {
+        "mean": 0.9597000000000001,
+        "sd": 0.0067557383016217986
+      },
+      "axon_f1": {
+        "mean": 0.9941666666666666,
+        "sd": 0.0002516611478423306
+      },
+      "basal_f1": {
+        "mean": 0.956,
+        "sd": 0.0037322915213043413
+      },
+      "apical_f1": {
+        "mean": 0.9289,
+        "sd": 0.016673032117764306
+      },
+      "pcf1_p10": {
+        "mean": 0.81921,
+        "sd": 0.050706823012292866
+      },
+      "pct_nodes_changed": {
+        "mean": 0.24735881191162643,
+        "sd": 0.017697711604707986
+      },
+      "pct_cells_touched": {
+        "mean": 16.773315586443562,
+        "sd": 1.0606208842423397
+      }
+    },
+    "deployment": {
+      "accuracy": {
+        "mean": 0.9840333333333332,
+        "sd": 0.0008020806277010867
+      },
+      "neurite_macro_f1": {
+        "mean": 0.9561666666666667,
+        "sd": 0.005493025881363897
+      },
+      "axon_f1": {
+        "mean": 0.9941,
+        "sd": 0.0003464101615138014
+      },
+      "basal_f1": {
+        "mean": 0.9538666666666668,
+        "sd": 0.0033471380810079438
+      },
+      "apical_f1": {
+        "mean": 0.9205666666666666,
+        "sd": 0.013957554704651307
+      },
+      "pcf1_p10": {
+        "mean": 0.8030366666666667,
+        "sd": 0.04669002498749957
+      },
+      "pct_nodes_changed": {
+        "mean": 0.19043406021173778,
+        "sd": 0.035379405694544945
+      },
+      "pct_cells_touched": {
+        "mean": 1.807119491232079,
+        "sd": 0.18242635595054466
+      }
+    }
+  },
+  "per_seed": {
+    "42": {
+      "stage2_only": {
+        "accuracy": 0.9852,
+        "neurite_macro_f1": 0.9587,
+        "axon_f1": 0.9943,
+        "basal_f1": 0.9566,
+        "apical_f1": 0.9251,
+        "pcf1_p10": 0.65857,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.7,
+            "basal": 0.2,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.7,
+            "basal": 94.1,
+            "apical": 2.3
+          },
+          "apical": {
+            "axon": 3.0,
+            "basal": 4.4,
+            "apical": 92.6
+          }
+        },
+        "pct_nodes_changed": null,
+        "pct_cells_touched": null
+      },
+      "stage3_topology": {
+        "accuracy": 0.9853,
+        "neurite_macro_f1": 0.9595,
+        "axon_f1": 0.9944,
+        "basal_f1": 0.9561,
+        "apical_f1": 0.9281,
+        "pcf1_p10": 0.6592,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.7,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.4,
+            "basal": 94.9,
+            "apical": 1.7
+          },
+          "apical": {
+            "axon": 2.4,
+            "basal": 6.0,
+            "apical": 91.6
+          }
+        },
+        "pct_nodes_changed": 0.28107697155622463,
+        "pct_cells_touched": 1.1597938144329898
+      },
+      "full_correction": {
+        "accuracy": 0.9856,
+        "neurite_macro_f1": 0.9607,
+        "axon_f1": 0.9944,
+        "basal_f1": 0.9569,
+        "apical_f1": 0.9307,
+        "pcf1_p10": 0.84634,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.7,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.5,
+            "basal": 94.7,
+            "apical": 1.8
+          },
+          "apical": {
+            "axon": 2.4,
+            "basal": 5.2,
+            "apical": 92.4
+          }
+        },
+        "pct_nodes_changed": 0.23056406186267017,
+        "pct_cells_touched": 17.18213058419244
+      },
+      "deployment": {
+        "accuracy": 0.9841,
+        "neurite_macro_f1": 0.9545,
+        "axon_f1": 0.9939,
+        "basal_f1": 0.955,
+        "apical_f1": 0.9147,
+        "pcf1_p10": 0.8187800000000001,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.7,
+            "basal": 0.3,
+            "apical": 0.0
+          },
+          "basal": {
+            "axon": 3.5,
+            "basal": 94.6,
+            "apical": 1.9
+          },
+          "apical": {
+            "axon": 4.3,
+            "basal": 6.2,
+            "apical": 89.5
+          }
+        },
+        "pct_nodes_changed": 0.22035770404374652,
+        "pct_cells_touched": 1.9759450171821307
+      }
+    },
+    "123": {
+      "stage2_only": {
+        "accuracy": 0.9836,
+        "neurite_macro_f1": 0.9514,
+        "axon_f1": 0.9948,
+        "basal_f1": 0.9526,
+        "apical_f1": 0.9067,
+        "pcf1_p10": 0.6518200000000001,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.7,
+            "basal": 0.2,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.3,
+            "basal": 93.3,
+            "apical": 3.4
+          },
+          "apical": {
+            "axon": 1.3,
+            "basal": 5.3,
+            "apical": 93.4
+          }
+        },
+        "pct_nodes_changed": null,
+        "pct_cells_touched": null
+      },
+      "stage3_topology": {
+        "accuracy": 0.9826,
+        "neurite_macro_f1": 0.9499,
+        "axon_f1": 0.994,
+        "basal_f1": 0.9499,
+        "apical_f1": 0.9058,
+        "pcf1_p10": 0.6518200000000001,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.5,
+            "basal": 0.4,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.1,
+            "basal": 94.0,
+            "apical": 2.9
+          },
+          "apical": {
+            "axon": 1.4,
+            "basal": 6.7,
+            "apical": 91.9
+          }
+        },
+        "pct_nodes_changed": 0.35191354693170745,
+        "pct_cells_touched": 1.3738551207327228
+      },
+      "full_correction": {
+        "accuracy": 0.9832,
+        "neurite_macro_f1": 0.9525,
+        "axon_f1": 0.9942,
+        "basal_f1": 0.9519,
+        "apical_f1": 0.9114,
+        "pcf1_p10": 0.7607100000000001,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.5,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.1,
+            "basal": 94.1,
+            "apical": 2.8
+          },
+          "apical": {
+            "axon": 1.4,
+            "basal": 5.9,
+            "apical": 92.7
+          }
+        },
+        "pct_nodes_changed": 0.265838908500158,
+        "pct_cells_touched": 17.568692756036636
+      },
+      "deployment": {
+        "accuracy": 0.9832,
+        "neurite_macro_f1": 0.9517,
+        "axon_f1": 0.9945,
+        "basal_f1": 0.9501,
+        "apical_f1": 0.9105,
+        "pcf1_p10": 0.75051,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.6,
+            "basal": 0.3,
+            "apical": 0.0
+          },
+          "basal": {
+            "axon": 3.1,
+            "basal": 94.0,
+            "apical": 2.9
+          },
+          "apical": {
+            "axon": 1.4,
+            "basal": 6.8,
+            "apical": 91.8
+          }
+        },
+        "pct_nodes_changed": 0.19955820936107585,
+        "pct_cells_touched": 1.8318068276436303
+      }
+    },
+    "789": {
+      "stage2_only": {
+        "accuracy": 0.9841,
+        "neurite_macro_f1": 0.9607,
+        "axon_f1": 0.9936,
+        "basal_f1": 0.9549,
+        "apical_f1": 0.9335,
+        "pcf1_p10": 0.6588200000000001,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.6,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.7,
+            "basal": 94.1,
+            "apical": 2.2
+          },
+          "apical": {
+            "axon": 1.6,
+            "basal": 4.3,
+            "apical": 94.1
+          }
+        },
+        "pct_nodes_changed": null,
+        "pct_cells_touched": null
+      },
+      "stage3_topology": {
+        "accuracy": 0.9848,
+        "neurite_macro_f1": 0.9625,
+        "axon_f1": 0.9938,
+        "basal_f1": 0.9569,
+        "apical_f1": 0.9369,
+        "pcf1_p10": 0.65912,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.6,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.5,
+            "basal": 94.5,
+            "apical": 1.9
+          },
+          "apical": {
+            "axon": 1.6,
+            "basal": 4.4,
+            "apical": 94.0
+          }
+        },
+        "pct_nodes_changed": 0.09317710473709506,
+        "pct_cells_touched": 1.003052769297863
+      },
+      "full_correction": {
+        "accuracy": 0.9856,
+        "neurite_macro_f1": 0.9659,
+        "axon_f1": 0.9939,
+        "basal_f1": 0.9592,
+        "apical_f1": 0.9446,
+        "pcf1_p10": 0.85058,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.6,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.6,
+            "basal": 94.4,
+            "apical": 2.0
+          },
+          "apical": {
+            "axon": 1.6,
+            "basal": 2.8,
+            "apical": 95.6
+          }
+        },
+        "pct_nodes_changed": 0.24567346537205106,
+        "pct_cells_touched": 15.569123419101613
+      },
+      "deployment": {
+        "accuracy": 0.9848,
+        "neurite_macro_f1": 0.9623,
+        "axon_f1": 0.9939,
+        "basal_f1": 0.9565,
+        "apical_f1": 0.9365,
+        "pcf1_p10": 0.83982,
+        "confusion_rownorm_pct": {
+          "axon": {
+            "axon": 99.6,
+            "basal": 0.3,
+            "apical": 0.1
+          },
+          "basal": {
+            "axon": 3.6,
+            "basal": 94.3,
+            "apical": 2.0
+          },
+          "apical": {
+            "axon": 1.4,
+            "basal": 4.3,
+            "apical": 94.2
+          }
+        },
+        "pct_nodes_changed": 0.15138626723039098,
+        "pct_cells_touched": 1.6136066288704753
+      }
+    }
+  }
+}

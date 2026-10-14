@@ -1,0 +1,25 @@
+Stage 3 rule ablation, seed 123, 600 held-out cells
+
+Each row removes one rule and leaves the rest in place. Negative deltas
+mean the rule helps. Scoped columns count only the cells the rule can act on.
+
+  rule                          scope     dAcc    dMean     dP10  touched  helped  harmed
+  subtree_voting            pyramidal  +0.0000  +0.0000  +0.0000        0       0       0
+  single_axon               pyramidal  -0.0014  -0.0006  -0.0254        1       1       0
+  apical_principal_axis     pyramidal  -0.0000  -0.0001  +0.0000        1       1       0
+  apical_owner              pyramidal  -0.0000  -0.0001  +0.0000        1       1       0
+  axon_bias               interneuron  +0.0001  +0.0006  +0.0050        1       0       1
+  soft_majority           interneuron  +0.0000  +0.0000  +0.0000        0       0       0
+  no_stage3                      both  -0.0018  -0.0010  -0.0308        8       5       3
+
+Absolute scores
+
+  config                      acc     mean      P10  axon F1  apical F1
+  full                     0.9853   0.9483   0.8359   0.9959     0.8601
+  subtree_voting           0.9853   0.9483   0.8359   0.9959     0.8601
+  single_axon              0.9838   0.9478   0.8105   0.9950     0.8601
+  apical_principal_axis    0.9853   0.9482   0.8359   0.9959     0.8599
+  apical_owner             0.9853   0.9482   0.8359   0.9959     0.8599
+  axon_bias                0.9854   0.9489   0.8409   0.9959     0.8601
+  soft_majority            0.9853   0.9483   0.8359   0.9959     0.8601
+  no_stage3                0.9834   0.9473   0.8051   0.9951     0.8541

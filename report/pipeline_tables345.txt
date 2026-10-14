@@ -1,0 +1,32 @@
+Full-pipeline evaluation -- Tables 2/3/4
+mean +/- SD over seeds 42, 123, 789; GT cell type; correction intrinsic
+
+Table 2 -- all
+  metric            mean      SD
+  Acc.            0.9848  0.0014
+  Macro-F1        0.9597  0.0068
+  Axon            0.9941  0.0003
+  Basal           0.9560  0.0037
+  Apical          0.9289  0.0167
+  pcF1 mean       0.9503  0.0062
+  pcF1 P10        0.8192  0.0507
+
+Table 3 -- pyramidal
+  metric            mean      SD
+  Acc.            0.9885  0.0026
+  Macro-F1        0.9627  0.0083
+  Axon            0.9977  0.0007
+  Basal           0.9568  0.0106
+  Apical          0.9338  0.0138
+  pcF1 mean       0.9464  0.0079
+  pcF1 P10        0.7897  0.0539
+
+Table 4 -- interneuron
+  metric            mean      SD
+  Acc.            0.9754  0.0019
+  Macro-F1        0.9697  0.0029
+  Axon            0.9841  0.0021
+  Basal           0.9552  0.0040
+  pcF1 mean       0.9603  0.0071
+  pcF1 P10        1.0000  0.0000
+

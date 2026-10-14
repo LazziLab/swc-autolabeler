@@ -1,0 +1,255 @@
+{
+  "seeds": [
+    42,
+    123,
+    789
+  ],
+  "n_cells": 600,
+  "rules": [
+    {
+      "rule": "single_axon",
+      "scope": "pyramidal",
+      "d_p10": [
+        -0.009583333333333352,
+        0.014470858071770731
+      ],
+      "d_mean": [
+        -0.000137222222222122,
+        0.0007243420833443364
+      ],
+      "d_acc": [
+        -0.00021363601183199687,
+        0.0019122677679254125
+      ],
+      "touched": 3,
+      "helped": 2,
+      "harmed": 1,
+      "touched_per_seed": [
+        1,
+        1,
+        1
+      ],
+      "helped_per_seed": [
+        0,
+        1,
+        1
+      ],
+      "harmed_per_seed": [
+        1,
+        0,
+        0
+      ],
+      "in_scope": 300
+    },
+    {
+      "rule": "apical_owner",
+      "scope": "pyramidal",
+      "d_p10": [
+        -0.0006300000000000194,
+        0.0010911920087684262
+      ],
+      "d_mean": [
+        -0.00011166666666654705,
+        0.00012035722292863353
+      ],
+      "d_acc": [
+        -5.129999618358472e-05,
+        4.3734803419124955e-05
+      ],
+      "touched": 5,
+      "helped": 4,
+      "harmed": 1,
+      "touched_per_seed": [
+        2,
+        1,
+        2
+      ],
+      "helped_per_seed": [
+        1,
+        1,
+        2
+      ],
+      "harmed_per_seed": [
+        1,
+        0,
+        0
+      ],
+      "in_scope": 300
+    },
+    {
+      "rule": "subtree_voting",
+      "scope": "pyramidal",
+      "d_p10": [
+        0.0,
+        0.0
+      ],
+      "d_mean": [
+        0.0,
+        0.0
+      ],
+      "d_acc": [
+        0.0,
+        0.0
+      ],
+      "touched": 0,
+      "helped": 0,
+      "harmed": 0,
+      "touched_per_seed": [
+        0,
+        0,
+        0
+      ],
+      "helped_per_seed": [
+        0,
+        0,
+        0
+      ],
+      "harmed_per_seed": [
+        0,
+        0,
+        0
+      ],
+      "in_scope": 300
+    },
+    {
+      "rule": "apical_principal_axis",
+      "scope": "pyramidal",
+      "d_p10": [
+        0.0,
+        0.0
+      ],
+      "d_mean": [
+        0.0001931111111111624,
+        0.00032216905212653895
+      ],
+      "d_acc": [
+        2.1277147722894203e-05,
+        3.160907164999662e-05
+      ],
+      "touched": 5,
+      "helped": 2,
+      "harmed": 3,
+      "touched_per_seed": [
+        2,
+        1,
+        2
+      ],
+      "helped_per_seed": [
+        0,
+        1,
+        1
+      ],
+      "harmed_per_seed": [
+        2,
+        0,
+        1
+      ],
+      "in_scope": 300
+    },
+    {
+      "rule": "soft_majority",
+      "scope": "interneuron",
+      "d_p10": [
+        0.0,
+        0.0
+      ],
+      "d_mean": [
+        0.0,
+        0.0
+      ],
+      "d_acc": [
+        0.0,
+        0.0
+      ],
+      "touched": 0,
+      "helped": 0,
+      "harmed": 0,
+      "touched_per_seed": [
+        0,
+        0,
+        0
+      ],
+      "helped_per_seed": [
+        0,
+        0,
+        0
+      ],
+      "harmed_per_seed": [
+        0,
+        0,
+        0
+      ],
+      "in_scope": 300
+    },
+    {
+      "rule": "axon_bias",
+      "scope": "interneuron",
+      "d_p10": [
+        0.0013199999999999878,
+        0.0032291175265077364
+      ],
+      "d_mean": [
+        -8.249999999998536e-05,
+        0.0007470079391218936
+      ],
+      "d_acc": [
+        4.323639413024901e-05,
+        8.069297033797241e-05
+      ],
+      "touched": 2,
+      "helped": 1,
+      "harmed": 1,
+      "touched_per_seed": [
+        1,
+        1,
+        0
+      ],
+      "helped_per_seed": [
+        1,
+        0,
+        0
+      ],
+      "harmed_per_seed": [
+        0,
+        1,
+        0
+      ],
+      "in_scope": 300
+    },
+    {
+      "rule": "no_stage3",
+      "scope": "both",
+      "d_p10": [
+        -0.014973333333333358,
+        0.013755269293377474
+      ],
+      "d_mean": [
+        -0.0009442222222221242,
+        0.0006071359524973524
+      ],
+      "d_acc": [
+        -0.0005365193554309755,
+        0.0019041226792160203
+      ],
+      "touched": 21,
+      "helped": 14,
+      "harmed": 7,
+      "touched_per_seed": [
+        8,
+        8,
+        5
+      ],
+      "helped_per_seed": [
+        6,
+        5,
+        3
+      ],
+      "harmed_per_seed": [
+        2,
+        3,
+        2
+      ],
+      "in_scope": 600
+    }
+  ]
+}
