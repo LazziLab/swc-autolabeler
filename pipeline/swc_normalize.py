@@ -53,13 +53,16 @@ def normalize_custom_types(nodes: list[SWCNode]) -> tuple[list[SWCNode], int]:
         2. Replace its type with the most common standard type in that
            branch.
         3. If the branch contains no standard-type nodes at all, walk up
-           parent links until a standard-type ancestor is found; use that.
+           parent links until a neurite-typed (2, 3 or 4) ancestor is found;
+           use that. The soma is not a neurite class: a stretch whose
+           nearest standard ancestor is the soma is not part of it.
         4. If neither succeeds, set type to 0, the SWC code for undefined.
-           That happens only when a custom-typed node has no standard type
-           anywhere in its branch and no standard ancestor, so nothing in
-           the file says what it is. Such a node is not a neurite to any
-           later stage, and a file left with no neurite at all is rejected
-           by the Stage 0 gate.
+           That happens when a custom-typed node has no standard type
+           anywhere in its branch and no neurite-typed ancestor, so nothing
+           in the file says which neurite it is. Such a node has no label to
+           train on or score against; labeling still assigns it the label of
+           the branch it lies on, and a file left with no neurite at all is
+           rejected by the Stage 0 gate.
 
     Standard types (1=soma, 2=axon, 3=basal/dendrite, 4=apical) are NEVER
     touched.
@@ -136,11 +139,14 @@ def normalize_custom_types(nodes: list[SWCNode]) -> tuple[list[SWCNode], int]:
             new_types[i] = dom
             n_rewritten += 1
             continue
-        # Else walk up the parent chain
+        # Else walk up the parent chain to the nearest standard ancestor.
+        # If that is the soma, the node stays undefined: inheriting type 1
+        # would merge the whole stretch into the soma (moving and inflating
+        # it) and write those neurite nodes out as soma.
         j = parent_idx[i]
         while j >= 0 and nodes[j].type not in STANDARD_TYPES:
             j = parent_idx[j]
-        if j >= 0:
+        if j >= 0 and nodes[j].type != 1:
             new_types[i] = nodes[j].type
             n_rewritten += 1
         else:

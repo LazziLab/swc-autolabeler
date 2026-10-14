@@ -440,6 +440,9 @@ re-fetch cannot reproduce the September 2026 snapshot the paper cites.
 
 ## Which command makes which table
 
+To reproduce the results in the paper, use release `v1.0.0`
+(`git checkout v1.0.0`).
+
 Each table in the paper and its Supplementary Information (S tables), the command
 that writes its numbers, and the section above that runs it.
 

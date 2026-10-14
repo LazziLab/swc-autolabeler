@@ -30,8 +30,8 @@ keywords:
   - compartment labeling
   - quality control
 repository-code: "https://github.com/LazziLab/swc-autolabeler"
-version: 1.0.0
-date-released: "2026-09-22"
+version: 1.0.1
+date-released: "2026-10-12"
 preferred-citation:
   type: article
   title: "A staged classifier–topology pipeline for automatic axon, basal, and apical labeling of neuronal morphology reconstructions"
